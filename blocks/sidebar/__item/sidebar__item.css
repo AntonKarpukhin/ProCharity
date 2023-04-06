@@ -1,0 +1,15 @@
+/*текстовый элемент сайтбара*/
+.sidebar__item {
+  color: #7B878F;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  visibility: visible;
+}
+
+@media screen and (max-width: 796px) {
+  .sidebar__item {
+    display: none;
+  }
+}
