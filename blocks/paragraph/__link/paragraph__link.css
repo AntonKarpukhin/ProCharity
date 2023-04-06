@@ -1,3 +1,15 @@
 .paragraph__link {
   color: #7DCDD7;
 }
+
+.paragraph__link:hover {
+  text-decoration: none;
+}
+
+.paragraph__link:active {
+  color: #374146;
+}
+
+.paragraph__link:visited {
+  color: #7B878F;
+}

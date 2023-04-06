@@ -1,3 +1,4 @@
-@import url('./page/page.css');
 @import url('./paragraph/paragraph.css');
 @import url('./paragraph/__link/paragraph__link.css');
+@import url('./paragraph/_text-align/paragraph_text-align_right.css');
+@import url('./paragraph/_theme/parapraph_theme_dark.css');

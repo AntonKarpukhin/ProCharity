@@ -3,6 +3,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #FFFFFF;
+  color: #58646A;
+  max-width: 370px;
   margin: 0;
+}
+
+@media screen and (max-width: 796px) {
+  .paragraph {
+    max-width: 310px;
+  }
 }
