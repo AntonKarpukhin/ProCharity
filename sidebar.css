@@ -39,6 +39,7 @@
   visibility: visible;
 }
 
+/*текстовый элемент сайтбара*/
 .sidebar__item {
   color: #7B878F;
   margin: 0;
@@ -55,10 +56,12 @@
   object-fit: contain;
 }
 
+/*текстовый элемент сайтбара активен*/
 .sidebar__item_active {
   color: #EA5A0A;
 }
 
+/*нумерация сайтбара серая*/
 .sidebar__number {
   display: flex;
   justify-content: center;
@@ -74,16 +77,19 @@
   visibility: visible;
 }
 
+/*нумерация сайтбара голубая*/
 .sidebar__number_blue {
   color: #FFF;
   background-color: #72D0DC;
 }
 
+/*нумерация сайтбара активна*/
 .sidebar__number_active {
   color: #FFF;
   background-color: #E65609;
 }
 
+/*коробочка для надписей мобильной версии*/
 .sidebar__mobile-items {
   display: none;
   margin: 0;
@@ -99,8 +105,11 @@
     grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
     column-gap: 12px;
     border: none;
+    margin: 0;
+    padding: 24px 24px 0;
   }
 
+  /*нумерация сайтбара, картинка и надписи в мобильной версии не нужны*/
   .sidebar__number {
     display: none;
   }
@@ -110,12 +119,7 @@
   }
 
   .sidebar__registration-image {
-    visibility: hidden;
-  }
-
-  .sidebar__steps {
-    margin: 0;
-    padding: 24px 24px 0;
+    display: none;
   }
 
   .sidebar__step {
@@ -126,15 +130,17 @@
     padding: 0;
   }
 
+  /*превращаем навигацию в слайдер с голубыми шагами регистрации*/
   .sidebar__step_blue {
     background-color: #72D0DC;
   }
 
+    /*активный шаг - оранжевый*/
   .sidebar__step_active {
     background-color: #E65609;
   }
 
-
+/*коробочка для надписей мобильной версии*/
   .sidebar__mobile-items {
     padding: 8px 24px 0;
     visibility: visible;
@@ -142,6 +148,7 @@
     justify-content: space-between;
   }
 
+  /*надпись мобильной версии*/
   .sidebar__mobile-item {
     font-size: 14px;
     font-weight: 400;
@@ -149,6 +156,7 @@
     color: #7B878F;
   }
 
+   /*уникальный стиль для надписи Шаг 1 из 6*/
   .sidebar__mobile-step {
     font-size: 14px;
     font-weight: 400;
@@ -156,6 +164,7 @@
     color: #58646A;
   }
 
+  /*уникальный стиль для слайдера регистрации, окрашенный наполовину оранжевым*/
   .sidebar__registration-mobile {
     background: linear-gradient(to right, #E65609 50%, #F1F5F9 50%);
   }
