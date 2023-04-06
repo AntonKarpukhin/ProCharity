@@ -1,0 +1,8 @@
+.footer__media {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 64px;
+  grid-area: media;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.footer__columns {
+  margin: 0;
+  padding-bottom:48px;
+  box-sizing: border-box;
+  grid-area: info-content;
+  display: grid;
+  grid-template-columns: repeat(6, 160px);
+  gap: 32px;
+}

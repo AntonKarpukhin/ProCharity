@@ -1,0 +1,6 @@
+.footer__logo-zone {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 63px;
+}
