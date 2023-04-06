@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 796px) {
   .paragraph {
+    font-size: 14px;
     max-width: 310px;
   }
 }
