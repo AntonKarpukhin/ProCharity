@@ -1,0 +1,12 @@
+.status-bar_type_blocked {
+  background-color: #3a464c;
+}
+
+.status-bar_type_blocked:active {
+  opacity: 100%;
+  background-color: #374146;
+}
+
+.status-bar_type_blocked:focus {
+  border: 2px solid #e65609;
+}
