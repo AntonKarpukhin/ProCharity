@@ -1,12 +1,13 @@
-.footer__column-link {
+.footer__legal-text {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-right: 361px;
+  width: 404px;
   color: #A0ABB5;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.15px;
   text-decoration: none;
   cursor: pointer;
-  display: block;
 }

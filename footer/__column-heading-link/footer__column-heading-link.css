@@ -1,12 +1,12 @@
-.footer__column-link {
+.footer__column-heading-link {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #A0ABB5;
-  font-size: 14px;
-  line-height: 16px;
+  color: #C7D0DA;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
   letter-spacing: 0.15px;
   text-decoration: none;
   cursor: pointer;
-  display: block;
 }

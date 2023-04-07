@@ -1,9 +1,10 @@
-.footer__media {
+.footer__social-media {
   margin: 0;
   padding: 0;
-  padding-bottom: 64px;
   box-sizing: border-box;
-  grid-area: media;
+  list-style: none;
+  width: 160px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }

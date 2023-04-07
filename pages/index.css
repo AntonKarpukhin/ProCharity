@@ -5,12 +5,21 @@
 @import url(../footer/__columns/footer__columns.css);
 @import url(../footer/__column/footer__column.css);
 @import url(../footer/__column-heading/footer__column-heading.css);
+@import url(../footer/__column-heading-link/footer__column-heading-link.css);
 @import url(../footer/__column-links/footer__column-links.css);
 @import url(../footer/__column-link/footer__column-link.css);
 @import url(../footer/__media/footer__media.css);
 @import url(../footer/__logo-zone/footer__logo-zone.css);
 @import url(../footer/__logo-link/footer__logo-link.css);
+@import url(../footer/__logo-link/_fond-druzya/footer__logo-link_fond-druzya.css);
+@import url(../footer/__logo-link/_mastercard/footer__logo-link_mastercard.css);
 @import url(../footer/__logo-description/footer__logo-description.css);
 @import url(../footer/__logo-image/footer__logo-image.css);
+@import url(../footer/__social-media/footer__social-media.css);
+@import url(../footer/__social-media-link/footer__social-media-link.css);
+@import url(../footer/__social-media-icon/footer__social-media-icon.css);
 @import url(../footer/__copyright-content/footer__copyright-content.css);
-
+@import url(../footer/__copyright-text/footer__copyright-text.css);
+@import url(../footer/__legal-text/footer__legal-text.css);
+@import url(../footer/__buro-link/footer__buro-link.css);
+@import url(../footer/__buro-img/footer__buro-img.css);

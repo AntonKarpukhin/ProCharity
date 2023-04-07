@@ -1,6 +1,6 @@
-.footer__column-heading {
+.footer__buro-link {
   margin: 0;
   padding: 0;
-  padding-bottom: 22px;
   box-sizing: border-box;
+  cursor: pointer;
 }

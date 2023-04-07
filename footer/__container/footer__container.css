@@ -1,9 +1,9 @@
 .footer__container {
   margin: 0 auto;
-  padding-top: 64px;
-  padding-bottom: 72px;
+  padding: 0;
   box-sizing: border-box;
   width: 1120px;
+  max-height: 488px;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
