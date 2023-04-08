@@ -9,7 +9,7 @@
   background-color: #374045;
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 856px) {
   .footer {
     min-width: 360px;
     padding: 48px 24px 58px 24px;

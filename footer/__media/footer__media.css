@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 856px) {
   .footer__media {
    padding-bottom: 92px;
    flex-direction: column;

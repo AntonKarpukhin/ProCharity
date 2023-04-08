@@ -5,7 +5,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 856px) {
   .footer__buro-link {
     display: none;
   }

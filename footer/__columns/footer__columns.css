@@ -9,7 +9,7 @@
   gap: 32px;
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 856px) {
   .footer__columns {
     display: none;
   }
