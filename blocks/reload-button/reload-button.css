@@ -10,11 +10,4 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  transition-duration: 0.2s;
-}
-
-.reload-button:hover {
-  transform: rotate(180deg);
-  transition: ease-in-out;
-  transition-duration: 0.2s;
 }
