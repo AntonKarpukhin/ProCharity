@@ -2,8 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
   gap: 63px;
   list-style: none;
+}
+
+@media screen and (max-width: 795px) {
+  .footer__logo-zone {
+    flex-direction: column;
+    gap: 32px;
+  }
 }

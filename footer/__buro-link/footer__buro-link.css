@@ -4,3 +4,9 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+
+@media screen and (max-width: 795px) {
+  .footer__buro-link {
+    display: none;
+  }
+}
