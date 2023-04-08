@@ -2,5 +2,6 @@
 @import url('../blocks/paragraph/__link/paragraph__link.css');
 @import url('../blocks/paragraph/_text-align/paragraph_text-align_right.css');
 @import url('../blocks/paragraph/_theme/parapraph_theme_dark.css');
+@import url('../blocks/paragraph/_small/paragraph_small.css');
 
 @import url('../blocks/title/title.css');
