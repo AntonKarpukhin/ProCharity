@@ -1,0 +1,19 @@
+.header__mini-button-registration {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background-image: url("../../images/pluse.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(230, 86, 10, 1);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:  50px  0 0 50px;
+    padding: 0;
+    cursor: pointer;
+}
+@media screen and (min-width: 857px){
+    .header__mini-button-registration{
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+.header__list-item {
+    padding-right: 32px;
+    align-content: center;
+}
+.header__list-item:last-child {
+    padding-right: 0;
+}
