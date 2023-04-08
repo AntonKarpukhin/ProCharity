@@ -13,3 +13,9 @@
 .paragraph__link:visited {
   color: #7B878F;
 }
+
+.paragraph__link:focus {
+  outline: none;
+  border: 2px solid #048AA7;
+  border-radius: 12px;
+}
