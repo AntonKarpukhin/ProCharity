@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'Helvetica';
-  font-style: normal;
+  src: url('./fonts/Helvetica/Helvetica.woff2') format('woff2'),
+       url('./fonts/Helvetica/Helvetica.woff') format('woff');
   font-weight: 400;
-  src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
-    url('../fonts/Helvetica-Light.woff') format('woff');
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica';
+  src: url('./fonts/Helvetica/Helvetica-Light.woff2') format('woff2'),
+       url('./fonts/Helvetica/Helvetica-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/Helvetica.woff2') format('woff2'),
-    url('../fonts/Helvetica.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Helvetica';
-  font-style: normal;
+  src: url('./fonts/Helvetica/Helvetica-Bold.woff2') format('woff2'),
+       url('./fonts/Helvetica/Helvetica-Bold.woff') format('woff');
   font-weight: 700;
-  src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
-    url('../fonts/Helvetica-Bold.woff') format('woff');
+  font-style: normal;
 }

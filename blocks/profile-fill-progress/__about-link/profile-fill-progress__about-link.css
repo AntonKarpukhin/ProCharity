@@ -3,3 +3,7 @@
   cursor: pointer;
   color: #048aa7;
 }
+
+.profile-fill-progress__about-link:hover {
+  text-decoration: none;
+}
