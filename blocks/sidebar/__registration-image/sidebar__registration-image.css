@@ -1,0 +1,12 @@
+/*стили для картинки регистрации*/
+.sidebar__registration-image {
+  width: 32px;
+  height: 32px;
+  visibility: visible;
+}
+
+@media screen and (max-width: 796px) {
+  .sidebar__registration-image {
+    display: none;
+  }
+}

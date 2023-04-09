@@ -1,0 +1,10 @@
+.sidebar__step-mobile-only {
+display: none;
+}
+
+@media screen and (max-width: 796px) {
+  .sidebar__step-mobile-only {
+display: flex;
+  }
+
+}

@@ -1,0 +1,21 @@
+.header__button-registration {
+    max-width: 168px;
+    height: 48px;
+    background-color: rgba(230, 86, 10, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius:  50px  0 0 50px;
+    padding: 0 20px 0 26px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 856px){
+    .header__button-registration{
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.header__button-login {
+    width: 48px;
+    height: 48px;
+    background-color:rgba(115, 182, 192, 1);
+    background-image: url("../../images/loginIcon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2px;
+    border: none;
+    border-radius: 0 50px 50px 0 ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 856px){
+    .header__button-login{
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -1,0 +1,12 @@
+.header__mini-button-personal-area{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+}
+@media screen and (min-width: 857px){
+    .header__mini-button-personal-area{
+        display: none;
+    }
+}
