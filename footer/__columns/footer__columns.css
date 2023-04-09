@@ -4,9 +4,10 @@
   padding-bottom: 48px;
   box-sizing: border-box;
   grid-area: info-content;
-  display: grid;
-  grid-template-columns: repeat(6, 160px);
-  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1120px;
 }
 
 @media screen and (max-width: 856px) {
