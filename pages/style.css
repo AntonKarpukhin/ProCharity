@@ -15,7 +15,7 @@
 
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__set/form__set.css');
-@import url('../blocks/form/__set/_type/form__set_type_row.css');
+@import url('../blocks/form/__set/_type/form__set_type_submit.css');
 @import url('../blocks/form/__legend/form__legend.css');
 @import url('../blocks/form/__fields-container/form__fields-container.css');
 @import url('../blocks/form/__field/form__field.css');
