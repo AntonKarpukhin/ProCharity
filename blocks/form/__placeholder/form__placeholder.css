@@ -1,0 +1,17 @@
+.form__placeholder {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7B878F;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.form__input:focus + .form__placeholder,
+.form__placeholder_is-fixed {
+  font-size: 12px;
+  line-height: 16px;
+  transform: translateY(-7px) scale(1);
+}

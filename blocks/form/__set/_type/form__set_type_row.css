@@ -1,0 +1,12 @@
+.form__set_type_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 856px) {
+  .form__set_type_row {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+}

@@ -1,0 +1,12 @@
+.form__fields-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 856px) {
+  .form__fields-container {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+}

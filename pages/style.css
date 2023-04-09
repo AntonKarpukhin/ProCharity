@@ -3,6 +3,7 @@
 
 @import url('../blocks/paragraph/paragraph.css');
 @import url('../blocks/paragraph/__link/paragraph__link.css');
+@import url('../blocks/paragraph/__link/_theme/paragraph__link_theme_dark.css');
 @import url('../blocks/paragraph/_text-align/paragraph_text-align_right.css');
 @import url('../blocks/paragraph/_theme/parapraph_theme_dark.css');
 @import url('../blocks/paragraph/_small/paragraph_small.css');
@@ -11,3 +12,30 @@
 
 @import url('../blocks/subtitle/subtitle.css');
 @import url('../blocks/subtitle/_text-align/subtitle_text-align_right.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__set/form__set.css');
+@import url('../blocks/form/__set/_type/form__set_type_row.css');
+@import url('../blocks/form/__legend/form__legend.css');
+@import url('../blocks/form/__fields-container/form__fields-container.css');
+@import url('../blocks/form/__field/form__field.css');
+@import url('../blocks/form/__field/_type/form__field_type_row.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__input/_error/form__input_error.css');
+@import url('../blocks/form/__input-error/form__input-error.css');
+@import url('../blocks/form/__input-error/_active/form__input-error_active.css');
+@import url('../blocks/form/__input-buttons-container/form__input-buttons-container.css');
+@import url('../blocks/form/__input-button/form__input-button.css');
+@import url('../blocks/form/__input-button/_type/form__input-button_type_active.css');
+@import url('../blocks/form/__input-button/_type/form__input-button_type_help.css');
+@import url('../blocks/form/__input-button/_type/form__input-button_type_reset.css');
+@import url('../blocks/form/__input-button/_type/form__input-button_type_show-password.css');
+@import url('../blocks/form/__input-button/_type/form__input-button_type_hide-password.css');
+@import url('../blocks/form/__placeholder/form__placeholder.css');
+@import url('../blocks/form/__checkbox/form__checkbox.css');
+@import url('../blocks/form/__checkbox-item/form__checkbox-item.css');
+@import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__button/_type/form__button_type_previous.css');
+@import url('../blocks/form/__button/_type/form__button_type_submit.css');
+@import url('../blocks/form/__balloon/form__balloon.css');
+@import url('../blocks/form/__balloon/_active/form__balloon_active.css');

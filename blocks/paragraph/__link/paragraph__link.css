@@ -1,5 +1,8 @@
 .paragraph__link {
-  color: #7DCDD7;
+  text-decoration: underline;
+  color: #048AA7;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .paragraph__link:hover {
@@ -7,14 +10,17 @@
 }
 
 .paragraph__link:active {
+  text-decoration: none;
   color: #374146;
 }
 
 .paragraph__link:visited {
+  text-decoration: none;
   color: #7B878F;
 }
 
 .paragraph__link:focus {
+  text-decoration: none;
   outline: none;
   border: 2px solid #048AA7;
   border-radius: 12px;
