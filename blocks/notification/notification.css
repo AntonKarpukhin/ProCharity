@@ -16,7 +16,7 @@
   box-shadow: 0px 4px 24px rgba(0, 77, 95, 0.24);
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
   .notification {
     top: 16px;
     right: 0;
