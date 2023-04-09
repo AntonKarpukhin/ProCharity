@@ -1,0 +1,7 @@
+@media screen and (max-width: 796px) {
+
+  /*уникальный стиль для слайдера регистрации, окрашенный наполовину оранжевым*/
+  .sidebar__registration-mobile {
+    background: linear-gradient(to right, #E65609 50%, #F1F5F9 50%);
+  }
+}
