@@ -1,35 +1,39 @@
 /* ========Vendor======== */
-@import url(/vendor/normalize.css);
-@import url(/vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/* ====================== */
+
+/* ====Profile info====== */
+@import url(../blocks/profile-info/profile-info.css);
 /* ====================== */
 
 /* ====Profile-status==== */
-@import url(/blocks/profile-status/profile-status.css);
-@import url(/blocks/profile-status/__heading/profile-status__heading.css);
+@import url(../blocks/profile-status/profile-status.css);
+@import url(../blocks/profile-status/__heading/profile-status__heading.css);
 /* ====================== */
 
 /* == Profile fill progress == */
-@import url(/blocks/profile-fill-progress/profile-fill-progress.css);
-@import url(/blocks/profile-fill-progress/__header/profile-fill-progress__header.css);
-@import url(/blocks/profile-fill-progress/__progress-bar/profile-fill-progress__progress-bar.css);
-@import url(/blocks/profile-fill-progress/__about/profile-fill-progress__about.css);
-@import url(/blocks/profile-fill-progress/__about-link/profile-fill-progress__about-link.css);
+@import url(../blocks/profile-fill-progress/profile-fill-progress.css);
+@import url(../blocks/profile-fill-progress/__heading/profile-fill-progress__heading.css);
+@import url(../blocks/profile-fill-progress/__progress-bar/profile-fill-progress__progress-bar.css);
+@import url(../blocks/profile-fill-progress/__about/profile-fill-progress__about.css);
+@import url(../blocks/profile-fill-progress/__about-link/profile-fill-progress__about-link.css);
 /* =========================== */
 
 /* =====Progress-bar===== */
-@import url(/blocks/progress-bar/progress-bar.css);
-@import url(/blocks/progress-bar/__fill/progress-bar__fill.css);
+@import url(../blocks/progress-bar/progress-bar.css);
+@import url(../blocks/progress-bar/__fill/progress-bar__fill.css);
 /* ====================== */
 
 /* =====Reload-button==== */
-@import url(/blocks/reload-button/reload-button.css);
+@import url(../blocks/reload-button/reload-button.css);
 /* ====================== */
 
 /* =======Status-bar====== */
-@import url(/blocks/status-bar/status-bar.css);
-@import url(/blocks/status-bar/__text/status-bar__text.css);
-@import url(/blocks/status-bar/__question/status-bar__question.css);
-@import url(/blocks/status-bar/_type/status-bar_type_blocked.css);
-@import url(/blocks/status-bar/_type/status-bar_type_private.css);
-@import url(/blocks/status-bar/_type/status-bar_type_review.css);
+@import url(../blocks/status-bar/status-bar.css);
+@import url(../blocks/status-bar/__text/status-bar__text.css);
+@import url(../blocks/status-bar/__help-icon/status-bar__help-icon.css);
+@import url(../blocks/status-bar/_type/status-bar_type_blocked.css);
+@import url(../blocks/status-bar/_type/status-bar_type_private.css);
+@import url(../blocks/status-bar/_type/status-bar_type_review.css);
 /* ====================== */

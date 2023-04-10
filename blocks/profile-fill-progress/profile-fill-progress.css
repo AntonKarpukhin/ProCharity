@@ -7,3 +7,9 @@
   row-gap: 8px;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 856px) {
+  .profile-fill-progress {
+    display: none;
+  }
+}

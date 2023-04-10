@@ -1,8 +1,9 @@
-.status-bar__question {
+.status-bar__help-icon {
   width: 16px;
   height: 16px;
   background-image: url('../../../images/question.svg');
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: center;
+  cursor: help;
 }

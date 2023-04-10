@@ -11,25 +11,39 @@
 
 <body>
 
-  <div class="profile-status">
-    <h2 class="profile-status__heading">Статус профиля</h2>
-    <a href="#" class="status-bar status-bar_type_blocked">
-      <p class="status-bar__text">СКРЫТ</p>
-      <div class="status-bar__question"></div>
-    </a>
+  <div class="profile-info">
+
+    <div class="profile-status">
+      <h2 class="profile-status__heading">Статус профиля</h2>
+      <a href="#" class="status-bar status-bar_type_blocked">
+        <p class="status-bar__text">СКРЫТ</p>
+        <div class="status-bar__help-icon"></div>
+      </a>
+      <!-- Альтернативные варианты: -->
+      <!-- <a href="#" class="status-bar status-bar_type_private">
+        <p class="status-bar__text">ПОДТВЕРЖДЕН</p>
+        <div class="status-bar__help-icon"></div>
+      </a>
+      <a href="#" class="status-bar status-bar_type_review">
+        <p class="status-bar__text">НА МОДЕРАЦИИ</p>
+        <div class="status-bar__help-icon"></div>
+      </a> -->
+    </div>
+
+    <div class="profile-fill-progress">
+      <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
+      <div class="profile-fill-progress__progress-bar">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <button class="reload-button"></button>
+      </div>
+      <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
+          профиль, </a>чтобы тебя выбрали исполнителем</p>
+    </div>
+
   </div>
 
-  <div class="profile-fill-progress">
-    <h2 class="profile-fill-progress__header">Профиль заполнен на 66%</h2>
-    <div class="profile-fill-progress__progress-bar">
-      <div class="progress-bar">
-        <div class="progress-bar__fill"></div>
-      </div>
-      <button class="reload-button"></button>
-    </div>
-    <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
-        профиль, </a>чтобы тебя выбрали исполнителем</p>
-  </div>
 </body>
 
 </html>
