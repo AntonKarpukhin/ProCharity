@@ -1,0 +1,7 @@
+.header__list-item_search {
+    margin-top: 3px;
+}
+
+.header__list-item_search:hover {
+    opacity: 0.7;
+}

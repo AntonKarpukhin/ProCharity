@@ -1,0 +1,25 @@
+.header__button-personal-area{
+    max-width: 215px;
+    height: 48px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:  50px   50px;
+    padding: 0 70px 0 21px ;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(115, 182, 192, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+}
+.header__button-personal-area:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 856px){
+    .header__button-personal-area{
+        display: none;
+    }
+}
