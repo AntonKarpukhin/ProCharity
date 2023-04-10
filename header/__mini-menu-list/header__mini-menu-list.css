@@ -1,0 +1,9 @@
+.header__mini-menu-list {
+    margin-left: 27px;
+    cursor: pointer;
+}
+@media screen and (min-width: 857px){
+    .header__mini-menu-list{
+        display: none;
+    }
+}
