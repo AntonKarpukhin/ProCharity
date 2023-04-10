@@ -1,0 +1,13 @@
+.footer__buro-link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 856px) {
+  .footer__buro-link {
+    display: none;
+  }
+}
