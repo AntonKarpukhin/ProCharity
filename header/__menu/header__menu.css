@@ -3,6 +3,14 @@
     align-items: center;
     width: 640px;
     justify-content: space-between;
+    /*padding: 0 15px 0 15px;*/
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1060px){
+    .header__menu{
+        padding: 0 15px 0 15px;
+    }
 }
 
 @media screen and (max-width: 856px){

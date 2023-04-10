@@ -7,3 +7,6 @@
     font-size: 16px;
     line-height: 24px;
 }
+.header__list-item_link:hover{
+    opacity: 0.7;
+}
