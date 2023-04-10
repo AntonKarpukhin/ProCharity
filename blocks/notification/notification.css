@@ -1,9 +1,7 @@
 .notification {
   margin: 0;
   padding: 12px 32px 12px 16px;
-  position: absolute;
-  top: 24px;
-  right: 24px;
+  position: relative;
   background-color: #fff;
   max-width: 352px;
   min-height: 108px;
@@ -15,13 +13,3 @@
   border-radius: 8px;
   box-shadow: 0px 4px 24px rgba(0, 77, 95, 0.24);
 }
-
-@media screen and (max-width: 856px) {
-  .notification {
-    top: 16px;
-    right: 0;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-} ;

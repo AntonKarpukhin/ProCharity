@@ -1,13 +1,13 @@
 /* ========Vendor======== */
-@import url(/vendor/normalize.css);
-@import url(/vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 /* ====================== */
 
 /* =====Notification===== */
-@import url(/blocks/notification/notification.css);
-@import url(/blocks/notification/__close-button/notification__close-button.css);
-@import url(/blocks/notification/__success-icon/notification__success-icon.css);
-@import url(/blocks/notification/__body/notification__body.css);
-@import url(/blocks/notification/__heading/notification__heading.css);
-@import url(/blocks/notification/__text/notification__text.css);
+@import url(../blocks/notification/notification.css);
+@import url(../blocks/notification/__close-button/notification__close-button.css);
+@import url(../blocks/notification/__success-icon/notification__success-icon.css);
+@import url(../blocks/notification/__body/notification__body.css);
+@import url(../blocks/notification/__heading/notification__heading.css);
+@import url(../blocks/notification/__text/notification__text.css);
 /* ====================== */
