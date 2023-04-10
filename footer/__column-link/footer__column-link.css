@@ -9,4 +9,9 @@
   text-decoration: none;
   cursor: pointer;
   display: block;
+  transition: linear 0.3s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.6;
 }

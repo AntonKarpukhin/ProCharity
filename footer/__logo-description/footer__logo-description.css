@@ -7,4 +7,9 @@
   line-height: 16px;
   letter-spacing: 0.15px;
   text-align: end;
+  transition: linear 0.3s;
+}
+
+.footer__logo-description:hover {
+  opacity: 0.6;
 }

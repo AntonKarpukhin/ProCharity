@@ -6,3 +6,10 @@
   max-width: 160px;
   flex-basis: 160px;
 }
+
+@media screen and (max-width: 980px) {
+  .footer__column {
+    max-width: 130px;
+    flex-basis: 130px;
+  }
+}

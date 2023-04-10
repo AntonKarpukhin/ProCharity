@@ -9,4 +9,9 @@
   letter-spacing: 0.15px;
   text-decoration: none;
   cursor: pointer;
+  transition: linear 0.3s;
+}
+
+.footer__column-heading-link:hover {
+  opacity: 0.6;
 }

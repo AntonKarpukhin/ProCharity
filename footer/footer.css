@@ -2,7 +2,6 @@
   margin: 0;
   padding: 64px 0 72px 0;
   box-sizing: border-box;
-  height: 624px;
   font-family: "Helvetica", Arial, sans-serif;
   font-weight: 400;
   background-color: #374045;
@@ -11,6 +10,6 @@
 @media screen and (max-width: 856px) {
   .footer {
     min-width: 360px;
-    padding: 48px 24px 58px 24px;
+    padding: 48px 0 58px 0;
   }
 }

@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 856px) {
   .footer__container {
-    width: 312px;
+    min-width: 312px;
     grid-template-areas:
     "media"
     "copyright";
