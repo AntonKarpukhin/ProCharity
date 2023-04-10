@@ -2,7 +2,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    /*max-width: 553px;*/
     width: 87%;
     padding: 0;
     text-decoration: none;
@@ -13,10 +12,3 @@
     font-size: 16px;
     line-height: 24px;
 }
-
-/*@media screen and (max-width: 930px){*/
-/*    .header__list{*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*}*/
