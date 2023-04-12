@@ -1,0 +1,9 @@
+.bread-crumbs {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 856px){
+  .bread-crumbs{
+    display: none;
+  }
+}
