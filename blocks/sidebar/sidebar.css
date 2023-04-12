@@ -6,3 +6,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
+@media screen and (max-width: 856px) {
+  .sidebar {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
