@@ -1,5 +1,8 @@
 /*стили для всей секции*/
 .sidebar {
+  display: flex;
+  justify-content: end;
+  max-width: 416px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
