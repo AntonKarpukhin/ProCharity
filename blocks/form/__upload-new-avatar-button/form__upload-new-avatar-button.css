@@ -1,0 +1,19 @@
+.form__upload-new-avatar-button {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.form__upload-new-avatar-button:hover {
+  background: url('../../../images/icons/photo-camera.svg') no-repeat center, linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.form__upload-new-avatar-button:active {
+  background: url('../../../images/icons/photo-camera.svg') no-repeat center, linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}

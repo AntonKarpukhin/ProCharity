@@ -1,0 +1,11 @@
+.form__dropdown-list-item_active::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../../images/icons/non-central-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}

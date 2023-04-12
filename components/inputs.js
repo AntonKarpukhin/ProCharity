@@ -1,5 +1,29 @@
 const form = document.querySelector('.form');
 const formFields = Array.from(form.querySelectorAll('.form__field'));
+const dateInputs = Array.from(form.querySelectorAll('.form__input_type_date'));
+
+const checkDataInputState = () => {
+  dateInputs.forEach((input) => {
+    if (input.value === '') {
+      input.classList.add('form__input_type_hidden');
+      const field = input.closest('.form__field');
+      field.querySelector('.form__placeholder').classList.remove('form__placeholder_is-fixed');
+      field.querySelector('.form__input-button_type_reset').classList.remove('form__input-button_type_active');
+    }
+    
+    if(input.value !== '' && input.classList.contains('form__input_type_hidden')) {
+      input.classList.remove('form__input_type_hidden');
+    }
+  });
+};
+
+checkDataInputState();
+
+document.addEventListener('click', (evt) => {
+  if (!evt.target.classList.contains('form__input_type_date') && !evt.target.classList.contains('form__input_type_hidden')) {
+    checkDataInputState();
+  }
+});
 
 formFields.forEach((field) => {
   const helpButton = field.querySelector('.form__input-button_type_help');
@@ -24,6 +48,17 @@ formFields.forEach((field) => {
       field.querySelector('.form__input-button_type_show-password').classList.add('form__input-button_type_active');
     }
 
+    if (evt.target.classList.contains('form__dropdown-button')) {
+      evt.target.classList.toggle('form__dropdown-button_active');
+      field.querySelector('.form__dropdown-list').classList.toggle('form__dropdown-list_active');
+    }
+
+    checkDataInputState();
+
+    if (evt.target.classList.contains('form__input_type_hidden')) {
+      evt.target.classList.remove('form__input_type_hidden');
+    }
+    
   });
 
   if (helpButton) {
@@ -50,11 +85,11 @@ form.addEventListener('change', () => {
     const fixedPlaceholder = field.querySelector('.form__placeholder_is-fixed');
     const resetInputButton = field.querySelector('.form__input-button_type_reset');
 
-    if (input.value && input.type != 'checkbox' && input.type != 'radio') {
+    if (placeholder && input.value && input.type !== 'checkbox' && input.type !== 'radio') {
       placeholder.classList.add('form__placeholder_is-fixed');
     }
 
-    if (input.value && input.type != 'checkbox' && input.type != 'radio' && input.type != 'password') {
+    if (resetInputButton && input.value && input.type !== 'checkbox' && input.type !== 'radio' && input.type !== 'password') {
       resetInputButton.classList.add('form__input-button_type_active');
     }
 
@@ -65,5 +100,7 @@ form.addEventListener('change', () => {
     if (resetInputButton && resetInputButton.classList.contains('form__input-button_type_active') && !input.value) {
       resetInputButton.classList.remove('form__input-button_type_active');
     }
+
+    checkDataInputState();
   });
 });

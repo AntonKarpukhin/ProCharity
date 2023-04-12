@@ -7,10 +7,11 @@
   position: absolute;
   top: 12px;
   left: 16px;
+  cursor: pointer;
+  pointer-events: none;
 }
 
-.form__input:focus + .form__placeholder,
-.form__placeholder_is-fixed {
+.form__input:focus + .form__placeholder {
   font-size: 12px;
   line-height: 16px;
   transform: translateY(-7px) scale(1);
