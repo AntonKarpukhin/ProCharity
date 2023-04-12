@@ -1,6 +1,6 @@
 /*стили для всего сайдбара - nav*/
 .sidebar__steps {
-  width: 256px;
+  width: 214px;
   display: grid;
   row-gap: 16px;
   margin: 0;
