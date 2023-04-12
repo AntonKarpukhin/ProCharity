@@ -1,0 +1,6 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/notifications-area/notifications-area.css);
+@import url(../blocks/notifications-area/__sidebar/notifications-area__sidebar.css);
+@import url(../blocks/notifications-area/__profile-status/notifications-area__profile-status.css);
+

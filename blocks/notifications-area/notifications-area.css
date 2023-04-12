@@ -1,0 +1,10 @@
+.notifications-area {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "sidebar notifications-content"
+    "profile-status notifications-content";
+  gap: 24px 32px;
+}
