@@ -2,10 +2,30 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/main-page/main-page.css);
+
 @import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__content/portfolio__content.css);
 
 
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__paragraph/bread-crumbs__paragraph.css);
 @import url(../blocks/bread-crumbs/__paragraph/_link/bread-crumbs__paragraph_link.css);
+
+
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__steps/sidebar__steps.css);
+@import url(../blocks/sidebar/__step/sidebar__step.css);
+@import url(../blocks/sidebar/__step/_blue/sidebar__step_blue.css);
+@import url(../blocks/sidebar/__number/sidebar__number.css);
+@import url(../blocks/sidebar/__number/_blue/sidebar__number_blue.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__number/_active/sidebar__number_active.css);
+@import url(../blocks/sidebar/__step/_active/sidebar__step_active.css);
+@import url(../blocks/sidebar/__item/_active/sidebar__item_active.css);
+@import url(../blocks/sidebar/__mobile-items/sidebar__mobile-items.css);
+@import url(../blocks/sidebar/__mobile-item/sidebar__mobile-item.css);
+
+@import url(../blocks/title/title.css);
+
+
 
