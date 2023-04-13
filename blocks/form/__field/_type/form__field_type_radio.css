@@ -1,0 +1,58 @@
+.form__field_type_radio {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #048AA7;
+  box-sizing: border-box;
+  border: 1px solid #048AA7;
+  padding: 16px 32px;
+  cursor: pointer;
+  pointer-events: initial;
+}
+
+.form__field_type_radio:hover {
+  color: #ffffff;
+  background-color: #72D0DC;
+  border: none;
+  opacity: .6;
+  transition: opacity .3s ease-in-out;
+}
+
+.form__field_type_radio:active {
+  opacity: .3;
+  transition: opacity .3s ease-in-out;
+}
+
+.form__radio:checked + .form__field_type_radio {
+  color: #ffffff;
+  background-color: #72D0DC;
+  border: none;
+}
+
+.form__field_type_radio:first-of-type {
+  margin-right: -1px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.form__field_type_radio:last-of-type {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+@media screen and (max-width: 856px) {
+  .form__field_type_radio:first-of-type {
+    margin-right: 0;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .form__field_type_radio:last-of-type {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 6px;
+  }
+}
