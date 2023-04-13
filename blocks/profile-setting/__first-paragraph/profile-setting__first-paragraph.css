@@ -1,0 +1,9 @@
+.profile-setting__first-paragraph {
+  margin: 24px 0 0 0;
+}
+
+@media screen and (max-width: 856px) {
+  .profile-setting__first-paragraph {
+    max-width: 100%;
+  }
+}

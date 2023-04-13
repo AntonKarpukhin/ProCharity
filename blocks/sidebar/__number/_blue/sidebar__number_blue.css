@@ -1,5 +1,6 @@
 /*нумерация сайдбара голубая*/
 .sidebar__number_blue {
+  margin: 0;
   color: #FFF;
   background-color: #72D0DC;
 }

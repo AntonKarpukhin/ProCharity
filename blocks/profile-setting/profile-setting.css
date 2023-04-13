@@ -1,0 +1,12 @@
+.profile-setting {
+  grid-area: profile-setting;
+  max-width: 736px;
+}
+
+@media screen and (max-width: 856px) {
+  .profile-setting {
+  max-width: 100%;
+  padding: 24px;
+  align-items: center;
+  }
+}
