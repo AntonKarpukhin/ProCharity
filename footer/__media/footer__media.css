@@ -1,0 +1,19 @@
+.footer__media {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+  grid-area: media;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 856px) {
+  .footer__media {
+    padding-bottom: 92px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+  }
+}

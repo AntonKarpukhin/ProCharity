@@ -1,0 +1,12 @@
+.header__list-item_link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header__list-item_link:hover{
+    opacity: 0.7;
+}

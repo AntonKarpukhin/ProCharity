@@ -1,0 +1,13 @@
+.reload-button {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url('../../images/reload.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

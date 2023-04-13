@@ -1,0 +1,21 @@
+.notification__close-button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../images/notification_close-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  right: 8px;
+  top: 8px;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+}
+
+.notification__close-button:hover {
+  opacity: 0.6;
+}

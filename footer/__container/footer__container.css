@@ -1,0 +1,22 @@
+.footer__container {
+  margin: 0 auto;
+  padding: 0 24px 0 24px;
+  box-sizing: border-box;
+  min-width: 856px;
+  max-width: 1168px;
+  display: grid;
+  grid-template-areas:
+  "info-content"
+  "media"
+  "copyright";
+}
+
+@media screen and (max-width: 856px) {
+  .footer__container {
+    min-width: 312px;
+    grid-template-areas:
+    "media"
+    "copyright";
+  }
+}
+
