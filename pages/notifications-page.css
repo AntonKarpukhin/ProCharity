@@ -10,10 +10,8 @@
 @import url(../blocks/notifications-area/__title/notifications-area__title.css);
 @import url(../blocks/notifications-area/__paragraph/notifications-area__paragraph.css);
 @import url(../blocks/notifications-area/__list/notifications-area__list.css);
-
-
-
-
-
-
-
+@import url(../blocks/notifications-area/__help/notifications-area__help.css);
+@import url(../blocks/notifications-area/__balloon/notifications-area__balloon.css);
+@import url(../blocks/notifications-area/__telegram/notifications-area__telegram.css);
+@import url(../blocks/notifications-area/__telegram-text/notifications-area__telegram-text.css);
+@import url(../blocks/notifications-area/__telegram-button/notifications-area__telegram-button.css);

@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="pages/header-page.css">
   <link rel="stylesheet" href="pages/sidebar-page.css">
   <link rel="stylesheet" href="pages/bread-crumbs-page.css">
+  <link rel="stylesheet" href="pages/status-page.css">
+  <link rel="stylesheet" href="pages/style.css">
   <link rel="stylesheet" href="pages/notifications-page.css">
-  <link rel="stylesheet" href="./pages/status-page.css">
   <title>Уведомления</title>
 </head>
 
@@ -79,15 +80,62 @@
       </div>
       <div class="notifications-area__content">
         <h1 class="title notifications-area__title">Уведомления</h1>
-        <p class="paragraph notifications-area__paragraph">Отметь события, оповещения о которых ты хотел бы получать на email:</p>
+        <p class="paragraph notifications-area__paragraph">Отметь события, оповещения о которых ты хотел бы получать на
+          email:</p>
         <ul class="notifications-area__list">
-          <li></li>
+          <li>
+            <fieldset class="form__set">
+              <label class="form__field form__field_type_row">
+                <input type="checkbox" class="form__checkbox form__input " id="change-tasks-notifications" required
+                  checked>
+                <span class="form__checkbox-item"></span>
+                <span class="paragraph">изменения по моим заданиям</span>
+                <button
+                  class="form__input-button form__input-button_type_help form__input-button_type_active notifications-area__help"
+                  type="button"></button>
+                <div class="form__balloon notifications-area__balloon form__balloon_active">Мы&nbsp;будем присылать
+                  на&nbsp;email все&nbsp;важные уведомления по&nbsp;твоим заданиям</div>
+              </label>
+            </fieldset>
+          </li>
+          <li>
+            <fieldset class="form__set">
+              <label class="form__field form__field_type_row">
+                <input type="checkbox" class="form__checkbox form__input " id="change-another-executor-notifications"
+                  required checked>
+                <span class="form__checkbox-item"></span>
+                <span class="paragraph">фонд выбрал другого исполнителя</span>
+              </label>
+            </fieldset>
+          </li>
+          <li>
+            <fieldset class="form__set">
+              <label class="form__field form__field_type_row">
+                <input type="checkbox" class="form__checkbox form__input " id="tasks-selection-notifications" required
+                  checked>
+                <span class="form__checkbox-item"></span>
+                <span class="paragraph">подборка заданий по моим компетенциям (раз в неделю)</span>
+              </label>
+            </fieldset>
+          </li>
+          <li>
+            <fieldset class="form__set">
+              <label class="form__field form__field_type_row">
+                <input type="checkbox" class="form__checkbox form__input " id="new-tasks-notifications" required
+                  checked>
+                <span class="form__checkbox-item"></span>
+                <span class="paragraph">новые задания по моим компетенциям (по мере появления)</span>
+              </label>
+            </fieldset>
+          </li>
         </ul>
         <div class="notifications-area__telegram">
-          <p class="paragraph notifications-area__telegram-text"></p>
-          <button class=""></button>
+          <p class="paragraph notifications-area__telegram-text">Получай уведомления о новых заданиях от бота ProCharity
+            в Telegram. При этом рекомендуем отключить уведомления на email из пункта выше.</p>
+          <button class="notifications-area__telegram-button"></button>
         </div>
-        <button></button>
+        <button class="form__button form__button_type_submit popup__submit-button" type="button"
+        aria-label="Сохранить">Сохранить</button>
       </div>
     </div>
 

@@ -1,0 +1,9 @@
+.notifications-area__balloon {
+  top: 32px;
+  right: -316px;
+}
+
+.notifications-area__balloon::before {
+  left: 16px;
+  top: -8px;
+}

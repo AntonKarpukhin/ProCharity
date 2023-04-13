@@ -1,0 +1,17 @@
+.notifications-area__telegram {
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+  max-width: 736px;
+  border: 1px solid #A0ABB5;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 856px) {
+  .notifications-area__telegram {
+
+  }
+}
