@@ -1,0 +1,3 @@
+.notifications-area__content {
+  grid-area: notifications-content;
+}

@@ -1,6 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/paragraph/paragraph.css);
+
 @import url(../blocks/notifications-area/notifications-area.css);
 @import url(../blocks/notifications-area/__sidebar/notifications-area__sidebar.css);
 @import url(../blocks/notifications-area/__profile-status/notifications-area__profile-status.css);
+@import url(../blocks/notifications-area/__content/notifications-area__content.css);
+@import url(../blocks/notifications-area/__title/notifications-area__title.css);
+@import url(../blocks/notifications-area/__paragraph/notifications-area__paragraph.css);
+@import url(../blocks/notifications-area/__list/notifications-area__list.css);
+
+
+
+
+
+
 
