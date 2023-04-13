@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блок form-contacts</title>
+    <link rel="stylesheet" href="./pages/style.css">
+    <meta name="author" content="Александр Дудин">
+  </head>
+
+  <body class="page">
+
+    <h1 class="title">Личные данные</h1>
+
+    <form class="form" action="/" method="post" name="account-contacts">
+
+      <fieldset class="form__set">
+        <label class="form__field form__field_type_row form__field_type_default-cursor">
+          <input 
+          type="file" 
+          accept="image/png, image/jpg" 
+          class="form__input form__avatar" 
+          id="avatar" 
+          >
+          <div class="form__avatar-container">
+            <span class="form__avatar-text">добавить фотографию</span>
+          </div>
+          <span class="form__avatar-placeholder">Jpg, png объемом&nbsp;не&nbsp;более 5&nbsp;Мб</span>
+          <img class="form__avatar-preview" src="./images/test-avatar.png" alt="аватар пользователя">
+          <button class="form__avatar-remove-button" type="button" aria-label="удалить аватар"></button>
+          <button class="form__upload-new-avatar-button" type="button" aria-label="изменить аватар"></button>
+        </label>
+      </fieldset>
+
+      <fieldset class="form__set">
+        <legend class="form__legend paragraph">Фонды увидят эти данные на&nbsp;твоей странице</legend>
+
+        <div class="form__fields-container">
+
+          <label class="form__field">
+            <input 
+            type="text" 
+            class="form__input" 
+            id="name-input" 
+            required 
+            value="Константин"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Имя</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <label class="form__field">
+            <input 
+            type="text" 
+            class="form__input" 
+            id="last-name-input" 
+            required 
+            value="Константинопольский"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Фамилия</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+        </div>
+        
+        <div class="form__fields-container">
+
+          <label class="form__field">
+            <input 
+            type="date" 
+            class="form__input form__input_type_date" 
+            id="birth-date-input" 
+            required 
+            value="1994-04-16"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Дата рождения</span>
+            <div class="form__input-buttons-container form__input-buttons-container_type_date">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <label class="form__field">
+            <input 
+            type="text" 
+            class="form__input" 
+            id="city-input" 
+            required 
+            value="Санкт-Петербург"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Город</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+        </div>
+        
+      </fieldset>
+
+      <fieldset class="form__set">
+        <legend class="form__legend paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</legend>
+
+        <div class="form__fields-container">
+
+          <label class="form__field">
+            <input 
+            type="email" 
+            class="form__input" 
+            id="email-input" 
+            required
+            value="user@mail.ru"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Электронная почта</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <label class="form__field">
+            <input 
+            type="tel" 
+            class="form__input" 
+            id="telegram-input" 
+            required
+            value="+7(123)456-78-90"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Телефон</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+              <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
+            </div>
+            <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
+            <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+        </div>
+
+        <div class="form__fields-container">
+
+          <label class="form__field">
+            <input 
+            type="text" 
+            class="form__input" 
+            id="telegram-input" 
+            required
+            value="username"
+            >
+            <span class="form__placeholder form__placeholder_is-fixed">Ник в Telegram</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+              <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
+            </div>
+            <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
+            <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <label class="form__field">
+
+            <!-- скрытое поле select, возможно, его можно убрать -->
+
+            <select  
+            class="form__select" 
+            name="contact-method" 
+            id="contact-method"
+            required
+            >
+              <option value="email" selected>Электронная почта</option>
+              <option value="tel">Телефон</option>
+              <option value="telegram">Telegram</option>
+              <option value="email+tel">Электронная почта и телефон</option>
+              <option value="email+telegram">Электронная почта и Telegram</option>
+            </select>
+
+            <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
+
+            <input 
+            type="text" 
+            class="form__input form__dropdown-button" 
+            id="dropdown-button" 
+            disabled
+            value="Электронная почта"
+            >
+
+            <!-- кастомный список options для select -->
+
+            <ul class="form__dropdown-list">
+              <li class="form__dropdown-list-item form__dropdown-list-item_active" data-contact="email">Электронная почта</li>
+              <li class="form__dropdown-list-item" data-contact="tel">Телефон</li>
+              <li class="form__dropdown-list-item" data-contact="telegram">Telegram</li>
+              <li class="form__dropdown-list-item" data-contact="email+tel">Электронная почта и телефон</li>
+              <li class="form__dropdown-list-item" data-contact="email+telegram">Электронная почта и Telegram</li>
+            </ul>
+
+            <!-- placeholder для кнопки показа кастомного select -->
+
+            <span class="form__placeholder form__placeholder_is-fixed">Предпочитаемый способ связи</span>
+
+            <!-- стрелка для кнопки показа кастомного select -->
+
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+            </div>
+
+            <!-- информация об ошибке валидации -->
+
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+
+          </label>
+
+        </div>
+
+      </fieldset>
+
+      <fieldset class="form__set">
+
+        <div class="form__fields-container form__fields-container_type_radio">
+          
+          <input 
+            type="radio" 
+            class="form__radio" 
+            id="privatePersone" 
+            name="company"
+            value="privatePersone"
+          >
+          <label class="form__field form__field_type_radio" for="privatePersone">я частное лицо</label> 
+          
+          <input 
+            type="radio" 
+            class="form__radio" 
+            id="company" 
+            name="company"
+            value="company"
+          >
+          <label class="form__field form__field_type_radio" for="company">я представляю компанию</label>
+        
+          <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+
+        </div>
+
+        <div class="form__fields-container">
+
+          <label class="form__field form__field_type_disabled">
+
+            <!-- скрытое поле select, возможно, его можно убрать -->
+
+            <select  
+            class="form__select" 
+            name="company-name" 
+            id="company-name"
+            required
+            disabled
+            >
+              <option value="company1" selected>Компания 1</option>
+              <option value="company2">Компания 2</option>
+              <option value="company3">Компания 3</option>
+              <option value="company4">Компания 4</option>
+            </select>
+
+            <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
+
+            <input 
+            type="text" 
+            class="form__input form__dropdown-button" 
+            id="dropdown-button" 
+            disabled
+            value=""
+            >
+
+            <!-- кастомный список options для select -->
+
+            <ul class="form__dropdown-list">
+              <li class="form__dropdown-list-item" data-contact="email">Компания 1</li>
+              <li class="form__dropdown-list-item" data-contact="company1">Компания 2</li>
+              <li class="form__dropdown-list-item" data-contact="company2">Компания 3</li>
+              <li class="form__dropdown-list-item" data-contact="company3">Компания 4</li>
+              <li class="form__dropdown-list-item" data-contact="company4">Компания 5</li>
+            </ul>
+
+            <!-- placeholder для кнопки показа кастомного select -->
+
+            <span class="form__placeholder">Выбрать компанию</span>
+
+            <!-- стрелка для кнопки показа кастомного select -->
+
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+            </div>
+
+            <!-- информация об ошибке валидации -->
+
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+
+          </label>
+
+          <label class="form__field form__field_type_disabled">
+            <input 
+            type="text" 
+            class="form__input" 
+            id="company-position-input" 
+            required 
+            >
+            <span class="form__placeholder">Должность</span>
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset" type="button"></button>
+            </div>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+        </div>
+
+      </fieldset>
+
+      <fieldset class="form__set">
+
+        <label class="form__field form__field_type_textarea">
+
+          <textarea class="form__input form__textarea" rows="2" maxlength="2000" wrap></textarea>
+
+          <span class="form__placeholder">Как ты узнал о нас?</span>
+          <span class="form__textarea-counter">0/2000</span>
+
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_reset" type="button"></button>
+          </div>
+
+        </label>
+
+      </fieldset>
+
+      <fieldset class="form__set form__set_type_submit">
+        <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="сохранить" disabled>сохранить</button>
+      </fieldset>
+
+    </form>
+
+    <script defer src="./components/inputs.js"></script>
+
+  </body>
+  
+</html>

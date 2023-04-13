@@ -1,0 +1,26 @@
+.form__checkbox-item {
+  background-color: #F1F5F9;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative;
+  margin-right: 8px;
+}
+
+.form__checkbox:checked + .form__checkbox-item {
+  background-color: #72D0DC;
+}
+
+.form__checkbox-item::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+
+.form__checkbox:checked + .form__checkbox-item::before {
+  background-image: url('../../../images/icons/checked.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

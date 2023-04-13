@@ -1,0 +1,13 @@
+.form__avatar-text {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #048AA7;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.form__avatar-container:hover .form__avatar-text {
+  text-decoration: none;
+}
