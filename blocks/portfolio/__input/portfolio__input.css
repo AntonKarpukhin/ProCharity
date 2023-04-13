@@ -1,0 +1,7 @@
+.portfolio__input{
+  width: 730px;
+  height: 43px;
+  border: dashed 1px rgba(199, 208, 218, 1);
+  border-radius: 6px;
+  margin: 12px 0 0 0;
+}

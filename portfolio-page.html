@@ -7,11 +7,93 @@
   <link rel="stylesheet" href="pages/portfolio-page.css">
 </head>
 <body class="main-page">
+<header class="header"></header>
   <div class="bread-crumbs">
     <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a>  &nbsp/&nbsp Мои данные</p>
   </div>
   <section class="portfolio">
+    <div class="portfolio__profile-block">
 
+
+
+      <section class="sidebar">
+        <nav class="sidebar__steps">
+          <a class="sidebar__step sidebar__step_blue" href="#">
+            <span class="sidebar__number sidebar__number_blue">1</span>
+            <p class="sidebar__item">Личные данные</p>
+          </a>
+          <a class="sidebar__step sidebar__step_blue" href="#">
+            <span class="sidebar__number sidebar__number_blue">2</span>
+            <p class="sidebar__item">Компетенции</p>
+          </a>
+          <a class="sidebar__step sidebar__step_blue" href="#">
+            <span class="sidebar__number sidebar__number_blue">3</span>
+            <p class="sidebar__item">Мотивация</p>
+          </a>
+          <a class="sidebar__step sidebar__step_active" href="#">
+            <span class="sidebar__number sidebar__number_blue sidebar__number_active">4</span>
+            <p class="sidebar__item sidebar__item_active">Портфолио</p>
+          </a>
+          <a class="sidebar__step sidebar__step_blue" href="#">
+            <span class="sidebar__number sidebar__number_blue">5</span>
+            <p class="sidebar__item">Социальные сети</p>
+          </a>
+        </nav>
+        <div class="sidebar__mobile-items">
+          <span class="sidebar__mobile-item">Профиль волонтера</span>
+        </div>
+      </section>
+
+      <div class="profile-info">
+
+        <div class="profile-status">
+          <h2 class="profile-status__heading">Статус профиля</h2>
+          <a href="#" class="status-bar status-bar_type_blocked">
+            <p class="status-bar__text">СКРЫТ</p>
+            <div class="status-bar__help-icon"></div>
+          </a>
+          <!-- Альтернативные варианты: -->
+          <!-- <a href="#" class="status-bar status-bar_type_private">
+            <p class="status-bar__text">ПОДТВЕРЖДЕН</p>
+            <div class="status-bar__help-icon"></div>
+          </a>
+          <a href="#" class="status-bar status-bar_type_review">
+            <p class="status-bar__text">НА МОДЕРАЦИИ</p>
+            <div class="status-bar__help-icon"></div>
+          </a> -->
+        </div>
+
+        <div class="profile-fill-progress">
+          <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
+          <div class="profile-fill-progress__progress-bar">
+            <div class="progress-bar">
+              <div class="progress-bar__fill"></div>
+            </div>
+            <button class="reload-button" type="button"></button>
+          </div>
+          <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
+            профиль, </a>чтобы тебя выбрали исполнителем</p>
+        </div>
+
+      </div>
+
+    </div>
+    <section class="portfolio__main-page">
+      <h1 class="title">Мое портфолио</h1>
+
+      <form class="portfolio__form">
+        <p class="portfolio__form-text">Наличие резюме или портфолио увеличит доверие к тебе как к профессионалу</p>
+        <label class="portfolio__label">
+          Резюме или примеры работ
+          <input class="portfolio__input">
+          <span>Jpg, png, pdf объемом не более 20 Мб</span>
+        </label>
+
+      </form>
+
+    </section>
   </section>
 </body>
 </html>
+
+
