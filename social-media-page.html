@@ -29,31 +29,30 @@
           <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
         </a>
       </nav>
-      <div class="header__buttons-section">
-        <button class="header__mini-button-registration" type="button"></button>
-        <button class="header__button-registration" type="button">Присоединиться</button>
-        <button class="header__button-login" type="button"></button>
+      <div class="header__popup">
+        <div class="notification">
+          <button class="notification__close-button" type="button"></button>
+          <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+          <div class="notification__body">
+            <h2 class="notification__heading">Профиль на модерации</h2>
+            <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на
+              email.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="notification">
-      <button class="notification__close-button" type="button"></button>
-      <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
-      <div class="notification__body">
-        <h2 class="notification__heading">Профиль на модерации</h2>
-        <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
-        </p>
-      </div>
+
     </div>
   </header>
 
   <section>
     <div class="bread-crumbs">
       <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp
-        Настройки</p>
+        Мои данные</p>
     </div>
     <div class="social-media-area">
-      <div class="sidebar">
-        <nav class="sidebar__steps">
+      <div class="sidebar social-media-area__sidebar">
+        <nav class="sidebar__steps social-media-area__sidebar-steps">
           <a class="sidebar__step sidebar__step_blue" href="#">
             <span class="sidebar__number sidebar__number_blue">1</span>
             <p class="sidebar__item">Личные данные</p>
@@ -75,11 +74,11 @@
             <p class="sidebar__item sidebar__item_active">Социальные сети</p>
           </a>
         </nav>
-        <div class="sidebar__mobile-items">
+        <div class="sidebar__mobile-items social-media-area__mobile-items">
           <span class="sidebar__mobile-item">Профиль волонтера</span>
         </div>
       </div>
-      <div class="profile-info notifications-area__profile-status">
+      <div class="profile-info social-media-area__profile-status">
         <div class="profile-status">
           <h2 class="profile-status__heading">Статус профиля</h2>
           <a href="#" class="status-bar status-bar_type_review">
@@ -87,64 +86,43 @@
             <div class="status-bar__help-icon"></div>
           </a>
         </div>
+        <div class="profile-fill-progress">
+          <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
+          <div class="profile-fill-progress__progress-bar">
+            <div class="progress-bar">
+              <div class="progress-bar__fill"></div>
+            </div>
+            <button class="reload-button" type="button"></button>
+          </div>
+          <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как
+              заполнить
+              профиль, </a>чтобы тебя выбрали исполнителем</p>
+        </div>
       </div>
-      <div class="notifications-area__content">
-        <h1 class="title notifications-area__title">Уведомления</h1>
-        <p class="paragraph notifications-area__paragraph">Отметь события, оповещения о которых ты хотел бы получать на
-          email:</p>
-        <ul class="notifications-area__list">
-          <li>
-            <fieldset class="form__set">
-              <label class="form__field form__field_type_row">
-                <input type="checkbox" class="form__checkbox form__input " id="change-tasks-notifications" required
-                  checked>
-                <span class="form__checkbox-item"></span>
-                <span class="paragraph">изменения по моим заданиям</span>
-                <button
-                  class="form__input-button form__input-button_type_help form__input-button_type_active notifications-area__help"
-                  type="button"></button>
-                <div class="form__balloon notifications-area__balloon form__balloon_active">Мы&nbsp;будем присылать
-                  на&nbsp;email все&nbsp;важные уведомления по&nbsp;твоим заданиям</div>
-              </label>
-            </fieldset>
-          </li>
-          <li>
-            <fieldset class="form__set">
-              <label class="form__field form__field_type_row">
-                <input type="checkbox" class="form__checkbox form__input " id="change-another-executor-notifications"
-                  required checked>
-                <span class="form__checkbox-item"></span>
-                <span class="paragraph">фонд выбрал другого исполнителя</span>
-              </label>
-            </fieldset>
-          </li>
-          <li>
-            <fieldset class="form__set">
-              <label class="form__field form__field_type_row">
-                <input type="checkbox" class="form__checkbox form__input " id="tasks-selection-notifications" required
-                  checked>
-                <span class="form__checkbox-item"></span>
-                <span class="paragraph">подборка заданий по моим компетенциям (раз в неделю)</span>
-              </label>
-            </fieldset>
-          </li>
-          <li>
-            <fieldset class="form__set">
-              <label class="form__field form__field_type_row">
-                <input type="checkbox" class="form__checkbox form__input " id="new-tasks-notifications" required
-                  checked>
-                <span class="form__checkbox-item"></span>
-                <span class="paragraph">новые задания по моим компетенциям (по мере появления)</span>
-              </label>
-            </fieldset>
+      <div class="social-media-area__content">
+        <h1 class="title social-media-area__title">Социальные сети</h1>
+        <p class="paragraph social-media-area__paragraph">Можешь прикрепить ссылки на свои профили в соцсетях — так
+          представители фондов смогут лучше тебя узнать. А еще это может быть дополнительным способом с тобой связаться.
+        </p>
+        <ul class="social-media-area__list">
+          <li class="social-media-area__item">
+            <img class="social-media-area__icon" src="./images/social-media-icons/linkedin.svg" alt="иконка linkedin">
+            <label class="form__field social-media-area__field">
+              <input
+              type="url"
+              class="form__input social-media-area__input"
+              id="linkedin-link"
+              value="https://linkedin.com/username/"
+              >
+              <div class="form__input-buttons-container">
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+              </div>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+            </label>
           </li>
         </ul>
-        <div class="notifications-area__telegram">
-          <p class="paragraph notifications-area__telegram-text">Получай уведомления о новых заданиях от бота ProCharity
-            в Telegram. При этом рекомендуем отключить уведомления на email из пункта выше.</p>
-          <button class="notifications-area__telegram-button"></button>
-        </div>
-        <button class="form__button form__button_type_submit popup__submit-button notifications-area__button"
+
+        <button class="form__button form__button_type_submit popup__submit-button social-media-area__button"
           type="button" aria-label="Сохранить">Сохранить</button>
       </div>
     </div>

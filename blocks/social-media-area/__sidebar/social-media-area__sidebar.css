@@ -1,0 +1,5 @@
+.social-media-area__sidebar {
+  grid-area: sidebar;
+  justify-content: flex-start;
+  display: flex;
+}

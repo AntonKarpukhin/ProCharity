@@ -11,4 +11,18 @@
 @import url(../blocks/paragraph/paragraph.css);
 
 @import url(../blocks/social-media-area/social-media-area.css);
+@import url(../blocks/social-media-area/__sidebar/social-media-area__sidebar.css);
+@import url(../blocks/social-media-area/__sidebar-steps/social-media-area__sidebar-steps.css);
+@import url(../blocks/social-media-area/__mobile-items/social-media-area__mobile-items.css);
+@import url(../blocks/social-media-area/__profile-status/social-media-area__profile-status.css);
+@import url(../blocks/social-media-area/__content/social-media-area__content.css);
+@import url(../blocks/social-media-area/__button/social-media-area__button.css);
+@import url(../blocks/social-media-area/__title/social-media-area__title.css);
+@import url(../blocks/social-media-area/__paragraph/social-media-area__paragraph.css);
+@import url(../blocks/social-media-area/__list/social-media-area__list.css);
+@import url(../blocks/social-media-area/__item/social-media-area__item.css);
+@import url(../blocks/social-media-area/__input/social-media-area__input.css);
+
+@import url(../blocks/social-media-area/__field/social-media-area__field.css);
+
 

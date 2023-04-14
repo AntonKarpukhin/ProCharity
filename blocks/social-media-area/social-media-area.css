@@ -1,3 +1,28 @@
 .social-media-area {
+  margin: 0 auto;
+  padding: 0 24px;
+  min-width: 856px;
+  max-width: 1168px;
+  margin-bottom: 120px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "sidebar social-content"
+    "profile-status social-content";
+  gap: 24px 32px;
+  grid-template-columns: minmax(min-content, 256px) minmax(min-content, 736px);
+  grid-template-rows: 264px max-content;
+}
 
+@media screen and (max-width: 856px) {
+  .social-media-area {
+    margin-bottom: 80px;
+    min-width: 312px;
+    grid-template-areas:
+    "sidebar"
+    "social-content"
+    "profile-status";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, max-content);
+  }
 }
