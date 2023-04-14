@@ -12,11 +12,13 @@
 
 @media screen and (max-width: 856px) {
   .profile-page-grid {
+    row-gap: 0;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, max-content);
     grid-template-areas:
   "sidebar"
   "profile-setting"
   "profile-info";
+  padding-bottom: 80px;
   }
 }

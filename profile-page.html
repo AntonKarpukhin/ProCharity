@@ -88,7 +88,17 @@
       <h1 class="title">Профиль</h1>
       <p class="paragraph profile-setting__first-paragraph">Приватный профиль будет скрыт для неавторизованных
         пользователей в списке волонтеров и в поиске по сайту</p>
-      <p class="paragraph">Мой профиль виден только пользователям ProCharity</p>
+        <fieldset class="form__set profile-setting__checkbox">
+          <label class="form__field form__field_type_row">
+            <input
+            type="checkbox"
+            class="form__checkbox form__input"
+            id="confirmation-input"
+            required>
+            <span class="form__checkbox-item"></span>
+            <span class="paragraph">Мой профиль виден только пользователям ProCharity</span>
+          </label>
+        </fieldset>
       <p class="paragraph profile-setting__third-paragraph">Если ты не хочешь больше быть волонтером ProCharity, можешь
         заблокировать свой профиль. Это значит:</p>
       <ul class="profile-setting__list">
@@ -97,7 +107,17 @@
         <li class="paragraph profile-setting__list-item">ты не будешь получать от нас никаких писем.</li>
       </ul>
       <p class="paragraph">Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми "Сохранить"</p>
-      <p class="paragraph">Заблокировать профиль</p>
+      <fieldset class="form__set profile-setting__checkbox">
+        <label class="form__field form__field_type_row">
+          <input
+          type="checkbox"
+          class="form__checkbox form__input"
+          id="confirmation-input"
+          required>
+          <span class="form__checkbox-item"></span>
+          <span class="paragraph">Заблокировать профиль</span>
+        </label>
+      </fieldset>
       <button class="form__button form__button_type_submit popup__submit-button profile-setting__button" type="button"
         aria-label="Сохранить">Сохранить</button>
     </section>
