@@ -1,0 +1,12 @@
+.motivation__form {
+  height: 140px;
+  color: #374045;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 856px) {
+  .motivation__form {
+    height: 380px;
+  }
+}
