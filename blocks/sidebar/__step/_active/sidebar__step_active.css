@@ -1,0 +1,14 @@
+/*выбранный активный раздел недоступен для клика*/
+.sidebar__step_active {
+  cursor: default;
+  pointer-events: none;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 856px) {
+
+  /*активный шаг - оранжевый*/
+  .sidebar__step_active {
+    background-color: #E65609;
+  }
+}

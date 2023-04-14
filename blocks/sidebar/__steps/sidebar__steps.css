@@ -1,0 +1,21 @@
+/*стили для всего сайдбара - nav*/
+.sidebar__steps {
+  width: 256px;
+  display: grid;
+  row-gap: 16px;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #E3E9F0;
+}
+
+@media screen and (max-width: 856px) {
+  .sidebar__steps {
+    width: calc(100% - 48px);
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    column-gap: 12px;
+    border: none;
+    margin: 0;
+    padding: 24px 24px 0;
+  }
+}

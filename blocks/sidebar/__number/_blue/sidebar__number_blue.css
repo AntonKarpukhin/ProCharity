@@ -1,0 +1,13 @@
+/*нумерация сайдбара голубая*/
+.sidebar__number_blue {
+  color: #FFF;
+  background-color: #72D0DC;
+}
+
+.sidebar__number_blue:active {
+  background-color: #048AA7;
+}
+
+.sidebar__number_blue:focus {
+  border: solid 2px #048AA7;
+}

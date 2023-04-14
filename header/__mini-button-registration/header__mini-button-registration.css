@@ -12,6 +12,10 @@
     padding: 0;
     cursor: pointer;
 }
+.header__mini-button-registration:hover {
+    opacity: 0.7;
+}
+
 @media screen and (min-width: 857px){
     .header__mini-button-registration{
         display: none;

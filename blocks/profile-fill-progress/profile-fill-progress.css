@@ -1,0 +1,15 @@
+.profile-fill-progress {
+  margin: 0;
+  padding: 0;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 856px) {
+  .profile-fill-progress {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.status-bar_type_private {
+  background-color: #e65609;
+}
+
+.status-bar_type_private:active {
+  opacity: 100%;
+  background-color: #cc4d00;
+}
+
+.status-bar_type_private:focus {
+  border: 2px solid #cc4d00;
+}

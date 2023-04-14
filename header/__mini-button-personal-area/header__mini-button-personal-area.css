@@ -5,6 +5,10 @@
     border-radius: 50px;
     position: relative;
 }
+.header__mini-button-personal-area:hover{
+    opacity: 0.7;
+}
+
 @media screen and (min-width: 857px){
     .header__mini-button-personal-area{
         display: none;
