@@ -1,0 +1,12 @@
+.portfolio__file-container{
+  box-sizing: border-box;
+  border: 1px dashed #A0ABB5;
+  width: 735px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+}
