@@ -10,7 +10,7 @@
     "sidebar notifications-content"
     "profile-status notifications-content";
   gap: 24px 32px;
-  grid-template-columns: minmax(min-content, 256px) minmax(min-content, 1042px);
+  grid-template-columns: minmax(min-content, 256px) minmax(min-content, 736px);
   grid-template-rows: 168px max-content;
 }
 

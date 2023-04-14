@@ -2,7 +2,12 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/paragraph/paragraph.css);
-
+@import url(../pages/header-page.css);
+@import url(../pages/footer-page.css);
+@import url(../pages/sidebar-page.css);
+@import url(../pages/bread-crumbs-page.css);
+@import url(../pages/status-page.css);
+@import url(../pages/style.css);
 @import url(../blocks/notifications-area/notifications-area.css);
 @import url(../blocks/notifications-area/__sidebar/notifications-area__sidebar.css);
 @import url(../blocks/notifications-area/__sidebar-steps/notifications-area__sidebar-steps.css);
