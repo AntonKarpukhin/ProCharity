@@ -1,5 +1,6 @@
 .motivation__form {
-  height: 140px;
+  display:inline-block;
+  min-height: 140px;
   color: #374045;
   font-size: 16px;
   line-height: 20px;
