@@ -1,0 +1,14 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../pages/header-page.css);
+@import url(../pages/footer-page.css);
+@import url(../pages/sidebar-page.css);
+@import url(../pages/bread-crumbs-page.css);
+@import url(../pages/status-page.css);
+@import url(../pages/style.css);
+@import url(../pages/notification-page.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/paragraph/paragraph.css);
+
+@import url(../blocks/social-media-area/social-media-area.css);
+
