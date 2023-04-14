@@ -1,0 +1,43 @@
+/* ========Vendor======== */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/* ====================== */
+
+/* ========Pages========= */
+@import url(../blocks/main-page/main-page.css);
+/* ====================== */
+
+/* =========Common======= */
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/paragraph/_theme/parapraph_theme_dark.css);
+@import url(../blocks/paragraph/__link/paragraph__link.css);
+@import url(../blocks/paragraph/_small/paragraph_small.css);
+@import url(../blocks/paragraph/_small/paragraph_small.css);
+@import url(../blocks/paragraph/_text-align/paragraph_text-align_right.css);
+
+/* =====Registration===== */
+@import url(../blocks/registration/registration.css);
+@import url(../blocks/registration/__heading/registration__heading.css);
+@import url(../blocks/registration/__variants-container/registration__variants-container.css);
+@import url(../blocks/registration/__login-prompt/registration__login-prompt.css);
+/* ====================== */
+
+/* =Registration-variant= */
+@import url(../blocks/registration-variant/registration-variant.css);
+@import url(../blocks/registration-variant/__heading/registration-variant__heading.css);
+@import url(../blocks/registration-variant/__description/registration-variant__description.css);
+@import url(../blocks/registration-variant/__description/_link/registration-variant__description_link.css);
+@import url(../blocks/registration-variant/__inner-box/registration-variant__inner-box.css);
+@import url(../blocks/registration-variant/__inner-box/_align/registration-variant__inner-box_align_left.css);
+@import url(../blocks/registration-variant/__inner-box/_align/registration-variant__inner-box_align_right.css);
+@import url(../blocks/registration-variant/__content/registration-variant__content.css);
+@import url(../blocks/registration-variant/__content/_align/registration-variant__content_align_left.css);
+@import url(../blocks/registration-variant/__content/_align/registration-variant__content_align_right.css);
+@import url(../blocks/registration-variant/__image/registration-variant__image.css);
+@import url(../blocks/registration-variant/__image/_align/registration-variant__image_align_left.css);
+@import url(../blocks/registration-variant/__image/_align/registration-variant__image_align_right.css);
+@import url(../blocks/registration-variant/__link/registration-variant__link.css);
+@import url(../blocks/registration-variant/_selected/registration-variant_selected.css);
+/* ====================== */

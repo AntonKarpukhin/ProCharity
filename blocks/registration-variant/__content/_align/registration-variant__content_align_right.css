@@ -1,0 +1,10 @@
+.registration-variant__content_align_right {
+  text-align: left;
+  margin-left: 96px;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__content_align_right {
+    margin-left: 24px;
+  }
+}
