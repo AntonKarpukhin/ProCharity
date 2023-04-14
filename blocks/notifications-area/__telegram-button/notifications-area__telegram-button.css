@@ -13,3 +13,9 @@
 .notifications-area__telegram-button:hover {
   opacity: .6;
 }
+
+@media screen and (max-width: 856px) {
+  .notifications-area__telegram-button {
+    align-self: flex-end;
+  }
+}

@@ -10,8 +10,11 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 1052px) {
   .notifications-area__telegram {
-
+    margin-bottom: 32px;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 12px;
   }
 }

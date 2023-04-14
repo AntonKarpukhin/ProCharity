@@ -1,3 +1,3 @@
 .notifications-area__telegram-text {
-  width: 548px;
+  max-width: 548px;
 }
