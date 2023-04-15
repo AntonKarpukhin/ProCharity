@@ -125,10 +125,73 @@
               <div class="portfolio__file-container">
                 <span class="portfolio__text">Выберите файл </span> <span class="paragraph">&nbsp;или перетащите его сюда</span>
               </div>
+              <div class="portfolio__file-container-mini">
+                <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
+              </div>
               <span  class="portfolio__span-text">Jpg, png, pdf объемом&nbsp;не&nbsp;более 20&nbsp;Мб</span>
             </label>
           </fieldset>
+<!--========================================================================================== -->
+          <div class="portfolio__files">
 
+            <div class="portfolio__files_item">
+              <div class="portfolio__files_item_container">
+                <div class="portfolio__files_preview portfolio__files_icon portfolio__files_icon_loader">
+                </div>
+                <div class="portfolio__files_item_text-container">
+                  <p class="portfolio__files_item_text">CV.png</p>
+                  <span class="portfolio__files_error-text">
+                    Размер файла не должен превышать 20 Мб
+                  </span>
+                </div>
+
+              </div>
+
+
+              <button  class="portfolio__files_icon_trash" type="button" ></button>
+            </div>
+
+            <div class="portfolio__files_item">
+              <div class="portfolio__files_item_container">
+                <div class="portfolio__files_preview portfolio__files_icon_error">
+                </div>
+                <div class="portfolio__files_item_text-container">
+                  <p class="portfolio__files_item_text">CV.png</p>
+                  <span class="portfolio__files_error-text portfolio__files_error-text_active">
+                    Размер файла не должен превышать 20 Мб
+                  </span>
+                </div>
+
+              </div>
+
+
+              <button class="portfolio__files_icon_trash" type="button" ></button>
+
+            </div>
+
+            <div class="portfolio__files_item">
+              <div class="portfolio__files_item_container">
+                <div class="portfolio__files_preview">
+                  <img class="portfolio__files_preview-icon" src="./images/preview.svg" alt="иконка загрузки">
+                </div>
+                <div class="portfolio__files_item_text-container">
+                  <div>
+                    <p class="portfolio__files_item_text">veryreallytoomuchlongveryreallytoomuchlongveryreallytoomuchlo...ngprojectname.pdf</p>
+                  </div>
+
+                  <span class="portfolio__files_error-text ">
+                    Размер файла не должен превышать 20 Мб
+                  </span>
+                </div>
+
+              </div>
+
+
+              <button class="portfolio__files_icon_trash" type="button" ></button>
+            </div>
+
+          </div>
+          <!--========================================================================================== -->
           <fieldset class="form__set ">
 
             <label class="portfolio__paragraph "> Дипломы и сертификаты
@@ -141,54 +204,78 @@
               <div class="portfolio__file-container">
                 <span class="portfolio__text">Выберите файл </span> <span class="paragraph">&nbsp;или перетащите его сюда</span>
               </div>
+              <div class="portfolio__file-container-mini">
+                <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
+              </div>
               <span  class="portfolio__span-text">Jpg, png, tiff объемом&nbsp;не&nbsp;более 16&nbsp;Мб</span>
             </label>
           </fieldset>
 
-          <fieldset class="form__set">
+          <fieldset class="form__set form__set_link-container">
             <p class="portfolio__paragraph">Ссылки</p>
             <div class="portfolio__fields-container">
 
               <label class="form__field">
                 <input
                   type="text"
-                  class=" form__input form__input_left"
-                  id="text-link-input"
+                  class=" form__input form__input_left form__input_text"
                   required
-                  value=""
+                  value="Проект с коротким названием"
                 >
-                <span class="form__placeholder">Текст ссылки</span>
-<!--                <div class="form__input-buttons-container">-->
-<!--                  <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>-->
-<!--                </div>-->
+                <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
+
               </label>
 
               <label class="form__field">
                 <input
                   type="url"
-                  class="form__input form__input_right"
-                  id="link-input"
+                  class="form__input form__input_right form__input_text"
                   required
-                  value=""
+                  value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
                 >
-                <span class="form__placeholder">https://</span>
+                <span class="form__placeholder form__placeholder_disabled">https://</span>
 
-<!--                <div class="form__input-buttons-container">-->
-<!--                  <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>-->
-<!--                  <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>-->
-<!--                </div>-->
-<!--                <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>-->
-<!--                <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>-->
-<!--                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>-->
+                <div class="form__input-buttons-container form__input-buttons-container_disabled">
+                  <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+
+                </div>
+
               </label>
-              <div class="portfolio__add-link-container">
-                <img src="images/blue-pluse.svg" alt="">
-                <p class="portfolio__text portfolio__text_fix">Добавить ссылку</p>
-              </div>
 
+
+              <!--======================================================================================================================== -->
+              <label class="form__field">
+                <input
+                  type="text"
+                  class=" form__input form__input_left form__input_text"
+                  required
+                  value="Проект с очень длинным названием в несколько строк"
+                >
+                <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
+
+              </label>
+
+              <label class="form__field">
+                <input
+                  type="url"
+                  class="form__input form__input_right form__input_text"
+                  required
+                  value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
+                >
+                <span class="form__placeholder form__placeholder_disabled">https://</span>
+
+                <div class="form__input-buttons-container form__input-buttons-container_disabled">
+                  <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+
+                </div>
+
+              </label>
 
             </div>
-
+            <div class="portfolio__add-link-container">
+              <img src="images/blue-pluse.svg" alt="иконка плюса">
+              <p class="portfolio__text portfolio__text_fix">Добавить ссылку</p>
+            </div>
           </fieldset>
 
           <fieldset class="form__set form__set_type_submit">

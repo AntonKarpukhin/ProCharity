@@ -1,7 +1,7 @@
 .portfolio__file-container{
   box-sizing: border-box;
   border: 1px dashed #A0ABB5;
-  width: 735px;
+  max-width: 736px;
   height: 48px;
   display: flex;
   justify-content: center;
@@ -9,4 +9,10 @@
   border-radius: 6px;
   margin-top: 12px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 856px){
+  .portfolio__file-container{
+    display: none;
+  }
 }
