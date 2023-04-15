@@ -1,3 +1,12 @@
 .social-media-area__input {
   padding: 12px 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 856px) {
+  .social-media-area__input {
+    min-width: calc(100% - 56px);
+  }
 }
