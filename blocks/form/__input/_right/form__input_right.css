@@ -1,3 +1,9 @@
 .form__input_right{
   border-radius: 0 6px 6px 0;
 }
+
+@media screen and (max-width: 856px){
+  .form__input_right{
+    border-radius: 0 0 6px 6px
+  }
+}

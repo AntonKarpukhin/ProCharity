@@ -5,3 +5,11 @@
   row-gap: 20px;
   margin: 16px 0 0 0;
 }
+
+@media screen and (max-width: 856px) {
+  .portfolio__fields-container {
+    grid-template-columns:1fr;
+    row-gap: 2px;
+    margin: 12px 0 0 0;
+  }
+}
