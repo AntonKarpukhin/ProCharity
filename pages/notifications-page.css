@@ -10,7 +10,6 @@
 @import url(../pages/style.css);
 @import url(../blocks/notifications-area/notifications-area.css);
 @import url(../blocks/notifications-area/__sidebar/notifications-area__sidebar.css);
-@import url(../blocks/notifications-area/__sidebar-steps/notifications-area__sidebar-steps.css);
 @import url(../blocks/notifications-area/__mobile-items/notifications-area__mobile-items.css);
 @import url(../blocks/notifications-area/__profile-status/notifications-area__profile-status.css);
 @import url(../blocks/notifications-area/__content/notifications-area__content.css);
