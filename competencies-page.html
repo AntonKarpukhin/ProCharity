@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>competencies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/competencies-page.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__container">
+    <a  class="header__mini-menu-list" href="#">
+      <img  src="./images/list.svg" alt="меню">
+    </a>
+    <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
+        <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
+        <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
+        <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
+        <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
+        <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
+      </ul>
+      <a href="#">
+        <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
+      </a>
+    </nav>
+    <div class="header__buttons-section">
+      <!--     вид кнопок незарегистрированного пользователя -->
+      <!--              <button class="header__mini-button-registration" type="button"></button>-->
+      <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
+      <!--              <button class="header__button-login" type="button"></button>-->
+      <!--     вид кнопок авторизованного пользователя -->
+      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
+      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
+    </div>
+    <div class="header__popup">
+      <div class="notification">
+        <button class="notification__close-button" type="button"></button>
+        <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+        <div class="notification__body">
+          <h2 class="notification__heading">Профиль на модерации</h2>
+          <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+  <div class="bread-crumbs">
+    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+    </p>
+  </div>
+
+  <section class="competencies">
+    <section class="sidebar">
+      <nav class="sidebar__steps">
+        <a class="sidebar__step sidebar__step_blue" href="#">
+          <span class="sidebar__number sidebar__number_blue">1</span>
+          <p class="sidebar__item">Личные данные</p>
+        </a>
+        <a class="sidebar__step sidebar__step_active" href="#">
+          <span class="sidebar__number sidebar__number_blue sidebar__number_active">2</span>
+          <p class="sidebar__item sidebar__item_active">Компетенции</p>
+        </a>
+        <a class="sidebar__step sidebar__step_blue" href="#">
+          <span class="sidebar__number sidebar__number_blue">3</span>
+          <p class="sidebar__item">Мотивация</p>
+        </a>
+        <a class="sidebar__step sidebar__step_blue" href="#">
+          <span class="sidebar__number sidebar__number_blue">4</span>
+          <p class="sidebar__item">Портфолио</p>
+        </a>
+        <a class="sidebar__step sidebar__step_blue" href="#">
+          <span class="sidebar__number sidebar__number_blue">5</span>
+          <p class="sidebar__item">Социальные сети</p>
+        </a>
+      </nav>
+      <div class="sidebar__mobile-items">
+        <span class="sidebar__mobile-item">Профиль волонтера</span>
+      </div>
+    </section>
+    <div class="profile-info">
+
+      <div class="profile-status">
+        <h2 class="profile-status__heading">Статус профиля</h2>
+        <a href="#" class="status-bar status-bar_type_blocked">
+          <p class="status-bar__text">СКРЫТ</p>
+          <div class="status-bar__help-icon"></div>
+        </a>
+        <!-- Альтернативные варианты: -->
+        <!-- <a href="#" class="status-bar status-bar_type_private">
+          <p class="status-bar__text">ПОДТВЕРЖДЕН</p>
+          <div class="status-bar__help-icon"></div>
+        </a>
+        <a href="#" class="status-bar status-bar_type_review">
+          <p class="status-bar__text">НА МОДЕРАЦИИ</p>
+          <div class="status-bar__help-icon"></div>
+        </a> -->
+      </div>
+
+      <div class="profile-fill-progress">
+        <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
+        <div class="profile-fill-progress__progress-bar">
+          <div class="progress-bar">
+            <div class="progress-bar__fill"></div>
+          </div>
+          <button class="reload-button" type="button"></button>
+        </div>
+        <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
+          профиль, </a>чтобы тебя выбрали исполнителем</p>
+      </div>
+
+    </div>
+    <section class="competencies__main-page">
+
+    </section>
+
+
+  </section>
+
+</body>
+</html>
