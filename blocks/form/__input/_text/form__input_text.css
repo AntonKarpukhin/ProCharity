@@ -1,0 +1,4 @@
+.form__input_text{
+  text-overflow: ellipsis;
+  min-width: fit-content;
+}
