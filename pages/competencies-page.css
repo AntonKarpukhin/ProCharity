@@ -16,6 +16,37 @@
 
 @import url(../blocks/competencies/__main-page/competencies__main-page.css);
 @import url(../blocks/competencies/competencies.css);
+@import url(../blocks/competencies/__input/competencies__input.css);
+@import url(../blocks/competencies/__chips/competencies__chips.css);
+@import url(../blocks/competencies/__form/competencies__form.css);
+@import url(../blocks/competencies/__list/competencies__list.css);
+@import url(../blocks/competencies/__chips-block/competencies__chips-block.css);
+@import url(../blocks/competencies/__input-mini/competencies__input-mini.css);
+@import url(../blocks/competencies/__input-mini/_block/competencies__input-mini_block.css);
+@import url(../blocks/competencies/__input-mini-list/competencies__input-mini-list.css);
+@import url(../blocks/competencies/__input-mini-list/_text/competencies__input-mini-list_text.css);
+@import url(../blocks/competencies/__chips/_mini/competencies__chips_mini.css);
+@import url(../blocks/competencies/__chips/_mini/_active/competencies__chips_mini_active.css);
+@import url(../blocks/competencies/__input-mini/_disable/competencies__input-mini_disable.css);
+@import url(../blocks/competencies/__input-mini/_buttons/competencies__input-mini_buttons.css);
 
 @import url(../blocks/form/_fix/form_fix.css);
+@import url(../blocks/form/__dropdown-list/_fix-size/form__dropdown-list_fix-size.css);
+@import url(../blocks/form/__dropdown-list-item/_hover/form__dropdown-list-item_hover.css);
+@import url(../blocks/form/__placeholder/_disabled/form__placeholder_disabled.css);
+@import url(../blocks/form/__dropdown-button/_dark-mode/form__dropdown-button_dark-mode.css);
+@import url(../blocks/form/__input-button/_type/form__input-button_type_arrow-right.css);
+@import url(../blocks/form/__submenu/form__submenu.css);
+@import url(../blocks/form/__input-button/_type/form__input-button_type_close.css);
+@import url(../blocks/form/__dropdown-list-item/_underline/form__dropdown-list-item_underline.css);
+@import url(../blocks/form/__submenu/_mini/form__submenu_mini.css);
+@import url(../blocks/form/__input-button/_type/form__input-button_type_arrow-up.css);
+@import url(../blocks/form/__submenu/_mini/_button/form__submenu_mini_button.css);
+@import url(../blocks/form/__submenu/_mini-buttons/form__submenu_mini-buttons.css);
+@import url(../blocks/form/__input-button/_type/form__input-button_type_position.css);
+
 @import url(../blocks/paragraph/_padding/paragraph_padding.css);
+@import url(../blocks/paragraph/_theme/paragraph_theme_withe.css);
+@import url(../blocks/paragraph/__nowrap/paragraph__nowrap.css);
+@import url(../blocks/paragraph/__link/_without-line/paragraph__link_without-line.css);
+@import url(../blocks/paragraph/_theme/paragraph_theme_orange.css);

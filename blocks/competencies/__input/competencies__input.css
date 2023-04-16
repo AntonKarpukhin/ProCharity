@@ -1,0 +1,14 @@
+.competencies__input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #374045;
+  background-color: #F1F5F9;
+  border: none;
+  border-radius: 6px;
+  position: relative;
+  min-width: 280px;
+  min-height: 48px;
+  cursor: pointer;
+  padding: 12px 27px 12px 16px;
+}

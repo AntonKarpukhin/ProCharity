@@ -18,3 +18,14 @@
   opacity: .3;
   transition: opacity .1s ease-in-out;
 }
+
+.form__dropdown-list-item:hover .form__submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+/*   для удобства верстки  временно закомментировано  */
+
+/*.form__dropdown-list-item:hover .form__submenu_mini{*/
+/*  display: flex;*/
+/*}*/

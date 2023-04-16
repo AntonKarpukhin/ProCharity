@@ -1,0 +1,13 @@
+.form__submenu{
+  background-color: #ffffff;
+  box-shadow: 0 4px 24px rgba(0, 77, 95, 0.24);
+  border-radius: 8px;
+  position: absolute;
+  visibility: visible;
+  z-index: 5;
+  opacity: 0;
+  left: 100%;
+  top: -8px;
+  width: 100%;
+  padding: 16px 0 20px 16px;
+}

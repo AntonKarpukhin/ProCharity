@@ -9,8 +9,8 @@
 <body>
 <header class="header">
   <div class="header__container">
-    <a  class="header__mini-menu-list" href="#">
-      <img  src="./images/list.svg" alt="меню">
+    <a class="header__mini-menu-list" href="#">
+      <img src="./images/list.svg" alt="меню">
     </a>
     <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
     <nav class="header__menu">
@@ -32,165 +32,434 @@
       <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
       <!--              <button class="header__button-login" type="button"></button>-->
       <!--     вид кнопок авторизованного пользователя -->
-      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
-      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
+      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image"
+                                                                                    src="./images/default-avatar.svg"
+                                                                                    alt="аватар"></button>
+      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image"
+                                                                           src="images/default-avatar-mini.svg"
+                                                                           alt="аватар"></button>
     </div>
-<!--    <div class="header__popup">-->
-<!--      <div class="notification">-->
-<!--        <button class="notification__close-button" type="button"></button>-->
-<!--        <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">-->
-<!--        <div class="notification__body">-->
-<!--          <h2 class="notification__heading">Профиль на модерации</h2>-->
-<!--          <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.-->
-<!--          </p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
+    <!--    <div class="header__popup">-->
+    <!--      <div class="notification">-->
+    <!--        <button class="notification__close-button" type="button"></button>-->
+    <!--        <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">-->
+    <!--        <div class="notification__body">-->
+    <!--          <h2 class="notification__heading">Профиль на модерации</h2>-->
+    <!--          <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.-->
+    <!--          </p>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
 
   </div>
 </header>
-  <div class="bread-crumbs">
-    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
-    </p>
-  </div>
+<div class="bread-crumbs">
+  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+  </p>
+</div>
 
-  <section class="competencies">
+<section class="competencies">
 
-    <section class="sidebar sidebar__grid">
-      <nav class="sidebar__steps">
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">1</span>
-          <p class="sidebar__item">Личные данные</p>
-        </a>
-        <a class="sidebar__step sidebar__step_active" href="#">
-          <span class="sidebar__number sidebar__number_blue sidebar__number_active">2</span>
-          <p class="sidebar__item sidebar__item_active">Компетенции</p>
-        </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">3</span>
-          <p class="sidebar__item">Мотивация</p>
-        </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">4</span>
-          <p class="sidebar__item">Портфолио</p>
-        </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">5</span>
-          <p class="sidebar__item">Социальные сети</p>
-        </a>
-      </nav>
-      <div class="sidebar__mobile-items">
-        <span class="sidebar__mobile-item">Профиль волонтера</span>
-      </div>
-    </section>
+  <section class="sidebar sidebar__grid">
+    <nav class="sidebar__steps">
+      <a class="sidebar__step sidebar__step_blue" href="#">
+        <span class="sidebar__number sidebar__number_blue">1</span>
+        <p class="sidebar__item">Личные данные</p>
+      </a>
+      <a class="sidebar__step sidebar__step_active" href="#">
+        <span class="sidebar__number sidebar__number_blue sidebar__number_active">2</span>
+        <p class="sidebar__item sidebar__item_active">Компетенции</p>
+      </a>
+      <a class="sidebar__step sidebar__step_blue" href="#">
+        <span class="sidebar__number sidebar__number_blue">3</span>
+        <p class="sidebar__item">Мотивация</p>
+      </a>
+      <a class="sidebar__step sidebar__step_blue" href="#">
+        <span class="sidebar__number sidebar__number_blue">4</span>
+        <p class="sidebar__item">Портфолио</p>
+      </a>
+      <a class="sidebar__step sidebar__step_blue" href="#">
+        <span class="sidebar__number sidebar__number_blue">5</span>
+        <p class="sidebar__item">Социальные сети</p>
+      </a>
+    </nav>
+    <div class="sidebar__mobile-items">
+      <span class="sidebar__mobile-item">Профиль волонтера</span>
+    </div>
+  </section>
 
-    <div class="profile-info profile-info__grid">
+  <div class="profile-info profile-info__grid">
 
-      <div class="profile-status">
-        <h2 class="profile-status__heading">Статус профиля</h2>
-        <a href="#" class="status-bar status-bar_type_blocked">
-          <p class="status-bar__text">СКРЫТ</p>
-          <div class="status-bar__help-icon"></div>
-        </a>
-        <!-- Альтернативные варианты: -->
-        <!-- <a href="#" class="status-bar status-bar_type_private">
-          <p class="status-bar__text">ПОДТВЕРЖДЕН</p>
-          <div class="status-bar__help-icon"></div>
-        </a>
-        <a href="#" class="status-bar status-bar_type_review">
-          <p class="status-bar__text">НА МОДЕРАЦИИ</p>
-          <div class="status-bar__help-icon"></div>
-        </a> -->
-      </div>
-
-      <div class="profile-fill-progress">
-        <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
-        <div class="profile-fill-progress__progress-bar">
-          <div class="progress-bar">
-            <div class="progress-bar__fill"></div>
-          </div>
-          <button class="reload-button" type="button"></button>
-        </div>
-        <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
-          профиль, </a>чтобы тебя выбрали исполнителем</p>
-      </div>
-
+    <div class="profile-status">
+      <h2 class="profile-status__heading">Статус профиля</h2>
+      <a href="#" class="status-bar status-bar_type_blocked">
+        <p class="status-bar__text">СКРЫТ</p>
+        <div class="status-bar__help-icon"></div>
+      </a>
+      <!-- Альтернативные варианты: -->
+      <!-- <a href="#" class="status-bar status-bar_type_private">
+        <p class="status-bar__text">ПОДТВЕРЖДЕН</p>
+        <div class="status-bar__help-icon"></div>
+      </a>
+      <a href="#" class="status-bar status-bar_type_review">
+        <p class="status-bar__text">НА МОДЕРАЦИИ</p>
+        <div class="status-bar__help-icon"></div>
+      </a> -->
     </div>
 
-    <section class="competencies__main-page">
-      <form class="form form_fix" action="/" method="post" name="account-contacts">
+    <div class="profile-fill-progress">
+      <h2 class="profile-fill-progress__heading">Профиль заполнен на 66%</h2>
+      <div class="profile-fill-progress__progress-bar">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <button class="reload-button" type="button"></button>
+      </div>
+      <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
+        профиль, </a>чтобы тебя выбрали исполнителем</p>
+    </div>
 
-        <fieldset class="form__set">
-          <h1 class="title">Мои компетенции</h1>
-          <p class="form__legend paragraph paragraph_padding">Укажи, какие категории заданий тебе интересны и соответствуют твоим навыкам</p>
+  </div>
 
+  <section class="competencies__main-page">
 
-            <label class="form__field">
+    <form class="form form_fix" action="/" method="post" name="account-contacts">
 
-              <!-- скрытое поле select, возможно, его можно убрать -->
+      <fieldset class="form__set">
+        <h1 class="title">Мои компетенции</h1>
+        <p class="form__legend paragraph paragraph_padding">Укажи, какие категории заданий тебе интересны и
+          соответствуют твоим навыкам</p>
 
-<!--              <select-->
-<!--                class="form__select"-->
-<!--                name="contact-method"-->
-<!--                id="contact-method"-->
-<!--                required-->
-<!--              >-->
-<!--                <option value="email" selected>Дизайн и верстка</option>-->
-<!--                <option value="tel">Телефон</option>-->
-<!--                <option value="telegram">Telegram</option>-->
-<!--                <option value="email+tel">Электронная почта и телефон</option>-->
-<!--                <option value="email+telegram">Электронная почта и Telegram</option>-->
-<!--              </select>-->
+        <div class="competencies__form">
 
-              <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
+          <div class=" competencies__input">
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+            </div>
+            <span class="form__placeholder form__placeholder_disabled">Выбрать</span>
 
-              <input
-                type="text"
-                class="form__input "
-                id="dropdown-button"
-                disabled
-                value=""
-              >
-
-              <!-- кастомный список options для select -->
-
-              <ul class="form__dropdown-list">
-                <li class="form__dropdown-list-item" data-contact="Design+layout">Дизайн и верстка</li>
-                <li class="form__dropdown-list-item" data-contact="Marketing+communications">Маркетинг и коммуникации</li>
-                <li class="form__dropdown-list-item" data-contact="IT">IT</li>
-                <li class="form__dropdown-list-item" data-contact="Finance+fundraising">Финансы и фандрайзинг</li>
-                <li class="form__dropdown-list-item" data-contact="Legal+services">Юридические услуги</li>
-                <li class="form__dropdown-list-item" data-contact="Strategic+consulting">Стратегический консалтинг</li>
-                <li class="form__dropdown-list-item" data-contact="Education+training">Обучение и тренинги</li>
-                <li class="form__dropdown-list-item" data-contact="Management">Менеджемент</li>
-                <li class="form__dropdown-list-item" data-contact="HR">HR</li>
-              </ul>
-
-              <!-- placeholder для кнопки показа кастомного select -->
-
-              <span class="form__placeholder">Выбрать</span>
-
-              <!-- стрелка для кнопки показа кастомного select -->
-
-              <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+            <div class="competencies__chips-block">
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Аудит сайта</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Создание, доработка сайта</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
+              </div>
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap ">Настройка сайта</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
+              </div>
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Аналитика</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
+              </div>
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Администрирование</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
+              </div>
+              <div class="competencies__chips">
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Создание чат-ботов</span>
+                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
+              </div>
+            </div>
+          </div>
+          <ul class="form__dropdown-list form__dropdown-list_fix-size competencies__list">
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Design+layout">
+              <div>
+                <span>Дизайн и верстка</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover"
+                data-contact="Marketing+communications">
+              <div>
+                <span>Маркетинг и коммуникации</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
 
-              <!-- информация об ошибке валидации -->
+                <div class="form__submenu">
+                  <label class="form__field form__field_type_row " for="social">
+                    <input type="checkbox" class="form__checkbox form__input " id="social">
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Социальные сети</span>
+                  </label>
+                  <label class="form__field form__field_type_row" for="text">
+                    <input type="checkbox" class="form__checkbox form__input " id="text" checked>
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Работа с текстами</span>
+                  </label>
+                  <label class="form__field form__field_type_row" for="email">
+                    <input type="checkbox" class="form__checkbox form__input " id="email">
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Email-рассылки</span>
+                  </label>
+                  <label class="form__field form__field_type_row" for="meeting">
+                    <input type="checkbox" class="form__checkbox form__input " id="meeting" checked>
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Организация мероприятий</span>
+                  </label>
+                  <label class="form__field form__field_type_row" for="advertising">
+                    <input type="checkbox" class="form__checkbox form__input " id="advertising">
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Реклама</span>
+                  </label>
+                  <label class="form__field form__field_type_row" for="other">
+                    <input type="checkbox" class="form__checkbox form__input " id="other" checked>
+                    <span class="form__checkbox-item"></span>
+                    <span class="paragraph">Стратегический маркетинг / Другое</span>
+                  </label>
 
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="IT">
+              <div>
+                <span>IT</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Finance+fundraising">
+              <div>
+                <span>Финансы и фандрайзинг</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Finance+fundraising">
+              <div>
+                <span>Финансы и фандрайзинг</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="photo-video">
+              <div>
+                <span>Фото и видео</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Strategic+consulting">
+              <div>
+                <span>Стратегический консалтинг</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Education+training">
+              <div>
+                <span>Обучение и тренинги</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="Management">
+              <div>
+                <span>Менеджемент</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+            <li class="form__dropdown-list-item form__dropdown-list-item_hover" data-contact="HR">
+              <div>
+                <span>HR</span>
+                <div class="form__input-buttons-container">
+                  <button
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    type="button"></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
 
-            </label>
+<!--           мобильная версия списка компетенций                        -->
+
+        </div>
+        <div class="competencies__input-mini  competencies__input-mini_disable">
+          <div class="competencies__input-mini_block">
+            <button class="form__input-button form__input-button_type_reset form__input-button_type_active form__input-button_type_position"></button>
+            <h2 class="title">Выбор компетенции</h2>
+            <ul class="competencies__input-mini-list">
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">HR</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">Обучение и тренинги</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">Юридические услуги</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">IT</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline form__dropdown-list-item_hover">
+                <div>
+                  <span class="competencies__input-mini-list_text">Дизайн и верстка</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow-up form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                  <div class="form__submenu_mini">
+                    <div class="form__submenu_mini-buttons">
 
 
+                      <div class="paragraph__link paragraph__link_without-line paragraph_small">
+                        <button class="form__submenu_mini_button" type="button">Сбросить</button>
+                      </div>
+                      <div class="paragraph__link paragraph__link_without-line paragraph_small">
+                        <button class="form__submenu_mini_button" type="button">Выбрать все</button>
+                      </div>
 
-        </fieldset>
+                    </div>
 
-      </form>
-    </section>
+                    <div class="competencies__chips_mini competencies__chips_mini_active">
+                      <span class="paragraph paragraph_small paragraph_theme_orange">Соцсети, инфографика, презентации</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">Дизайн полиграфии</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">Фирменный стиль</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">Дизайн сайтов</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">Иллюстрации, живопись</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">3D-графика, анимация</span>
+                    </div>
+                    <div class="competencies__chips_mini">
+                      <span class="paragraph paragraph_small ">Интерьерный и ландшафтный дизайн</span>
+                    </div>
 
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">Финансы и фандрайзинг</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">Маркетинг и коммуникации</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="form__dropdown-list-item form__dropdown-list-item_underline">
+                <div>
+                  <span class="competencies__input-mini-list_text">Фото и видео</span>
+                  <div class="form__input-buttons-container">
+                    <button
+                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      type="button"></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="competencies__input-mini_buttons">
+              <div class="form__set form__set_type_submit">
+                <button class="form__button form__button_type_submit" type="button" aria-label="выбрать">выбрать</button>
+              </div>
+              <div class="form__set form__set_type_submit">
+                <button class="form__button form__button_type_previous" type="button" aria-label="сбросить выбор">сбросить выбор</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </fieldset>
+      <fieldset class="form__set form__set_type_submit">
+        <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="сохранить" disabled>сохранить</button>
+      </fieldset>
+
+    </form>
 
   </section>
+
+
+</section>
 <footer class="footer">
   <div class="footer__container">
     <div class="footer__columns">
