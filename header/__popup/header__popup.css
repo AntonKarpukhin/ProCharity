@@ -1,0 +1,13 @@
+.header__popup{
+  position: absolute;
+  right: 8px;
+  top: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 856px) {
+  .header__popup{
+    right: 10px;
+    top: 10px;
+  }
+}
