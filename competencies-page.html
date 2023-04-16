@@ -35,17 +35,17 @@
       <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
       <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
     </div>
-    <div class="header__popup">
-      <div class="notification">
-        <button class="notification__close-button" type="button"></button>
-        <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
-        <div class="notification__body">
-          <h2 class="notification__heading">Профиль на модерации</h2>
-          <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
-          </p>
-        </div>
-      </div>
-    </div>
+<!--    <div class="header__popup">-->
+<!--      <div class="notification">-->
+<!--        <button class="notification__close-button" type="button"></button>-->
+<!--        <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">-->
+<!--        <div class="notification__body">-->
+<!--          <h2 class="notification__heading">Профиль на модерации</h2>-->
+<!--          <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
   </div>
 </header>
@@ -55,7 +55,8 @@
   </div>
 
   <section class="competencies">
-    <section class="sidebar">
+
+    <section class="sidebar sidebar__grid">
       <nav class="sidebar__steps">
         <a class="sidebar__step sidebar__step_blue" href="#">
           <span class="sidebar__number sidebar__number_blue">1</span>
@@ -82,7 +83,8 @@
         <span class="sidebar__mobile-item">Профиль волонтера</span>
       </div>
     </section>
-    <div class="profile-info">
+
+    <div class="profile-info profile-info__grid">
 
       <div class="profile-status">
         <h2 class="profile-status__heading">Статус профиля</h2>
@@ -114,12 +116,242 @@
       </div>
 
     </div>
-    <section class="competencies__main-page">
 
+    <section class="competencies__main-page">
+      <form class="form form_fix" action="/" method="post" name="account-contacts">
+
+        <fieldset class="form__set">
+          <h1 class="title">Мои компетенции</h1>
+          <p class="form__legend paragraph paragraph_padding">Укажи, какие категории заданий тебе интересны и соответствуют твоим навыкам</p>
+
+
+            <label class="form__field">
+
+              <!-- скрытое поле select, возможно, его можно убрать -->
+
+<!--              <select-->
+<!--                class="form__select"-->
+<!--                name="contact-method"-->
+<!--                id="contact-method"-->
+<!--                required-->
+<!--              >-->
+<!--                <option value="email" selected>Дизайн и верстка</option>-->
+<!--                <option value="tel">Телефон</option>-->
+<!--                <option value="telegram">Telegram</option>-->
+<!--                <option value="email+tel">Электронная почта и телефон</option>-->
+<!--                <option value="email+telegram">Электронная почта и Telegram</option>-->
+<!--              </select>-->
+
+              <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
+
+              <input
+                type="text"
+                class="form__input "
+                id="dropdown-button"
+                disabled
+                value=""
+              >
+
+              <!-- кастомный список options для select -->
+
+              <ul class="form__dropdown-list">
+                <li class="form__dropdown-list-item" data-contact="Design+layout">Дизайн и верстка</li>
+                <li class="form__dropdown-list-item" data-contact="Marketing+communications">Маркетинг и коммуникации</li>
+                <li class="form__dropdown-list-item" data-contact="IT">IT</li>
+                <li class="form__dropdown-list-item" data-contact="Finance+fundraising">Финансы и фандрайзинг</li>
+                <li class="form__dropdown-list-item" data-contact="Legal+services">Юридические услуги</li>
+                <li class="form__dropdown-list-item" data-contact="Strategic+consulting">Стратегический консалтинг</li>
+                <li class="form__dropdown-list-item" data-contact="Education+training">Обучение и тренинги</li>
+                <li class="form__dropdown-list-item" data-contact="Management">Менеджемент</li>
+                <li class="form__dropdown-list-item" data-contact="HR">HR</li>
+              </ul>
+
+              <!-- placeholder для кнопки показа кастомного select -->
+
+              <span class="form__placeholder">Выбрать</span>
+
+              <!-- стрелка для кнопки показа кастомного select -->
+
+              <div class="form__input-buttons-container">
+                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+              </div>
+
+              <!-- информация об ошибке валидации -->
+
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+
+            </label>
+
+
+
+        </fieldset>
+
+      </form>
     </section>
 
 
   </section>
-
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__columns">
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">О проекте</a>
+        </h3>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">О платформе</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Команда</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Новости</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Документы</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Партнеры</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Отзывы</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Контакты</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Пожертвовать в фонды</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">Задания</a>
+        </h3>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">Ждут исполнителей</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">В работе</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Выполненные</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">Волонтерам</a>
+        </h3>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">Как помочь</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Задания</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Список НКО</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Бонусы</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Отзывы волонтеров</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Премия ProCharity</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">Фондам</a>
+        </h3>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">Как получить помощь</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Список волонтеров</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Компании-волонтеры</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Отзывы НКО</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Вебинары</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">Бизнесу</a>
+        </h3>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">Как помочь</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Список НКО</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Отзывы НКО</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column">
+        <h3 class="footer__column-heading">
+          <a class="footer__column-heading-link" href="#">FAQ</a>
+        </h3>
+      </nav>
+    </div>
+    <div class="footer__media">
+      <ul class="footer__logo-zone">
+        <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
+          <p class="footer__logo-description">Создатель проекта</p>
+          <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+        </a>
+        <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
+          <p class="footer__logo-description">Генеральный партнёр</p>
+          <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+        </a>
+        <a class="footer__logo-link" href="#" target="_blank">
+          <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+               alt="Логотип Фонда Президентских Грантов">
+        </a>
+      </ul>
+      <ul class="footer__social-media">
+        <li>
+          <a class="footer__social-media-link" href="#" target="_blank">
+            <img class="footer__social-media-icon" src="./images/facebook_icon.svg" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a class="footer__social-media-link" href="#" target="_blank">
+            <img class="footer__social-media-icon" src="./images/instragram_icon.svg" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a class="footer__social-media-link" href="#" target="_blank">
+            <img class="footer__social-media-icon" src="./images/vk_icon.svg" alt="VKontakte">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__copyright-content">
+      <p class="footer__copyright-text">&copy;2017–2019 ProCharity</p>
+      <a class="footer__legal-text">Юридическая информация и защита персональных данных</a>
+      <a class="footer__buro-link" href="#" target="_blank">
+        <img class="footer__buro-img" src="./images/logo_buroburo.svg" alt="Логотип БюроБюро">
+      </a>
+    </div>
+  </div>
+</footer>
+<script src="components/inputs.js"></script>
 </body>
 </html>
