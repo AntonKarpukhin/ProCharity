@@ -3,8 +3,8 @@
   grid-template-columns: minmax(min-content, 416px) minmax(min-content, 1042px);
   grid-template-rows: 168px max-content;
   grid-template-areas:
-  "sidebar profile-setting"
-  "profile-info profile-setting";
+    "sidebar profile-setting"
+    "profile-info profile-setting";
   column-gap: 32px;
   row-gap: 24px;
   padding-bottom: 120px;
@@ -16,9 +16,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, max-content);
     grid-template-areas:
-  "sidebar"
-  "profile-setting"
-  "profile-info";
-  padding-bottom: 80px;
+      "sidebar"
+      "profile-setting"
+      "profile-info";
+    padding: 0 24px 80px;
   }
 }
