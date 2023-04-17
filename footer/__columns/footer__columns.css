@@ -10,12 +10,6 @@
   max-width: 1120px;
 }
 
-@media screen and (max-width: 880px) {
-  .footer__columns {
-    max-width: 855px;
-  }
-}
-
 @media screen and (max-width: 856px) {
   .footer__columns {
     display: none;
