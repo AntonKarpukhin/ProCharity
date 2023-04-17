@@ -2,6 +2,7 @@
   position: absolute;
   right: 8px;
   top: 24px;
+  /* display: none; */
 }
 
 @media screen and (max-width: 856px) {
