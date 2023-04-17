@@ -1,0 +1,8 @@
+@import url(../blocks/motivation-grid/motivation-grid.css);
+@import url(../blocks/motivation/motivation.css);
+@import url(../blocks/motivation-area/motivation-area.css);
+@import url(../blocks/status-area/status-area.css);
+@import url(../blocks/motivation/__first-paragraph/motivation__first-paragraph.css);
+@import url(../blocks/motivation/__form/motivation__form.css);
+@import url(../blocks/motivation/__form-set/motivation__form-set.css);
+@import url(../blocks/motivation/__button/motivation__button.css);
