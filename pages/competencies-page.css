@@ -3,7 +3,7 @@
 @import url(../blocks/bread-crumbs/__paragraph/_link/bread-crumbs__paragraph_link.css);
 
 @import url(../pages/header-page.css);
-@import url(../sidebar-imports.css);
+@import url(../pages/sidebar-page.css);
 @import url(../pages/status-page.css);
 @import url(../pages/footer-page.css);
 @import url(../pages/style.css);
