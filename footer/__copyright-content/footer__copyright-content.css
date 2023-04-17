@@ -4,6 +4,13 @@
   box-sizing: border-box;
   grid-area: copyright;
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 880px) {
+  .footer__copyright-content {
+    max-width: 855px;
+  }
 }
 
 @media screen and (max-width: 856px) {
