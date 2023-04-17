@@ -8,12 +8,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 880px) {
-  .footer__media {
-    max-width: 855px;
-  }
-}
-
 @media screen and (max-width: 856px) {
   .footer__media {
     padding-bottom: 92px;
