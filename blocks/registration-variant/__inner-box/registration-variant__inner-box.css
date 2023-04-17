@@ -1,0 +1,32 @@
+.registration-variant__inner-box {
+  margin: 0;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 0;
+  height: 100%;
+  background-color: #374045;
+  display: flex;
+  cursor: pointer;
+  border: none;
+}
+
+.registration-variant__inner-box:hover {
+  background-color: #ea5a0a;
+}
+
+.registration-variant__inner-box:hover .registration-variant__link {
+  color: #374146;
+}
+
+.registration-variant__inner-box:hover + .registration-variant__image {
+  filter: grayscale(1);
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__inner-box {
+    height: auto;
+    min-height: 288px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
