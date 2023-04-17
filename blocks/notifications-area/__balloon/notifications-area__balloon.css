@@ -1,0 +1,23 @@
+.notifications-area__balloon {
+  top: 32px;
+  right: -316px;
+}
+
+.notifications-area__balloon::before {
+  left: 16px;
+  top: -8px;
+}
+
+@media screen and (max-width: 920px) {
+  .notifications-area__balloon {
+    min-width: 280px;
+    max-width: 312px;
+    right: 0;
+    left: 0;
+  }
+
+  .notifications-area__balloon::before {
+    left: 258px;
+  }
+}
+

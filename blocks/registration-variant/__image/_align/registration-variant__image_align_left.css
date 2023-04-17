@@ -1,0 +1,14 @@
+.registration-variant__image_align_left {
+  left: 0;
+  top: 0;
+  background-image: url(../../../../images/bitmap_volunteer.png);
+  background-position: right;
+  background-position-x: -178px;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__image_align_left {
+    top: -5px;
+    background-position-x: -96px;
+  }
+}
