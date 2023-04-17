@@ -1,0 +1,7 @@
+.form__dropdown-list-item_hover{
+
+}
+.form__dropdown-list-item_hover:hover{
+  opacity: 1;
+  background-color: #F5F6F8;
+}
