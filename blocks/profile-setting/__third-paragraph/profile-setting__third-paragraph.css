@@ -1,0 +1,9 @@
+.profile-setting__third-paragraph {
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 856px) {
+  .profile-setting__third-paragraph {
+    max-width: 100%;
+  }
+}
