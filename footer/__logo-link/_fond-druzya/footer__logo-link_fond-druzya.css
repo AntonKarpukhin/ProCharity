@@ -1,3 +1,9 @@
 .footer__logo-link_fond-druzya {
-  width: 235px;
+  max-width: 235px;
+}
+
+@media screen and (max-width: 880px) {
+  .footer__logo-link_fond-druzya {
+    max-width: 220px;
+  }
 }
