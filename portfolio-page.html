@@ -43,7 +43,7 @@
 </header>
 
 <div class="bread-crumbs">
-  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
   </p>
 </div>
 
@@ -125,14 +125,14 @@
               class="form__input form__avatar"
               id="summary"
             >
-            <div class="portfolio__file-container">
+            <span class="portfolio__file-container">
               <span class="portfolio__text">Выберите файл </span> <span
               class="paragraph">&nbsp;или перетащите его сюда</span>
-            </div>
+            </span>
 
-            <div class="portfolio__file-container-mini">
+            <span class="portfolio__file-container-mini">
               <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
-            </div>
+            </span>
 
             <span class="portfolio__span-text">Jpg, png, pdf объемом&nbsp;не&nbsp;более 20&nbsp;Мб</span>
           </label>
@@ -212,13 +212,13 @@
               class="form__input form__avatar"
               id="diploma"
             >
-            <div class="portfolio__file-container">
+            <span class="portfolio__file-container">
               <span class="portfolio__text">Выберите файл </span> <span
               class="paragraph">&nbsp;или перетащите его сюда</span>
-            </div>
-            <div class="portfolio__file-container-mini">
+            </span>
+            <span class="portfolio__file-container-mini">
               <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
-            </div>
+            </span>
             <span class="portfolio__span-text">Jpg, png, tiff объемом&nbsp;не&nbsp;более 16&nbsp;Мб</span>
           </label>
 
@@ -300,20 +300,23 @@
               >
               <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
             </label>
+            <div class="portfolio__link-block">
+              <label class="form__field">
+                <input
+                  type="url"
+                  class="form__input form__input_right form__input_text"
+                  required
+                  value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
+                >
+                <span class="form__placeholder form__placeholder_disabled">https://</span>
 
-            <label class="form__field">
-              <input
-                type="url"
-                class="form__input form__input_right form__input_text"
-                required
-                value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
-              >
-              <span class="form__placeholder form__placeholder_disabled">https://</span>
-              <div class="form__input-buttons-container form__input-buttons-container_disabled">
+              </label>
+              <span class="form__input-buttons-container form__input-buttons-container_disabled">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
                         type="button"></button>
-              </div>
-            </label>
+              </span>
+            </div>
+
 
             <label class="form__field">
               <input
@@ -325,19 +328,23 @@
               <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
             </label>
 
-            <label class="form__field">
-              <input
-                type="url"
-                class="form__input form__input_right form__input_text"
-                required
-                value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
-              >
-              <span class="form__placeholder form__placeholder_disabled">https://</span>
-              <div class="form__input-buttons-container form__input-buttons-container_disabled">
+            <div class="portfolio__link-block">
+              <label class="form__field">
+                <input
+                  type="url"
+                  class="form__input form__input_right form__input_text"
+                  required
+                  value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
+                >
+                <span class="form__placeholder form__placeholder_disabled">https://</span>
+
+              </label>
+              <span class="form__input-buttons-container form__input-buttons-container_disabled">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
                         type="button"></button>
-              </div>
-            </label>
+              </span>
+            </div>
+
           </div>
 
           <div class="portfolio__add-link-container">

@@ -33,6 +33,7 @@
 @import url(../blocks/portfolio/__files/_disable/portfolio__files_disable.css);
 @import url(../blocks/portfolio/__files/_preview-icon/_mini/portfolio__files_preview-icon_mini.css);
 @import url(../blocks/portfolio/__files/_item/_mini-preview/portfolio__files_item_mini-preview.css);
+@import url(../blocks/portfolio/__link-block/portfolio__link-block.css);
 
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__paragraph/bread-crumbs__paragraph.css);
