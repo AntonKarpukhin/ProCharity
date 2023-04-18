@@ -10,7 +10,7 @@ const checkDataInputState = () => {
       field.querySelector('.form__placeholder').classList.remove('form__placeholder_is-fixed');
       field.querySelector('.form__input-button_type_reset').classList.remove('form__input-button_type_active');
     }
-    
+
     if(input.value !== '' && input.classList.contains('form__input_type_hidden')) {
       input.classList.remove('form__input_type_hidden');
     }
@@ -58,7 +58,7 @@ formFields.forEach((field) => {
     if (evt.target.classList.contains('form__input_type_hidden')) {
       evt.target.classList.remove('form__input_type_hidden');
     }
-    
+
   });
 
   if (helpButton) {

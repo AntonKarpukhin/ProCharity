@@ -8,7 +8,7 @@
     <meta name="author" content="Александр Дудин">
   </head>
 
-  <body class="main-page">
+  <body>
 
     <header class="header">
       <div class="header__container">
@@ -130,21 +130,27 @@
       <form class="form" action="/" method="post" name="account-contacts">
 
         <fieldset class="form__set">
-          <label class="form__field form__field_type_row form__field_type_default-cursor">
-            <input
-            type="file"
-            accept="image/png, image/jpg"
-            class="form__input form__avatar"
-            id="avatar"
-            >
+          <div class="form__field form__field_type_row form__field_type_default-cursor">
+
+            <label>
+              <input
+              type="file"
+              accept="image/png, image/jpg"
+              class="form__input form__avatar"
+              id="avatar"
+              >
+            </label>
+
             <div class="form__avatar-container">
               <span class="form__avatar-text">добавить фотографию</span>
             </div>
+
             <span class="form__avatar-placeholder">Jpg, png объемом&nbsp;не&nbsp;более 5&nbsp;Мб</span>
             <img class="form__avatar-preview" src="./images/test-avatar.png" alt="аватар пользователя">
             <button class="form__avatar-remove-button" type="button" aria-label="удалить аватар"></button>
             <button class="form__upload-new-avatar-button" type="button" aria-label="изменить аватар"></button>
-          </label>
+
+          </div>
         </fieldset>
 
         <fieldset class="form__set">
@@ -152,72 +158,92 @@
 
           <div class="form__fields-container">
 
-            <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="name-input"
-              required
-              value="Константин"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Имя</span>
-              <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
-              </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+            <div class="form__field">
 
-            <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="last-name-input"
-              required
-              value="Константинопольский"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Фамилия</span>
+              <label>
+                <input
+                type="text"
+                class="form__input"
+                id="name-input"
+                required
+                value="Константин"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Имя</span>
+                <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+
+            </div>
+
+            <div class="form__field">
+
+              <label>
+                <input
+                type="text"
+                class="form__input"
+                id="last-name-input"
+                required
+                value="Константинопольский"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Фамилия</span>
+                <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
+              <div class="form__input-buttons-container">
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+              </div>
+
+            </div>
 
           </div>
 
           <div class="form__fields-container">
 
-            <label class="form__field">
-              <input
-              type="date"
-              class="form__input form__input_type_date"
-              id="birth-date-input"
-              required
-              value="1994-04-16"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Дата рождения</span>
+            <div class="form__field">
+
+              <label>
+                <input
+                type="date"
+                class="form__input form__input_type_date"
+                id="birth-date-input"
+                required
+                value="1994-04-16"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Дата рождения</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container form__input-buttons-container_type_date">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
               </div>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
 
-            <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="city-input"
-              required
-              value="Санкт-Петербург"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Город</span>
+            </div>
+
+            <div class="form__field">
+
+              <label>
+                <input
+                type="text"
+                class="form__input"
+                id="city-input"
+                required
+                value="Санкт-Петербург"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Город</span>
+                <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+
+            </div>
 
           </div>
 
@@ -228,63 +254,77 @@
 
           <div class="form__fields-container">
 
-            <label class="form__field">
-              <input
-              type="email"
-              class="form__input"
-              id="email-input"
-              required
-              value="user@mail.ru"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Электронная почта</span>
-              <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
-              </div>
-              <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+            <div class="form__field">
 
-            <label class="form__field">
-              <input
-              type="tel"
-              class="form__input"
-              id="telegram-input"
-              required
-              value="+7(123)456-78-90"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Телефон</span>
+              <label>
+                <input
+                type="email"
+                class="form__input"
+                id="email-input"
+                required
+                value="user@mail.ru"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Электронная почта</span>
+                <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
-                <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
               </div>
-              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
-              <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+
+            </div>
+
+            <div class="form__field">
+
+              <label>
+                <input
+                type="tel"
+                class="form__input"
+                id="tel-input"
+                required
+                value="+7(123)456-78-90"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Телефон</span>
+                <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
+              <div class="form__input-buttons-container">
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+              </div>
+
+            </div>
 
           </div>
 
           <div class="form__fields-container">
 
-            <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="telegram-input"
-              required
-              value="username"
-              >
-              <span class="form__placeholder form__placeholder_is-fixed">Ник в Telegram</span>
+            <div class="form__field">
+
+              <label>
+                <input
+                type="text"
+                class="form__input"
+                id="telegram-input"
+                required
+                value="username"
+                >
+                <span class="form__placeholder form__placeholder_is-fixed">Ник в Telegram</span>
+                <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
                 <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
               </div>
-              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
-              <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
 
-            <label class="form__field">
+              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
+
+            </div>
+
+            <div class="form__field">
 
               <!-- скрытое поле select, возможно, его можно убрать -->
 
@@ -292,6 +332,7 @@
               class="form__select"
               name="contact-method"
               id="contact-method"
+              size="5"
               required
               >
                 <option value="email" selected>Электронная почта</option>
@@ -303,13 +344,15 @@
 
               <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
 
-              <input
-              type="text"
-              class="form__input form__dropdown-button"
-              id="dropdown-button"
-              disabled
-              value="Электронная почта"
-              >
+              <label>
+                <input
+                type="text"
+                class="form__input form__dropdown-button"
+                id="contacts-dropdown-button"
+                disabled
+                value="Электронная почта"
+                >
+              </label>
 
               <!-- кастомный список options для select -->
 
@@ -335,7 +378,7 @@
 
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
 
-            </label>
+            </div>
 
           </div>
 
@@ -369,7 +412,7 @@
 
           <div class="form__fields-container">
 
-            <label class="form__field form__field_type_disabled">
+            <div class="form__field form__field_type_disabled">
 
               <!-- скрытое поле select, возможно, его можно убрать -->
 
@@ -377,6 +420,7 @@
               class="form__select"
               name="company-name"
               id="company-name"
+              size="5"
               required
               disabled
               >
@@ -388,13 +432,15 @@
 
               <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
 
-              <input
-              type="text"
-              class="form__input form__dropdown-button"
-              id="dropdown-button"
-              disabled
-              value=""
-              >
+              <label>
+                <input
+                type="text"
+                class="form__input form__dropdown-button"
+                id="company-dropdown-button"
+                disabled
+                value=""
+                >
+              </label>
 
               <!-- кастомный список options для select -->
 
@@ -420,22 +466,27 @@
 
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
 
-            </label>
+            </div>
 
-            <label class="form__field form__field_type_disabled">
-              <input
-              type="text"
-              class="form__input"
-              id="company-position-input"
-              required
-              >
-              <span class="form__placeholder">Должность</span>
+            <div class="form__field form__field_type_disabled">
+
+              <label>
+                <input
+                type="text"
+                class="form__input"
+                id="company-position-input"
+                required
+                >
+                <span class="form__placeholder">Должность</span>
+                <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+                <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+              </label>
+
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset" type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+
+            </div>
 
           </div>
 
@@ -443,9 +494,9 @@
 
         <fieldset class="form__set">
 
-          <label class="form__field form__field_type_textarea">
+          <div class="form__field form__field_type_textarea">
 
-            <textarea class="form__input form__textarea" rows="2" maxlength="2000" wrap></textarea>
+            <textarea class="form__input form__textarea" rows="2" maxlength="2000"></textarea>
 
             <span class="form__placeholder">Как ты узнал о нас?</span>
             <span class="form__textarea-counter">0/2000</span>
@@ -454,7 +505,7 @@
               <button class="form__input-button form__input-button_type_reset" type="button"></button>
             </div>
 
-          </label>
+          </div>
 
         </fieldset>
 
