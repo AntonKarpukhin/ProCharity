@@ -9,22 +9,23 @@
 <body>
 <header class="header">
   <div class="header__container">
-    <a class="header__mini-menu-list" href="#">
-      <img src="./images/list.svg" alt="меню">
+    <a  class="header__mini-menu-list" href="#">
+      <img  src="./images/list.svg" alt="меню">
     </a>
     <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
     <nav class="header__menu">
       <ul class="header__list">
-        <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">О проекте</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Задания</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Волонтерам</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Для НКО</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Бизнесу</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">FAQ</a></li>
       </ul>
-      <a href="#">
-        <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
+      <a class="header__list-item header__list-item_search" href="#">
+        <img  src="./images/search.svg" alt="иконка поиска">
       </a>
+
     </nav>
     <div class="header__buttons-section">
       <!--     вид кнопок незарегистрированного пользователя -->
@@ -32,23 +33,34 @@
       <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
       <!--              <button class="header__button-login" type="button"></button>-->
       <!--     вид кнопок авторизованного пользователя -->
-      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image"
-                                                                                    src="./images/default-avatar.svg"
-                                                                                    alt="аватар"></button>
-      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image"
-                                                                           src="images/default-avatar-mini.svg"
-                                                                           alt="аватар"></button>
+      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
+      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
+
+      <div class="header__popup">
+        <div class="notification">
+          <button class="notification__close-button" type="button"></button>
+          <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+          <div class="notification__body">
+            <h2 class="notification__heading">Профиль на модерации</h2>
+            <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </div>
+
 </header>
 
 <div class="bread-crumbs">
-  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
   </p>
 </div>
 
 <section class="portfolio">
-  <section class="sidebar sidebar__grid">
+  <section class="sidebar sidebar_grid">
     <nav class="sidebar__steps">
       <a class="sidebar__step sidebar__step_color_blue" href="./conatcts-page.html">
         <span class="sidebar__number sidebar__number_color_blue">1</span>
@@ -75,7 +87,7 @@
       <span class="sidebar__mobile-item">Профиль волонтера</span>
     </div>
   </section>
-  <div class="profile-info profile-info__grid">
+  <div class="profile-info profile-info_grid">
 
     <div class="profile-status">
       <h2 class="profile-status__heading">Статус профиля</h2>
@@ -125,81 +137,81 @@
               class="form__input form__avatar"
               id="summary"
             >
-            <div class="portfolio__file-container">
+            <span class="portfolio__file-container">
               <span class="portfolio__text">Выберите файл </span> <span
               class="paragraph">&nbsp;или перетащите его сюда</span>
-            </div>
+            </span>
 
-            <div class="portfolio__file-container-mini">
+            <span class="portfolio__file-container-mini">
               <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
-            </div>
+            </span>
 
             <span class="portfolio__span-text">Jpg, png, pdf объемом&nbsp;не&nbsp;более 20&nbsp;Мб</span>
           </label>
 
           <div class="portfolio__files portfolio__files_disable">
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview portfolio__files_icon portfolio__files_icon_loader">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview portfolio__preview-icon portfolio__preview-icon_loader">
                 </div>
-                <div class="portfolio__files_item_text-container">
-                  <p class="portfolio__files_item_text">CV.png</p>
-                  <span class="portfolio__files_error-text">
+                <div class="portfolio__files-item-text-container">
+                  <p class="portfolio__files-item-text">CV.png</p>
+                  <span class="portfolio__files-error-text">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class=" portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
 
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview portfolio__files_icon_error">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview portfolio__preview-icon portfolio__preview-icon_error">
                 </div>
-                <div class="portfolio__files_item_text-container">
-                  <p class="portfolio__files_item_text">CV.png</p>
-                  <span class="portfolio__files_error-text portfolio__files_error-text_active">
+                <div class="portfolio__files-item-text-container">
+                  <p class="portfolio__files-item-text">CV.png</p>
+                  <span class="portfolio__files-error-text portfolio__files-error-text_active">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
 
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview">
-                  <img class="portfolio__files_preview-icon" src="./images/preview.svg" alt="иконка файла">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview">
+                  <img class="portfolio__files-preview portfolio__files-preview_icon" src="./images/preview.svg" alt="иконка файла">
                 </div>
-                <div class="portfolio__files_item_text-container">
+                <div class="portfolio__files-item-text-container">
                   <div>
-                    <p class="portfolio__files_item_text">
+                    <p class="portfolio__files-item-text">
                       veryreallytoomuchlongveryreallytoomuchlongveryreallytoomuchlo...ngprojectname.pdf</p>
                   </div>
-                  <span class="portfolio__files_error-text ">
+                  <span class="portfolio__files-error-text ">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
           </div>
 
 
           <div class="portfolio__files portfolio__files_item_mini-preview">
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <img class="portfolio__files_preview-icon portfolio__files_preview-icon_mini"
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <img class="portfolio__files-preview portfolio__files-preview_icon portfolio__files-preview_icon-mini"
                      src="./images/preview-mini.svg" alt="иконка файла">
-                <div class="portfolio__files_item_text-container">
-                  <p class="portfolio__files_item_text">CV.png</p>
-                  <span class="portfolio__files_error-text">
+                <div class="portfolio__files-item-text-container">
+                  <p class="portfolio__files-item-text">CV.png</p>
+                  <span class="portfolio__files-error-text">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
 
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
           </div>
         </fieldset>
@@ -212,78 +224,78 @@
               class="form__input form__avatar"
               id="diploma"
             >
-            <div class="portfolio__file-container">
+            <span class="portfolio__file-container">
               <span class="portfolio__text">Выберите файл </span> <span
               class="paragraph">&nbsp;или перетащите его сюда</span>
-            </div>
-            <div class="portfolio__file-container-mini">
+            </span>
+            <span class="portfolio__file-container-mini">
               <span class="portfolio__text  portfolio__text_mini">Выберите файл </span>
-            </div>
+            </span>
             <span class="portfolio__span-text">Jpg, png, tiff объемом&nbsp;не&nbsp;более 16&nbsp;Мб</span>
           </label>
 
           <div class="portfolio__files portfolio__files_item_mini-preview">
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview portfolio__files_icon portfolio__files_icon_loader">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview portfolio__preview-icon portfolio__preview-icon_loader">
                 </div>
-                <div class="portfolio__files_item_text-container">
-                  <p class="portfolio__files_item_text">diploma.png</p>
-                  <span class="portfolio__files_error-text">
+                <div class="portfolio__files-item-text-container">
+                  <p class="portfolio__files-item-text">diploma.png</p>
+                  <span class="portfolio__files-error-text">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
 
-            <div class="portfolio__files_item ">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview portfolio__files_icon_error">
+            <div class="portfolio__files-item ">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview portfolio__preview-icon portfolio__preview-icon_error">
                 </div>
-                <div class="portfolio__files_item_text-container">
-                  <p class="portfolio__files_item_text">diploma.png</p>
-                  <span class="portfolio__files_error-text portfolio__files_error-text_active">
+                <div class="portfolio__files-item-text-container">
+                  <p class="portfolio__files-item-text">diploma.png</p>
+                  <span class="portfolio__files-error-text portfolio__files-error-text_active">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
 
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview">
-                  <img class="portfolio__files_preview-icon" src="./images/diploma-imange.svg" alt="иконка файла">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview">
+                  <img class="portfolio__files-preview portfolio__files-preview_icon" src="./images/diploma-imange.svg" alt="иконка файла">
                 </div>
-                <div class="portfolio__files_item_text-container">
+                <div class="portfolio__files-item-text-container">
                   <div>
-                    <p class="portfolio__files_item_text">Диплом о высшем профессиональном образовании Константина
+                    <p class="portfolio__files-item-text">Диплом о высшем профессиональном образовании Константина
                       Константинова.pdf</p>
                   </div>
-                  <span class="portfolio__files_error-text ">
+                  <span class="portfolio__files-error-text ">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
 
-            <div class="portfolio__files_item">
-              <div class="portfolio__files_item_container">
-                <div class="portfolio__files_preview">
-                  <img class="portfolio__files_preview-icon" src="./images/sertificat-image.svg" alt="иконка файла">
+            <div class="portfolio__files-item">
+              <div class="portfolio__files-item-container">
+                <div class="portfolio__files-preview">
+                  <img class="portfolio__files-preview portfolio__files-preview_icon" src="./images/sertificat-image.svg" alt="иконка файла">
                 </div>
-                <div class="portfolio__files_item_text-container">
+                <div class="portfolio__files-item-text-container">
                   <div>
-                    <p class="portfolio__files_item_text">image_06.jpg</p>
+                    <p class="portfolio__files-item-text">image_06.jpg</p>
                   </div>
-                  <span class="portfolio__files_error-text ">
+                  <span class="portfolio__files-error-text ">
                     Размер файла не должен превышать 20 Мб
                   </span>
                 </div>
               </div>
-              <button class="portfolio__files_icon_trash" type="button"></button>
+              <button class="portfolio__preview-icon portfolio__preview-icon_trash" type="button"></button>
             </div>
           </div>
         </fieldset>
@@ -301,6 +313,7 @@
               <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
             </label>
 
+            <div class="portfolio__input-delete-button-position">
             <label class="form__field">
               <input
                 type="url"
@@ -309,11 +322,13 @@
                 value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
               >
               <span class="form__placeholder form__placeholder_disabled">https://</span>
+
+            </label>
               <div class="form__input-buttons-container form__input-buttons-container_disabled">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
                         type="button"></button>
               </div>
-            </label>
+            </div>
 
             <label class="form__field">
               <input
@@ -325,19 +340,23 @@
               <span class="form__placeholder form__placeholder_disabled">Текст ссылки</span>
             </label>
 
-            <label class="form__field">
-              <input
-                type="url"
-                class="form__input form__input_right form__input_text"
-                required
-                value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
-              >
-              <span class="form__placeholder form__placeholder_disabled">https://</span>
+            <div class="portfolio__input-delete-button-position">
+              <label class="form__field">
+                <input
+                  type="url"
+                  class="form__input form__input_right form__input_text"
+                  required
+                  value="https://docs.google.com/document/d/WJrzmAzIaSTT0XnZMdI27AqqVAlm80/edit"
+                >
+                <span class="form__placeholder form__placeholder_disabled">https://</span>
+
+              </label>
               <div class="form__input-buttons-container form__input-buttons-container_disabled">
                 <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
                         type="button"></button>
               </div>
-            </label>
+            </div>
+
           </div>
 
           <div class="portfolio__add-link-container">
@@ -526,5 +545,4 @@
 </footer>
 </body>
 </html>
-
 
