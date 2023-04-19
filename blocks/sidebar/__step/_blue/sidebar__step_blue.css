@@ -1,7 +1,0 @@
-@media screen and (max-width: 856px) {
-
-  /*превращаем навигацию в слайдер с голубыми шагами регистрации*/
-  .sidebar__step_blue {
-    background-color: #72D0DC;
-  }
-}

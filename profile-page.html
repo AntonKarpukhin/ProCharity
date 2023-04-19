@@ -57,16 +57,16 @@
   <div class="profile-page-grid">
     <section class="sidebar">
       <nav class="sidebar__steps">
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">1</span>
+        <a class="sidebar__step sidebar__step_color_blue" href="./notifications-page.html">
+          <span class="sidebar__number sidebar__number_color_blue">1</span>
           <p class="sidebar__item">Уведомления</p>
         </a>
-        <a class="sidebar__step sidebar__step_active" href="#">
-          <span class="sidebar__number sidebar__number_blue sidebar__number_active">2</span>
+        <a class="sidebar__step sidebar__step_active" href="./profile-page.html">
+          <span class="sidebar__number sidebar__number_color_blue sidebar__number_active">2</span>
           <p class="sidebar__item sidebar__item_active">Профиль</p>
         </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
-          <span class="sidebar__number sidebar__number_blue">3</span>
+        <a class="sidebar__step sidebar__step_color_blue" href="./password-change-page.html">
+          <span class="sidebar__number sidebar__number_color_blue">3</span>
           <p class="sidebar__item">Смена пароля</p>
         </a>
       </nav>
@@ -86,7 +86,7 @@
 
     <section class="profile-setting">
       <h1 class="title">Профиль</h1>
-      <p class="paragraph profile-setting__first-paragraph">Приватный профиль будет скрыт для неавторизованных пользователей в&nbsp;списке волонтеров и&nbsp;в&nbsp;поиске по&nbsp;сайту</p>
+      <p class="paragraph profile-setting__private-profile-paragraph">Приватный профиль будет скрыт для неавторизованных пользователей в&nbsp;списке волонтеров и&nbsp;в&nbsp;поиске по&nbsp;сайту</p>
         <fieldset class="form__set profile-setting__checkbox">
           <label class="form__field form__field_type_row">
             <input
@@ -98,7 +98,7 @@
             <span class="paragraph">Мой профиль виден только пользователям ProCharity</span>
           </label>
         </fieldset>
-      <p class="paragraph profile-setting__third-paragraph">Если ты&nbsp;не&nbsp;хочешь больше быть волонтером ProCharity, можешь заблокировать свой профиль. Это значит:</p>
+      <p class="paragraph profile-setting__block-profile-paragraph">Если ты&nbsp;не&nbsp;хочешь больше быть волонтером ProCharity, можешь заблокировать свой профиль. Это значит:</p>
       <ul class="profile-setting__list">
         <li class="paragraph profile-setting__list-item">ты не сможешь откликаться на задания;</li>
         <li class="paragraph profile-setting__list-item">твой профиль будет скрыт для всех пользователей</li>
@@ -242,18 +242,24 @@
       </div>
       <div class="footer__media">
         <ul class="footer__logo-zone">
-          <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
-            <p class="footer__logo-description">Создатель проекта</p>
-            <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
-          </a>
-          <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
-            <p class="footer__logo-description">Генеральный партнёр</p>
-            <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
-          </a>
-          <a class="footer__logo-link" href="#" target="_blank">
-            <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
-              alt="Логотип Фонда Президентских Грантов">
-          </a>
+          <li>
+            <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
+              <p class="footer__logo-description">Создатель проекта</p>
+              <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
+              <p class="footer__logo-description">Генеральный партнёр</p>
+              <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link" href="#" target="_blank">
+              <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+                alt="Логотип Фонда Президентских Грантов">
+            </a>
+          </li>
         </ul>
         <ul class="footer__social-media">
           <li>

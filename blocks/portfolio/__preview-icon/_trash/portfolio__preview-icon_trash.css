@@ -1,0 +1,12 @@
+.portfolio__preview-icon_trash{
+  background-image: url("../../../../images/trash.svg");
+  min-width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+  padding: 0;
+}

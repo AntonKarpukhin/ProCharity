@@ -16,3 +16,4 @@
 * Реализация интерактивных элементов.
 
 ### [Ссылка на макет](https://www.figma.com/file/8FKHIxAgoDSkHRRMWeCxvm/Тестовая-версия-для-дизайнеров?node-id=241-8154&t=pH9t3jUCVsPPbPBa-0)
+### [Ссылка на бриф](https://www.notion.so/Procharity-21-f24c880905844ce883efd18a0f39472d)

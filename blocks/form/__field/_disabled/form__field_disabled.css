@@ -1,0 +1,4 @@
+.form__field_disabled {
+  opacity: .6;
+  pointer-events: none;
+}

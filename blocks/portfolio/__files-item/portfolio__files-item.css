@@ -1,0 +1,14 @@
+.portfolio__files-item{
+  padding: 12px;
+  border-bottom: 1px solid #C7D0DA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.portfolio__files-item:last-child{
+
+  border-bottom: none;
+}
+
