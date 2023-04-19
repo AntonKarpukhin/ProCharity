@@ -35,4 +35,3 @@ motivationFields.forEach((textarea) => {
 resetButtons.forEach((button, index) => {
   button.addEventListener('click', () => reset(index));
 })
-
