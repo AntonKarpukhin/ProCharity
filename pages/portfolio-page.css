@@ -56,8 +56,8 @@
 @import url(../blocks/form/__set/_link-container/form__set_link-container.css);
 @import url(../blocks/form/_fix/form_fix.css);
 
-@import url(../blocks/sidebar/__grid/sidebar__grid.css);
+@import url(../blocks/sidebar/_grid/sidebar_grid.css);
 
-@import url(../blocks/profile-info/__grid/profile-info__grid.css);
+@import url(../blocks/profile-info/_grid/profile-info_grid.css);
 
 @import url(../blocks/paragraph/_padding/paragraph_padding.css);
