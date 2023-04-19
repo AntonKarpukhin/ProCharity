@@ -40,7 +40,7 @@
 
   <section>
     <div class="bread-crumbs">
-      <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp
+      <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp;
         Настройки</p>
     </div>
     <div class="notifications-area">
@@ -79,17 +79,19 @@
         <ul class="notifications-area__list">
           <li>
             <fieldset class="form__set">
-              <label class="form__field form__field_type_row">
-                <input type="checkbox" class="form__checkbox form__input " id="change-tasks-notifications" required
-                  checked>
-                <span class="form__checkbox-item"></span>
-                <span class="paragraph">изменения по моим заданиям</span>
+              <div class="form__field form__field_type_row">
+                <label class="form__label">
+                  <input type="checkbox" class="form__checkbox form__input" id="change-tasks-notifications" required
+                    checked>
+                  <span class="form__checkbox-item"></span>
+                  <span class="paragraph">изменения по моим заданиям</span>
+                </label>
                 <button
                   class="form__input-button form__input-button_type_help form__input-button_type_active notifications-area__help"
                   type="button"></button>
                 <div class="form__balloon notifications-area__balloon form__balloon_active">Мы&nbsp;будем присылать
                   на&nbsp;email все&nbsp;важные уведомления по&nbsp;твоим заданиям</div>
-              </label>
+              </div>
             </fieldset>
           </li>
           <li>
@@ -128,170 +130,176 @@
             в Telegram. При этом рекомендуем отключить уведомления на email из пункта выше.</p>
           <button class="notifications-area__telegram-button"></button>
         </div>
-        <button class="form__button form__button_type_submit popup__submit-button notifications-area__button" type="button"
-        aria-label="Сохранить">Сохранить</button>
+        <button class="form__button form__button_type_submit popup__submit-button notifications-area__button"
+          type="button" aria-label="Сохранить">Сохранить</button>
       </div>
     </div>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__columns">
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">О проекте</a>
-            </h3>
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">О платформе</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Команда</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Новости</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Документы</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Партнеры</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Отзывы</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Контакты</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Пожертвовать в фонды</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">Задания</a>
-            </h3>
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">Ждут исполнителей</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">В работе</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Выполненные</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">Волонтерам</a>
-            </h3>
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">Как помочь</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Задания</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Список НКО</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Бонусы</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Отзывы волонтеров</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Премия ProCharity</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">Фондам</a>
-            </h3>
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">Как получить помощь</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Список волонтеров</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Компании-волонтеры</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Отзывы НКО</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Вебинары</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">Бизнесу</a>
-            </h3>
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">Как помочь</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Список НКО</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Отзывы НКО</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__column">
-            <h3 class="footer__column-heading">
-              <a class="footer__column-heading-link" href="#">FAQ</a>
-            </h3>
-          </nav>
-        </div>
-        <div class="footer__media">
-          <ul class="footer__logo-zone">
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__columns">
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">О проекте</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">О платформе</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Команда</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Новости</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Документы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Партнеры</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Контакты</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Пожертвовать в фонды</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Задания</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Ждут исполнителей</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">В работе</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Выполненные</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Волонтерам</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как помочь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Задания</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Бонусы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы волонтеров</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Премия ProCharity</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Фондам</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как получить помощь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список волонтеров</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Компании-волонтеры</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Вебинары</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Бизнесу</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как помочь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы НКО</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">FAQ</a>
+          </h3>
+        </nav>
+      </div>
+      <div class="footer__media">
+        <ul class="footer__logo-zone">
+          <li>
             <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
               <p class="footer__logo-description">Создатель проекта</p>
               <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
             </a>
+          </li>
+          <li>
             <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
               <p class="footer__logo-description">Генеральный партнёр</p>
               <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
             </a>
+          </li>
+          <li>
             <a class="footer__logo-link" href="#" target="_blank">
               <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
                 alt="Логотип Фонда Президентских Грантов">
             </a>
-          </ul>
-          <ul class="footer__social-media">
-            <li>
-              <a class="footer__social-media-link" href="#" target="_blank">
-                <img class="footer__social-media-icon" src="./images/facebook_icon.svg" alt="Facebook">
-              </a>
-            </li>
-            <li>
-              <a class="footer__social-media-link" href="#" target="_blank">
-                <img class="footer__social-media-icon" src="./images/instragram_icon.svg" alt="Instagram">
-              </a>
-            </li>
-            <li>
-              <a class="footer__social-media-link" href="#" target="_blank">
-                <img class="footer__social-media-icon" src="./images/vk_icon.svg" alt="VKontakte">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__copyright-content">
-          <p class="footer__copyright-text">&copy;2017–2019 ProCharity</p>
-          <a class="footer__legal-text">Юридическая информация и защита персональных данных</a>
-          <a class="footer__buro-link" href="#" target="_blank">
-            <img class="footer__buro-img" src="./images/logo_buroburo.svg" alt="Логотип БюроБюро">
-          </a>
-        </div>
+          </li>
+        </ul>
+        <ul class="footer__social-media">
+          <li>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/facebook_icon.svg" alt="Facebook">
+            </a>
+          </li>
+          <li>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/instragram_icon.svg" alt="Instagram">
+            </a>
+          </li>
+          <li>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/vk_icon.svg" alt="VKontakte">
+            </a>
+          </li>
+        </ul>
       </div>
-    </footer>
+      <div class="footer__copyright-content">
+        <p class="footer__copyright-text">&copy;2017–2019 ProCharity</p>
+        <a class="footer__legal-text">Юридическая информация и защита персональных данных</a>
+        <a class="footer__buro-link" href="#" target="_blank">
+          <img class="footer__buro-img" src="./images/logo_buroburo.svg" alt="Логотип БюроБюро">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
