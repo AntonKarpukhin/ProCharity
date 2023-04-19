@@ -3,10 +3,6 @@
 
 @import url('../blocks/paragraph/paragraph.css');
 @import url('../blocks/paragraph/__link/paragraph__link.css');
-@import url('../blocks/paragraph/__link/_theme/paragraph__link_theme_dark.css');
-@import url('../blocks/paragraph/_text-align/paragraph_text-align_right.css');
-@import url('../blocks/paragraph/_theme/parapraph_theme_dark.css');
-@import url('../blocks/paragraph/_small/paragraph_small.css');
 
 @import url('../blocks/title/title.css');
 
@@ -23,25 +19,25 @@
 @import url('../blocks/form/__field/_type/form__field_type_row.css');
 @import url('../blocks/form/__field/_type/form__field_type_default-cursor.css');
 @import url('../blocks/form/__field/_type/form__field_type_radio.css');
-@import url('../blocks/form/__field/_type/form__field_type_disabled.css');
+@import url('../blocks/form/__field/_disabled/form__field_disabled.css');
 @import url('../blocks/form/__field/_type/form__field_type_textarea.css');
 @import url('../blocks/form/__input/form__input.css');
 @import url('../blocks/form/__input/_type/form__input_type_date.css');
-@import url('../blocks/form/__input/_type/form__input_type_hidden.css');
-@import url('../blocks/form/__input/_error/form__input_error.css');
+@import url('../blocks/form/__input/_hidden/form__input_hidden.css');
+@import url('../blocks/form/__input/_type/form__input_type_error.css');
 @import url('../blocks/form/__input-error/form__input-error.css');
 @import url('../blocks/form/__input-error/_active/form__input-error_active.css');
 @import url('../blocks/form/__input-buttons-container/form__input-buttons-container.css');
 @import url('../blocks/form/__input-buttons-container/_type/form__input-buttons-container_type_date.css');
 @import url('../blocks/form/__input-button/form__input-button.css');
-@import url('../blocks/form/__input-button/_type/form__input-button_type_active.css');
+@import url('../blocks/form/__input-button/_active/form__input-button_active.css');
 @import url('../blocks/form/__input-button/_type/form__input-button_type_help.css');
 @import url('../blocks/form/__input-button/_type/form__input-button_type_reset.css');
 @import url('../blocks/form/__input-button/_type/form__input-button_type_show-password.css');
 @import url('../blocks/form/__input-button/_type/form__input-button_type_hide-password.css');
 @import url('../blocks/form/__input-button/_type/form__input-button_type_arrow.css');
 @import url('../blocks/form/__placeholder/form__placeholder.css');
-@import url('../blocks/form/__placeholder/_is-fixed/form__placeholder_is-fixed.css');
+@import url('../blocks/form/__placeholder/type/form__placeholder_type_is-fixed.css');
 @import url('../blocks/form/__checkbox/form__checkbox.css');
 @import url('../blocks/form/__checkbox-item/form__checkbox-item.css');
 @import url('../blocks/form/__button/form__button.css');
