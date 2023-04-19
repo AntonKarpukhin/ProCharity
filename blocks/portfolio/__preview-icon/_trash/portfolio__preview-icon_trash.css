@@ -1,5 +1,5 @@
-.portfolio__files_icon_trash{
-  background-image: url("../../../../../images/trash.svg");
+.portfolio__preview-icon_trash{
+  background-image: url("../../../../images/trash.svg");
   min-width: 24px;
   height: 24px;
   background-color: transparent;
