@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts page</title>
-    <link rel="stylesheet" href="./pages/contacts-page.css">
-    <meta name="author" content="Александр Дудин">
-  </head>
 
-  <body class="main-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts page</title>
+  <link rel="stylesheet" href="./pages/contacts-page.css">
+  <meta name="author" content="Александр Дудин">
+</head>
 
-    <header class="header">
-      <div class="header__container">
-      <a  class="header__mini-menu-list" href="#">
-          <img  src="./images/list.svg" alt="меню">
+<body class="main-page">
+
+  <header class="header">
+    <div class="header__container">
+      <a class="header__mini-menu-list" href="#">
+        <img src="./images/list.svg" alt="меню">
       </a>
       <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
-        <nav class="header__menu">
-          <ul class="header__list">
-              <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
-              <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
-              <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
-              <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
-              <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
-              <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
-          </ul>
-            <a href="#">
-                <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
-            </a>
-        </nav>
-        <div class="header__buttons-section">
-              <!--     вид кнопок незарегистрированного пользователя -->
-<!--              <button class="header__mini-button-registration" type="button"></button>-->
-<!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
-<!--              <button class="header__button-login" type="button"></button>-->
-            <!--     вид кнопок авторизованного пользователя -->
-                  <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
-                  <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
-        </div>
-        <div class="header__popup">
-          <div class="notification">
-            <button class="notification__close-button" type="button"></button>
-            <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
-            <div class="notification__body">
-              <h2 class="notification__heading">Профиль на модерации</h2>
-              <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
-              </p>
-            </div>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
+          <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
+          <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
+          <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
+          <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
+          <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
+        </ul>
+        <a href="#">
+          <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
+        </a>
+      </nav>
+      <div class="header__buttons-section">
+        <!--     вид кнопок незарегистрированного пользователя -->
+        <!--              <button class="header__mini-button-registration" type="button"></button>-->
+        <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
+        <!--              <button class="header__button-login" type="button"></button>-->
+        <!--     вид кнопок авторизованного пользователя -->
+        <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image"
+            src="./images/default-avatar.svg" alt="аватар"></button>
+        <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image"
+            src="images/default-avatar-mini.svg" alt="аватар"></button>
+      </div>
+      <div class="header__popup">
+        <div class="notification">
+          <button class="notification__close-button" type="button"></button>
+          <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+          <div class="notification__body">
+            <h2 class="notification__heading">Профиль на модерации</h2>
+            <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на
+              email.
+            </p>
           </div>
         </div>
-
       </div>
+
+    </div>
   </header>
 
   <div class="bread-crumbs">
-    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link paragraph__link" ркуа="#">Личный кабинет</a>
+    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link paragraph__link" ркуа="#">Личный
+        кабинет</a>
       &nbsp/&nbsp Мои данные
     </p>
   </div>
@@ -63,23 +68,23 @@
 
     <section class="sidebar">
       <nav class="sidebar__steps">
-        <a class="sidebar__step sidebar__registration-mobile" href="#">
+        <a class="sidebar__step sidebar__registration-mobile" href="./conatcts-page.html">
           <span class="sidebar__number sidebar__number_active">1</span>
           <span class="sidebar__item sidebar__item_active">Личные данные</span>
         </a>
-        <a class="sidebar__step" href="#">
+        <a class="sidebar__step" href="./competencies-page.html">
           <span class="sidebar__number">2</span>
           <span class="sidebar__item">Компетенции</span>
         </a>
-        <a class="sidebar__step" href="#">
+        <a class="sidebar__step" href="./motivation-page.html">
           <span class="sidebar__number">3</span>
           <span class="sidebar__item">Мотивация</span>
         </a>
-        <a class="sidebar__step" href="#">
+        <a class="sidebar__step" href="./portfolio-page.html">
           <span class="sidebar__number">4</span>
           <span class="sidebar__item">Портфолио</span>
         </a>
-        <a class="sidebar__step" href="#">
+        <a class="sidebar__step" href="./social-media-page.html">
           <span class="sidebar__number">5</span>
           <span class="sidebar__item">Социальные сети</span>
         </a>
@@ -117,7 +122,8 @@
           </div>
           <button class="reload-button" type="button"></button>
         </div>
-        <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как заполнить
+        <p class="profile-fill-progress__about">Узнай, <a href="#" class="profile-fill-progress__about-link">как
+            заполнить
             профиль, </a>чтобы тебя выбрали исполнителем</p>
       </div>
 
@@ -131,12 +137,7 @@
 
         <fieldset class="form__set">
           <label class="form__field form__field_type_row form__field_type_default-cursor">
-            <input
-            type="file"
-            accept="image/png, image/jpg"
-            class="form__input form__avatar"
-            id="avatar"
-            >
+            <input type="file" accept="image/png, image/jpg" class="form__input form__avatar" id="avatar">
             <div class="form__avatar-container">
               <span class="form__avatar-text">добавить фотографию</span>
             </div>
@@ -153,34 +154,26 @@
           <div class="form__fields-container">
 
             <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="name-input"
-              required
-              value="Константин"
-              >
+              <input type="text" class="form__input" id="name-input" required value="Константин">
               <span class="form__placeholder form__placeholder_is-fixed">Имя</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+                и&nbsp;специальные символы</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
             <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="last-name-input"
-              required
-              value="Константинопольский"
-              >
+              <input type="text" class="form__input" id="last-name-input" required value="Константинопольский">
               <span class="form__placeholder form__placeholder_is-fixed">Фамилия</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+                и&nbsp;специальные символы</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
@@ -189,33 +182,25 @@
           <div class="form__fields-container">
 
             <label class="form__field">
-              <input
-              type="date"
-              class="form__input form__input_type_date"
-              id="birth-date-input"
-              required
-              value="1994-04-16"
-              >
+              <input type="date" class="form__input form__input_type_date" id="birth-date-input" required
+                value="1994-04-16">
               <span class="form__placeholder form__placeholder_is-fixed">Дата рождения</span>
               <div class="form__input-buttons-container form__input-buttons-container_type_date">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
               </div>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
             <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="city-input"
-              required
-              value="Санкт-Петербург"
-              >
+              <input type="text" class="form__input" id="city-input" required value="Санкт-Петербург">
               <span class="form__placeholder form__placeholder_is-fixed">Город</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+                и&nbsp;специальные символы</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
@@ -224,40 +209,33 @@
         </fieldset>
 
         <fieldset class="form__set">
-          <legend class="form__legend paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</legend>
+          <legend class="form__legend paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания
+          </legend>
 
           <div class="form__fields-container">
 
             <label class="form__field">
-              <input
-              type="email"
-              class="form__input"
-              id="email-input"
-              required
-              value="user@mail.ru"
-              >
+              <input type="email" class="form__input" id="email-input" required value="user@mail.ru">
               <span class="form__placeholder form__placeholder_is-fixed">Электронная почта</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
               </div>
               <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
             <label class="form__field">
-              <input
-              type="tel"
-              class="form__input"
-              id="telegram-input"
-              required
-              value="+7(123)456-78-90"
-              >
+              <input type="tel" class="form__input" id="telegram-input" required value="+7(123)456-78-90">
               <span class="form__placeholder form__placeholder_is-fixed">Телефон</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
-                <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
+                <button class="form__input-button form__input-button_type_help form__input-button_type_active"
+                  type="button"></button>
               </div>
-              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
+              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram,
+                укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
               <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
@@ -267,19 +245,16 @@
           <div class="form__fields-container">
 
             <label class="form__field">
-              <input
-              type="text"
-              class="form__input"
-              id="telegram-input"
-              required
-              value="username"
-              >
+              <input type="text" class="form__input" id="telegram-input" required value="username">
               <span class="form__placeholder form__placeholder_is-fixed">Ник в Telegram</span>
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_reset form__input-button_type_active" type="button"></button>
-                <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_reset form__input-button_type_active"
+                  type="button"></button>
+                <button class="form__input-button form__input-button_type_help form__input-button_type_active"
+                  type="button"></button>
               </div>
-              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
+              <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram,
+                укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
               <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
@@ -288,12 +263,7 @@
 
               <!-- скрытое поле select, возможно, его можно убрать -->
 
-              <select
-              class="form__select"
-              name="contact-method"
-              id="contact-method"
-              required
-              >
+              <select class="form__select" name="contact-method" id="contact-method" required>
                 <option value="email" selected>Электронная почта</option>
                 <option value="tel">Телефон</option>
                 <option value="telegram">Telegram</option>
@@ -303,18 +273,14 @@
 
               <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
 
-              <input
-              type="text"
-              class="form__input form__dropdown-button"
-              id="dropdown-button"
-              disabled
-              value="Электронная почта"
-              >
+              <input type="text" class="form__input form__dropdown-button" id="dropdown-button" disabled
+                value="Электронная почта">
 
               <!-- кастомный список options для select -->
 
               <ul class="form__dropdown-list">
-                <li class="form__dropdown-list-item form__dropdown-list-item_active" data-contact="email">Электронная почта</li>
+                <li class="form__dropdown-list-item form__dropdown-list-item_active" data-contact="email">Электронная
+                  почта</li>
                 <li class="form__dropdown-list-item" data-contact="tel">Телефон</li>
                 <li class="form__dropdown-list-item" data-contact="telegram">Telegram</li>
                 <li class="form__dropdown-list-item" data-contact="email+tel">Электронная почта и телефон</li>
@@ -328,7 +294,8 @@
               <!-- стрелка для кнопки показа кастомного select -->
 
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                  type="button"></button>
               </div>
 
               <!-- информация об ошибке валидации -->
@@ -345,22 +312,10 @@
 
           <div class="form__fields-container form__fields-container_type_radio">
 
-            <input
-              type="radio"
-              class="form__radio"
-              id="privatePersone"
-              name="company"
-              value="privatePersone"
-            >
+            <input type="radio" class="form__radio" id="privatePersone" name="company" value="privatePersone">
             <label class="form__field form__field_type_radio" for="privatePersone">я частное лицо</label>
 
-            <input
-              type="radio"
-              class="form__radio"
-              id="company"
-              name="company"
-              value="company"
-            >
+            <input type="radio" class="form__radio" id="company" name="company" value="company">
             <label class="form__field form__field_type_radio" for="company">я представляю компанию</label>
 
             <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
@@ -373,13 +328,7 @@
 
               <!-- скрытое поле select, возможно, его можно убрать -->
 
-              <select
-              class="form__select"
-              name="company-name"
-              id="company-name"
-              required
-              disabled
-              >
+              <select class="form__select" name="company-name" id="company-name" required disabled>
                 <option value="company1" selected>Компания 1</option>
                 <option value="company2">Компания 2</option>
                 <option value="company3">Компания 3</option>
@@ -388,13 +337,7 @@
 
               <!-- кнопка показа кастомного select, должна быть в состоянии disabled -->
 
-              <input
-              type="text"
-              class="form__input form__dropdown-button"
-              id="dropdown-button"
-              disabled
-              value=""
-              >
+              <input type="text" class="form__input form__dropdown-button" id="dropdown-button" disabled value="">
 
               <!-- кастомный список options для select -->
 
@@ -413,7 +356,8 @@
               <!-- стрелка для кнопки показа кастомного select -->
 
               <div class="form__input-buttons-container">
-                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active" type="button"></button>
+                <button class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                  type="button"></button>
               </div>
 
               <!-- информация об ошибке валидации -->
@@ -423,17 +367,13 @@
             </label>
 
             <label class="form__field form__field_type_disabled">
-              <input
-              type="text"
-              class="form__input"
-              id="company-position-input"
-              required
-              >
+              <input type="text" class="form__input" id="company-position-input" required>
               <span class="form__placeholder">Должность</span>
               <div class="form__input-buttons-container">
                 <button class="form__input-button form__input-button_type_reset" type="button"></button>
               </div>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+                и&nbsp;специальные символы</span>
               <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
             </label>
 
@@ -459,7 +399,8 @@
         </fieldset>
 
         <fieldset class="form__set form__set_type_submit">
-          <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="сохранить" disabled>сохранить</button>
+          <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="сохранить"
+            disabled>сохранить</button>
         </fieldset>
 
       </form>
@@ -589,18 +530,24 @@
       </div>
       <div class="footer__media">
         <ul class="footer__logo-zone">
-          <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
-            <p class="footer__logo-description">Создатель проекта</p>
-            <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
-          </a>
-          <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
-            <p class="footer__logo-description">Генеральный партнёр</p>
-            <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
-          </a>
-          <a class="footer__logo-link" href="#" target="_blank">
-            <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
-              alt="Логотип Фонда Президентских Грантов">
-          </a>
+          <li>
+            <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
+              <p class="footer__logo-description">Создатель проекта</p>
+              <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
+              <p class="footer__logo-description">Генеральный партнёр</p>
+              <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link" href="#" target="_blank">
+              <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+                alt="Логотип Фонда Президентских Грантов">
+            </a>
+          </li>
         </ul>
         <ul class="footer__social-media">
           <li>
@@ -632,4 +579,4 @@
 
   <script defer src="./components/inputs.js"></script>
 
-  </body>
+</body>

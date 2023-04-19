@@ -50,30 +50,30 @@
     </div>
   </header>
   <div class="bread-crumbs">
-    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
     </p>
   </div>
 
   <div class="motivation-grid">
     <section class="sidebar">
       <nav class="sidebar__steps">
-        <a class="sidebar__step sidebar__step_blue" href="#">
+        <a class="sidebar__step sidebar__step_blue" href="./conatcts-page.html">
           <span class="sidebar__number sidebar__number_blue">1</span>
           <p class="sidebar__item">Личные данные</p>
         </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
+        <a class="sidebar__step sidebar__step_blue" href="./competencies-page.html">
           <span class="sidebar__number sidebar__number_blue">2</span>
           <p class="sidebar__item">Компетенции</p>
         </a>
-        <a class="sidebar__step sidebar__step_active" href="#">
+        <a class="sidebar__step sidebar__step_active" href="./motivation-page.html">
           <span class="sidebar__number sidebar__number_blue sidebar__number_active">3</span>
           <p class="sidebar__item sidebar__item_active">Мотивация</p>
         </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
+        <a class="sidebar__step sidebar__step_blue" href="./portfolio-page.html">
           <span class="sidebar__number sidebar__number_blue">4</span>
           <p class="sidebar__item">Портфолио</p>
         </a>
-        <a class="sidebar__step sidebar__step_blue" href="#">
+        <a class="sidebar__step sidebar__step_blue" href="./social-media-page.html">
           <span class="sidebar__number sidebar__number_blue">5</span>
           <p class="sidebar__item">Социальные сети</p>
         </a>
@@ -112,7 +112,7 @@
 
           <label class="form__field form__field_type_textarea">
 
-            <textarea class="form__input form__textarea motivation__form" rows="2" maxlength="2000"
+            <textarea class="form__input form__textarea motivation__form" rows="7" maxlength="2000"
               wrap>Благотворительный фонд создан в&nbsp;2006&nbsp;году, чтобы поддерживать пациентов (взрослых и&nbsp;детей), чьи болезни невозможно вылечить, но&nbsp;которым можно помочь&nbsp;&mdash; снять боль, убрать тяжелые симптомы, сделать жизнь насыщенной и&nbsp;полноценной до&nbsp;конца. Фонд &laquo;Вера&raquo; покупает пациентам медицинское оборудование, лекарства, средства по&nbsp;уходу, обустраивает хосписы и&nbsp;учит персонал лучшим практикам помощи людям с&nbsp;неизлечимыми заболеваниями в&nbsp;конце жизни. Фонд поддерживает родных пациентов до&nbsp;и&nbsp;после утраты.</textarea>
 
             <span class="form__placeholder form__placeholder_is-fixed">Почему я хочу стать волонтером?</span>
@@ -126,13 +126,14 @@
           </label>
 
         </fieldset>
-        <p class="paragraph">Опиши свой опыт и&nbsp;навыки подробнее. Например, если ты&nbsp;выбрал категорию перевода, укажи язык, которым владеешь</p>
+        <p class="paragraph">Опиши свой опыт и&nbsp;навыки подробнее. Например, если ты&nbsp;выбрал категорию перевода,
+          укажи язык, которым владеешь</p>
 
         <fieldset class="form__set motivation__form-set">
 
           <label class="form__field form__field_type_textarea">
 
-            <textarea class="form__input form__textarea motivation__form" rows="2" maxlength="2000"
+            <textarea class="form__input form__textarea motivation__form" rows="7" maxlength="2000"
               wrap>Благотворительный фонд создан в&nbsp;2006&nbsp;году, чтобы поддерживать пациентов (взрослых и&nbsp;детей), чьи болезни невозможно вылечить, но&nbsp;которым можно помочь&nbsp;&mdash; снять боль, убрать тяжелые симптомы, сделать жизнь насыщенной и&nbsp;полноценной до&nbsp;конца. Фонд &laquo;Вера&raquo; покупает пациентам медицинское оборудование, лекарства, средства по&nbsp;уходу, обустраивает хосписы и&nbsp;учит персонал лучшим практикам помощи людям с&nbsp;неизлечимыми заболеваниями в&nbsp;конце жизни. Фонд поддерживает родных пациентов до&nbsp;и&nbsp;после утраты.</textarea>
 
             <span class="form__placeholder form__placeholder_is-fixed">Какие мои знания и навыки будут полезны
@@ -148,12 +149,12 @@
 
         </fieldset>
 
-        <button class="form__button form__button_type_submit popup__submit-button motivation__button" type="button"
-          aria-label="Сохранить">Сохранить</button>
+        <button class="form__button form__button_type_submit motivation__button" type="button"
+          aria-label="Сохранить" onClick='location.href="./portfolio-page.html"'>Сохранить</button>
       </section>
     </div>
   </div>
-
+  <script src="./scripts/motivation-page.js"></script>
 
   <footer class="footer">
     <div class="footer__container">
@@ -276,18 +277,24 @@
       </div>
       <div class="footer__media">
         <ul class="footer__logo-zone">
-          <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
-            <p class="footer__logo-description">Создатель проекта</p>
-            <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
-          </a>
-          <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
-            <p class="footer__logo-description">Генеральный партнёр</p>
-            <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
-          </a>
-          <a class="footer__logo-link" href="#" target="_blank">
-            <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
-              alt="Логотип Фонда Президентских Грантов">
-          </a>
+          <li>
+            <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
+              <p class="footer__logo-description">Создатель проекта</p>
+              <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
+              <p class="footer__logo-description">Генеральный партнёр</p>
+              <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+            </a>
+          </li>
+          <li>
+            <a class="footer__logo-link" href="#" target="_blank">
+              <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+                alt="Логотип Фонда Президентских Грантов">
+            </a>
+          </li>
         </ul>
         <ul class="footer__social-media">
           <li>
