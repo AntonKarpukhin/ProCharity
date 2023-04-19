@@ -15,15 +15,15 @@
     <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
     <nav class="header__menu">
       <ul class="header__list">
-        <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
-        <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">О проекте</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Задания</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Волонтерам</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Для НКО</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Бизнесу</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">FAQ</a></li>
       </ul>
-      <a href="#">
-        <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
+      <a class="header__list-item header__list-item_search" href="#">
+        <img  src="./images/search.svg" alt="иконка поиска">
       </a>
 
     </nav>
@@ -50,18 +50,17 @@
 
     </div>
 
-
   </div>
 
 </header>
 <div class="bread-crumbs">
-  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp/&nbsp Мои данные
+  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
   </p>
 </div>
 
 <section class="competencies">
 
-  <section class="sidebar sidebar__grid">
+  <div class="sidebar sidebar_grid">
     <nav class="sidebar__steps">
       <a class="sidebar__step sidebar__step_blue" href="#">
         <span class="sidebar__number sidebar__number_blue">1</span>
@@ -87,9 +86,9 @@
     <div class="sidebar__mobile-items">
       <span class="sidebar__mobile-item">Профиль волонтера</span>
     </div>
-  </section>
+  </div>
 
-  <div class="profile-info profile-info__grid">
+  <div class="profile-info profile-info_grid">
 
     <div class="profile-status">
       <h2 class="profile-status__heading">Статус профиля</h2>
@@ -142,27 +141,27 @@
 
             <div class="competencies__chips-block">
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Аудит сайта</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Создание, доработка сайта</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap ">Настройка сайта</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Аналитика</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Администрирование</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
               <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph__nowrap">Создание чат-ботов</span>
+                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>
                 <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
               </div>
             </div>
@@ -310,14 +309,14 @@
 
         </div>
         <div class="competencies__input-mini  competencies__input-mini_disable">
-          <div class="competencies__input-mini_block">
+          <div class="competencies__input-mini-block">
             <button class="form__input-button form__input-button_type_reset form__input-button_type_active form__input-button_type_position"></button>
             <h2 class="title">Выбор компетенции</h2>
             <ul class="competencies__input-mini-list">
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">HR</span>
+                  <span class="competencies__input-mini-list-text">HR</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -328,7 +327,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">Обучение и тренинги</span>
+                  <span class="competencies__input-mini-list-text">Обучение и тренинги</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -339,7 +338,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">Юридические услуги</span>
+                  <span class="competencies__input-mini-list-text">Юридические услуги</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -350,7 +349,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">IT</span>
+                  <span class="competencies__input-mini-list-text">IT</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -361,44 +360,37 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline form__dropdown-list-item_hover">
                 <div>
-                  <span class="competencies__input-mini-list_text">Дизайн и верстка</span>
+                  <span class="competencies__input-mini-list-text">Дизайн и верстка</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow-up form__input-button_type_active"
                       type="button"></button>
                   </div>
-                  <div class="form__submenu_mini">
-                    <div class="form__submenu_mini-buttons">
-
-
-                      <div class="paragraph__link paragraph__link_without-line paragraph_small">
-                        <button class="form__submenu_mini_button" type="button">Сбросить</button>
-                      </div>
-                      <div class="paragraph__link paragraph__link_without-line paragraph_small">
-                        <button class="form__submenu_mini_button" type="button">Выбрать все</button>
-                      </div>
-
+                  <div class="form__submenu-mini">
+                    <div class="form__submenu-mini-buttons-container">
+                        <button class="form__submenu-mini-button" type="button">Сбросить</button>
+                        <button class="form__submenu-mini-button" type="button">Выбрать все</button>
                     </div>
 
-                    <div class="competencies__chips_mini competencies__chips_mini_active">
+                    <div class="competencies__chips-mini competencies__chips-mini_active">
                       <span class="paragraph paragraph_small paragraph_theme_orange">Соцсети, инфографика, презентации</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">Дизайн полиграфии</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">Фирменный стиль</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">Дизайн сайтов</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">Иллюстрации, живопись</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">3D-графика, анимация</span>
                     </div>
-                    <div class="competencies__chips_mini">
+                    <div class="competencies__chips-mini">
                       <span class="paragraph paragraph_small ">Интерьерный и ландшафтный дизайн</span>
                     </div>
 
@@ -408,7 +400,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">Финансы и фандрайзинг</span>
+                  <span class="competencies__input-mini-list-text">Финансы и фандрайзинг</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -419,7 +411,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">Маркетинг и коммуникации</span>
+                  <span class="competencies__input-mini-list-text">Маркетинг и коммуникации</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -430,7 +422,7 @@
 
               <li class="form__dropdown-list-item form__dropdown-list-item_underline">
                 <div>
-                  <span class="competencies__input-mini-list_text">Фото и видео</span>
+                  <span class="competencies__input-mini-list-text">Фото и видео</span>
                   <div class="form__input-buttons-container">
                     <button
                       class="form__input-button form__input-button_type_arrow form__input-button_type_active"
@@ -439,7 +431,7 @@
                 </div>
               </li>
             </ul>
-            <div class="competencies__input-mini_buttons">
+            <div class="competencies__input-mini-buttons">
               <div class="form__set form__set_type_submit">
                 <button class="form__button form__button_type_submit" type="button" aria-label="выбрать">выбрать</button>
               </div>

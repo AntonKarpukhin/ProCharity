@@ -1,0 +1,10 @@
+.grid-profile-info {
+  margin: 0;
+  padding-left: 160px;
+}
+
+@media screen and (max-width: 856px) {
+  .grid-profile-info {
+    padding: 0;
+  }
+}

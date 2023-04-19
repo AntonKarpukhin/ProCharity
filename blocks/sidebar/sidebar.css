@@ -1,5 +1,7 @@
 /*стили для всей секции*/
 .sidebar {
+  grid-area: sidebar;
+  align-self: start;
   display: flex;
   justify-content: end;
   max-width: 416px;

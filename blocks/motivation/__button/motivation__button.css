@@ -1,0 +1,9 @@
+.motivation__button {
+  margin: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .motivation__button {
+    width: 100%;
+  }
+}

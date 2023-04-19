@@ -1,0 +1,9 @@
+.social-media-area__title {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 856px) {
+  .social-media-area__title {
+    margin-bottom: 20px;
+  }
+}
