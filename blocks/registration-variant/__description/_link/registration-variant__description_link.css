@@ -1,0 +1,27 @@
+.registration-variant__description_link {
+  margin: 0;
+  padding: 0;
+  color: #7dcdd7;
+  text-decoration: underline;
+}
+
+.registration-variant__description_link:hover {
+  text-decoration: none;
+}
+
+.registration-variant__description_link:active {
+  text-decoration: none;
+  color: #374146;
+}
+
+.registration-variant__description_link:visited {
+  text-decoration: none;
+  color: #7b878f;
+}
+
+.registration-variant__description_link:focus {
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #7dcdd7;
+  border-radius: 12px;
+}

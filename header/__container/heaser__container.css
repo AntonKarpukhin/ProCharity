@@ -4,7 +4,8 @@
     max-width: 1120px;
     justify-content: space-between;
     margin: 0 auto;
-   padding: 0 30px;
+  padding: 0 10px;
+  position: relative;
 }
 @media screen and (max-width: 856px){
     .header__container{

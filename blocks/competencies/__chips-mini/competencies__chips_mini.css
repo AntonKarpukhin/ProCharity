@@ -1,0 +1,8 @@
+.competencies__chips-mini{
+  border-radius: 20px;
+  border: 1px solid #C7D0DA;
+  display: inline-block;
+  max-width: fit-content;
+  padding: 3px 12px;
+  margin-top: 9px;
+}

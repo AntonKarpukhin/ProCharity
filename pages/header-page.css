@@ -14,3 +14,6 @@
 @import url(../header/__button-personal-area/header__button-personal-area.css);
 @import url(../header/__mini-button-personal-area/header__mini-button-personal-area.css);
 @import url(../header/__avatar-image/header__avatar-image.css);
+
+@import url(../pages/notification-page.css);
+@import url(../header/__popup/header__popup.css);

@@ -1,0 +1,5 @@
+.portfolio__preview-icon_error{
+  background-image: url("../../../../images/warning.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
