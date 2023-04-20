@@ -1,5 +1,6 @@
 .social-media-area__input {
   padding: 12px 16px;
+  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

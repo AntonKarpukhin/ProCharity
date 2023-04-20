@@ -11,8 +11,8 @@
 @import url(../footer/__media/footer__media.css);
 @import url(../footer/__logo-zone/footer__logo-zone.css);
 @import url(../footer/__logo-link/footer__logo-link.css);
-@import url(../footer/__logo-link/_fond-druzya/footer__logo-link_fond-druzya.css);
-@import url(../footer/__logo-link/_mastercard/footer__logo-link_mastercard.css);
+@import url(../footer/__logo-link/_width/_fond-druzya/footer__logo-link_fond-druzya.css);
+@import url(../footer/__logo-link/_width/_mastercard/footer__logo-link_mastercard.css);
 @import url(../footer/__logo-description/footer__logo-description.css);
 @import url(../footer/__logo-image/footer__logo-image.css);
 @import url(../footer/__social-media/footer__social-media.css);
