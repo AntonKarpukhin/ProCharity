@@ -1,6 +1,7 @@
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__paragraph/bread-crumbs__paragraph.css);
 @import url(../blocks/bread-crumbs/__paragraph/_link/bread-crumbs__paragraph_link.css);
+@import url(../blocks/main-page/main-page.css);
 
 @import url(../pages/header-page.css);
 @import url(../pages/sidebar-page.css);
