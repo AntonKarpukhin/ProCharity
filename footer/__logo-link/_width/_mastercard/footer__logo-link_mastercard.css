@@ -1,9 +1,9 @@
-.footer__logo-link_mastercard {
+.footer__logo-link_width_mastercard {
   width: 294px;
 }
 
 @media screen and (max-width: 856px) {
-  .footer__logo-link_mastercard {
+  .footer__logo-link_width_mastercard {
     gap: 2px;
   }
 }
