@@ -36,7 +36,7 @@ document.addEventListener("click", (evt) => {
   }
   if (
     evt.target.classList.contains("form__avatar-container") ||
-    evt.target.classList.contains("form__avatar-preview")
+    evt.target.classList.contains("form__upload-new-avatar-button")
   ) {
     openLoadImagePrompt();
   }
@@ -45,13 +45,32 @@ document.addEventListener("click", (evt) => {
 const addPopupEventListeners = function () {
   const closeButton = popup.querySelector(".popup__close-button");
   const submitButton = popup.querySelector(".popup__submit-button");
+  const removeButton = document.querySelector(".form__avatar-remove-button");
+  const replaceButton = document.querySelector(
+    ".form__upload-new-avatar-button"
+  );
+  const avatarElement = document.querySelector(".form__avatar-preview");
   closeButton.addEventListener("click", () => {
     closePopup(popup);
   });
   submitButton.addEventListener("click", () => {
-    showAvatarPreview(popup.image, imageCropper.getCroppedArea());
+    showAvatarPreview(
+      avatarElement,
+      popup.image,
+      imageCropper.getCroppedArea()
+    );
     closePopup(popup);
+    removeButton.classList.add("form__avatar-remove-button_active");
+    replaceButton.classList.add("form__upload-new-avatar-button_active");
   });
+  removeButton.onclick = () => {
+    removeAvatar(avatarElement);
+    removeButton.classList.remove("form__avatar-remove-button_active");
+    replaceButton.classList.remove("form__upload-new-avatar-button_active");
+  };
+  replaceButton.onClick = () => {
+    openLoadImagePrompt();
+  };
 };
 
 addPopupEventListeners();
@@ -197,14 +216,21 @@ const closePopup = function (popup) {
   popup.classList.remove("popup_visible");
 };
 
-const showAvatarPreview = function (image, { x, y, width, height }) {
-  const avatarElement = document.querySelector(".form__avatar-preview");
+const showAvatarPreview = function (
+  avatarElement,
+  image,
+  { x, y, width, height }
+) {
   avatarElement.classList.add("form__avatar-preview_active");
   const posX = (avatarElement.clientWidth * parseInt(x)) / 100;
   const posY = (avatarElement.clientHeight * parseInt(y)) / 100;
   avatarElement.style.backgroundImage = `url(${image})`;
   avatarElement.style.backgroundPosition = `${posX}px ${posY}px`;
   avatarElement.style.backgroundSize = `${width} auto`;
+};
+
+const removeAvatar = function (avatarElement) {
+  avatarElement.classList.remove("form__avatar-preview_active");
 };
 
 const imageCropper = new ImageCropper({
