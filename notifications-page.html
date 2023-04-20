@@ -11,51 +11,70 @@
 
 <body>
   <header class="header">
-    <div class="header__container">
-      <a class="header__mini-menu-list" href="#">
-        <img src="./images/list.svg" alt="меню">
+  <div class="header__container">
+    <a  class="header__mini-menu-list" href="#">
+      <img  src="./images/list.svg" alt="меню">
+    </a>
+    <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li ><a class="header__list-item header__list-item_link" href="#">О проекте</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Задания</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Волонтерам</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Для НКО</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">Бизнесу</a></li>
+        <li ><a class="header__list-item header__list-item_link" href="#">FAQ</a></li>
+      </ul>
+      <a class="header__list-item header__list-item_search" href="#">
+        <img  src="./images/search.svg" alt="иконка поиска">
       </a>
-      <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__list-item"><a class="header__list-item_link" href="#">О проекте</a></li>
-          <li class="header__list-item"><a class="header__list-item_link" href="#">Задания</a></li>
-          <li class="header__list-item"><a class="header__list-item_link" href="#">Волонтерам</a></li>
-          <li class="header__list-item"><a class="header__list-item_link" href="#">Для НКО</a></li>
-          <li class="header__list-item"><a class="header__list-item_link" href="#">Бизнесу</a></li>
-          <li class="header__list-item"><a class="header__list-item_link" href="#">FAQ</a></li>
-        </ul>
-        <a href="#">
-          <img class="header__list-item_search" src="./images/search.svg" alt="иконка поиска">
-        </a>
-      </nav>
-      <div class="header__buttons-section">
-        <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image"
-            src="./images/avatar-girl.jpg" alt="аватар"></button>
-        <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image"
-            src="images/default-avatar-mini.svg" alt="аватар"></button>
+
+    </nav>
+    <div class="header__buttons-section">
+      <!--     вид кнопок незарегистрированного пользователя -->
+      <!--              <button class="header__mini-button-registration" type="button"></button>-->
+      <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
+      <!--              <button class="header__button-login" type="button"></button>-->
+      <!--     вид кнопок авторизованного пользователя -->
+      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
+      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
+
+      <div class="header__popup">
+        <div class="notification">
+          <button class="notification__close-button" type="button"></button>
+          <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+          <div class="notification__body">
+            <h2 class="notification__heading">Профиль на модерации</h2>
+            <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
+            </p>
+          </div>
+        </div>
       </div>
+
     </div>
-  </header>
+
+  </div>
+
+</header>
 
   <section>
     <div class="bread-crumbs">
-      <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp;
-        Настройки</p>
+      <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
+      </p>
     </div>
     <div class="notifications-area">
       <div class="sidebar notifications-area__sidebar">
         <nav class="sidebar__steps">
           <a class="sidebar__step sidebar__step_active" href="./notifications-page.html">
-            <span class="sidebar__number sidebar__number_blue sidebar__number_active">1</span>
+            <span class="sidebar__number sidebar__number_color_blue sidebar__number_active">1</span>
             <p class="sidebar__item sidebar__item_active">Уведомления</p>
           </a>
-          <a class="sidebar__step sidebar__step_blue" href="./profile-page.html">
-            <span class="sidebar__number sidebar__number_blue">2</span>
+          <a class="sidebar__step sidebar__step_color_blue" href="./profile-page.html">
+            <span class="sidebar__number sidebar__number_color_blue">2</span>
             <p class="sidebar__item">Профиль</p>
           </a>
-          <a class="sidebar__step sidebar__step_blue" href="#">
-            <span class="sidebar__number sidebar__number_blue">3</span>
+          <a class="sidebar__step sidebar__step_color_blue" href="./password-change-page.html">
+            <span class="sidebar__number sidebar__number_color_blue">3</span>
             <p class="sidebar__item">Смена пароля</p>
           </a>
         </nav>

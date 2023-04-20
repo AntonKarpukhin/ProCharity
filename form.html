@@ -19,38 +19,48 @@
 
         <div class="form__fields-container">
 
-          <label class="form__field">
-            <input 
-            type="text" 
-            class="form__input" 
-            id="name-input" 
-            required
-            >
-            <span class="form__placeholder">Имя</span>
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-            </div>
-            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+          <div class="form__field">
 
-          <label class="form__field">
-            <input 
-            type="text" 
-            class="form__input" 
-            id="last-name-input" 
-            required
-            >
-            <span class="form__placeholder">Фамилия</span>
+            <label>
+              <input
+              type="text"
+              class="form__input"
+              id="name-input"
+              required
+              >
+              <span class="form__placeholder">Имя</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
             <div class="form__input-buttons-container">
               <button class="form__input-button form__input-button_type_reset" type="button"></button>
             </div>
-            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+
+          </div>
+
+          <div class="form__field">
+
+            <label>
+              <input
+              type="text"
+              class="form__input"
+              id="last-name-input"
+              required
+              >
+              <span class="form__placeholder">Фамилия</span>
+              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset" type="button"></button>
+            </div>
+
+          </div>
 
         </div>
-        
+
       </fieldset>
 
       <fieldset class="form__set">
@@ -58,37 +68,48 @@
 
         <div class="form__fields-container">
 
-          <label class="form__field">
-            <input 
-            type="email" 
-            class="form__input" 
-            id="email-input" 
-            required
-            >
-            <span class="form__placeholder">Email</span>
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-            </div>
-            <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+          <div class="form__field">
 
-          <label class="form__field">
-            <input 
-            type="text" 
-            class="form__input" 
-            id="telegram-input" 
-            required
-            >
-            <span class="form__placeholder">Ник в Telegram</span>
+            <label>
+              <input
+              type="email"
+              class="form__input"
+              id="email-input"
+              required
+              >
+              <span class="form__placeholder">Email</span>
+              <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
             <div class="form__input-buttons-container">
               <button class="form__input-button form__input-button_type_reset" type="button"></button>
-              <button class="form__input-button form__input-button_type_help form__input-button_type_active" type="button"></button>
             </div>
+
+          </div>
+
+          <div class="form__field">
+
+            <label>
+              <input
+              type="text"
+              class="form__input"
+              id="telegram-input"
+              required
+              >
+              <span class="form__placeholder">Ник в Telegram</span>
+              <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_reset" type="button"></button>
+              <button class="form__input-button form__input-button_type_help form__input-button_active" type="button"></button>
+            </div>
+
             <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
-            <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+
+          </div>
 
         </div>
 
@@ -99,48 +120,58 @@
 
         <div class="form__fields-container">
 
-          <label class="form__field">
-            <input 
-            type="password" 
-            class="form__input" 
-            id="password-input" 
-            required
-            >
-            <span class="form__placeholder">Пароль</span>
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_show-password form__input-button_type_active" type="button"></button>
-              <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
-            </div>
-            <span class="form__input-error" data-error="incorrect-format">Может включать только латинские буквы, цифры и&nbsp;специальные символы</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+          <div class="form__field">
 
-          <label class="form__field">
-            <input 
-            type="password" 
-            class="form__input" 
-            id="password-check-input" 
-            required
-            >
-            <span class="form__placeholder">Подтверди пароль</span>
+            <label>
+              <input
+              type="password"
+              class="form__input"
+              id="password-input"
+              required
+              >
+              <span class="form__placeholder">Пароль</span>
+              <span class="form__input-error" data-error="incorrect-format">Может включать только латинские буквы, цифры и&nbsp;специальные символы</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
             <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_show-password form__input-button_type_active" type="button"></button>
+              <button class="form__input-button form__input-button_type_show-password form__input-button_active" type="button"></button>
               <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
             </div>
-            <span class="form__input-error">Пароли не совпадают</span>
-            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-          </label>
+
+          </div>
+
+          <div class="form__field">
+
+            <label>
+              <input
+              type="password"
+              class="form__input"
+              id="password-check-input"
+              required
+              >
+              <span class="form__placeholder">Подтверди пароль</span>
+              <span class="form__input-error">Пароли не совпадают</span>
+              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+            </label>
+
+            <div class="form__input-buttons-container">
+              <button class="form__input-button form__input-button_type_show-password form__input-button_active" type="button"></button>
+              <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
+            </div>
+
+          </div>
 
         </div>
-        
+
       </fieldset>
 
       <fieldset class="form__set">
         <label class="form__field form__field_type_row">
-          <input 
-          type="checkbox" 
-          class="form__checkbox form__input" 
-          id="confirmation-input" 
+          <input
+          type="checkbox"
+          class="form__checkbox form__input"
+          id="confirmation-input"
           required>
           <span class="form__checkbox-item"></span>
           <span class="paragraph">Соглашаюсь с <a class="paragraph__link" href="#">правилами сайта</a></span>
@@ -157,5 +188,5 @@
     <script defer src="./components/inputs.js"></script>
 
   </body>
-  
+
 </html>

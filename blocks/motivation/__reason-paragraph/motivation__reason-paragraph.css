@@ -1,9 +1,9 @@
-.motivation__first-paragraph {
+.motivation__reason-paragraph {
   padding-top: 24px;
 }
 
 @media screen and (max-width: 856px) {
-  .motivation__first-paragraph {
+  .motivation__reason-paragraph {
     padding-top: 20px;
   }
 }
