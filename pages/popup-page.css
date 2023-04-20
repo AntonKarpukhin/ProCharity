@@ -14,9 +14,21 @@
 
 /* =========Popup======== */
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_visible/popup_visible.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__heading/popup__heading.css);
 @import url(../blocks/popup/__image/popup__image.css);
 @import url(../blocks/popup/__submit-button/popup__submit-button.css);
+/* ====================== */
+
+/* ======Image-crop====== */
+@import url(../blocks/image-crop/image-crop.css);
+@import url(../blocks/image-crop/__overlay/image-crop__overlay.css);
+@import url(../blocks/image-crop/__bracket/image-crop__bracket.css);
+@import url(../blocks/image-crop/__handle/image-crop__handle.css);
+@import url(../blocks/image-crop/__handle/_direction/image-crop__handle_direction_down.css);
+@import url(../blocks/image-crop/__handle/_direction/image-crop__handle_direction_left.css);
+@import url(../blocks/image-crop/__handle/_direction/image-crop__handle_direction_right.css);
+@import url(../blocks/image-crop/__handle/_direction/image-crop__handle_direction_up.css);
 /* ====================== */

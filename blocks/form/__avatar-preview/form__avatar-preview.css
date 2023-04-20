@@ -5,4 +5,10 @@
   top: 0;
   left: 0;
   display: none;
+  background-image: url("../../../images/test-avatar.png");
+  content: "";
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
 }
