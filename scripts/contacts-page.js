@@ -3,6 +3,23 @@ import { ImageCropper } from "../components/ImageCropper.js";
 const form = document.querySelector(".form");
 const formFields = Array.from(form.querySelectorAll(".form__field"));
 const dateInputs = Array.from(form.querySelectorAll(".form__input_type_date"));
+const inputCompany = document.querySelector('#company-placeholder');
+const inputSelectCompany = document.querySelectorAll('.company');
+const inputContacts = document.querySelector('#contacts-dropdown-button');
+const inputSelectContacts = document.querySelectorAll('.contacts');
+
+inputSelectCompany.forEach(item => {
+  item.addEventListener('click', (evt) => {
+    inputCompany.textContent = evt.target.textContent;
+    document.querySelector('.form__field_disabled').classList.remove('form__field_disabled')
+  })
+})
+
+inputSelectContacts.forEach(item => {
+  item.addEventListener('click', (evt) => {
+    inputContacts.value = evt.target.textContent;
+  })
+})
 
 const popup = document.querySelector(".popup");
 
