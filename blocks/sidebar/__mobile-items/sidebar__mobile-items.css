@@ -1,0 +1,15 @@
+/*коробочка для надписей мобильной версии*/
+.sidebar__mobile-items {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .sidebar__mobile-items {
+    padding: 8px 0 0;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+  }
+}

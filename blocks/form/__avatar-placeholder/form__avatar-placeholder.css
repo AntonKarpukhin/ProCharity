@@ -1,0 +1,15 @@
+.form__avatar-placeholder {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7B878F;
+  max-width: 163px;
+  margin-left: 32px;
+}
+
+@media screen and (max-width: 856px) {
+  .form__avatar-placeholder {
+    max-width: 148px;
+  }
+}

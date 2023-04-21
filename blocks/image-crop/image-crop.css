@@ -1,0 +1,11 @@
+.image-crop {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 20px;
+  position: relative;
+  justify-self: center;
+  max-width: 75vw;
+  max-height: 75vh;
+}

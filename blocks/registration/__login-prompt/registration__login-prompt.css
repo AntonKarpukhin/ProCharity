@@ -1,0 +1,14 @@
+.registration__login-prompt {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 856px) {
+  .registration__login-prompt {
+    padding-bottom: 80px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

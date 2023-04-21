@@ -1,0 +1,9 @@
+.profile-setting__block-profile-paragraph {
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 856px) {
+  .profile-setting__block-profile-paragraph {
+    max-width: 100%;
+  }
+}

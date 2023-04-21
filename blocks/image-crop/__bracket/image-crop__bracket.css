@@ -1,0 +1,10 @@
+.image-crop__bracket {
+  border-radius: 50%;
+  border: 2px solid #7dcdd7;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+  background: transparent;
+}

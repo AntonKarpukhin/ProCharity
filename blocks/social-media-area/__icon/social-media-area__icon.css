@@ -1,0 +1,8 @@
+.social-media-area__icon {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  width: 40px;
+  height: 40px;
+}

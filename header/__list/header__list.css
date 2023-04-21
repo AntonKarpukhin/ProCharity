@@ -2,7 +2,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    max-width: 553px;
+    width: 87%;
     padding: 0;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);

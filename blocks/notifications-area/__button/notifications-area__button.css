@@ -1,0 +1,5 @@
+@media screen and (max-width: 856px) {
+  .notifications-area__button {
+    width: 100%;
+  }
+}

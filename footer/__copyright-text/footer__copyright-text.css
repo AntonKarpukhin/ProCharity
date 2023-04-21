@@ -1,0 +1,10 @@
+.footer__copyright-text {
+  margin: 0;
+  padding: 0;
+  padding-right: 37px;
+  box-sizing: border-box;
+  color: #7B878F;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Arial;
+}

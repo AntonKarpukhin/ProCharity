@@ -1,0 +1,7 @@
+.social-media-area__field {
+  width: calc(100% - 56px);
+  flex-direction: row;
+  background-color: #F1F5F9;
+  border: none;
+  border-radius: 6px;
+}

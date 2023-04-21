@@ -13,6 +13,9 @@
     padding: 0 20px 0 26px;
     cursor: pointer;
 }
+.header__button-registration:hover {
+    opacity: 0.7;
+}
 
 @media screen and (max-width: 856px){
     .header__button-registration{

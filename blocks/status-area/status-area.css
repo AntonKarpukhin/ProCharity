@@ -1,0 +1,10 @@
+.status-area {
+  grid-area: status;
+  padding-left: 160px;
+}
+
+@media screen and (max-width: 856px) {
+  .status-area {
+    padding: 32px 0 0;
+  }
+}

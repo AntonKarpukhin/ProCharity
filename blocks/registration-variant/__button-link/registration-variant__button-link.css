@@ -1,0 +1,16 @@
+.registration-variant__button-link {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 128px);
+  content: "";
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__button-link {
+    height: 100%;
+  }
+}

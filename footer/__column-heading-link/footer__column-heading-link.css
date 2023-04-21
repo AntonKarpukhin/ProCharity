@@ -1,0 +1,17 @@
+.footer__column-heading-link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #C7D0DA;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: linear 0.3s;
+}
+
+.footer__column-heading-link:hover {
+  opacity: 0.6;
+}

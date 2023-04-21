@@ -1,0 +1,7 @@
+.portfolio__files_disable{
+}
+@media screen and (max-width: 856px){
+  .portfolio__files_disable{
+    display: none;
+  }
+}

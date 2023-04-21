@@ -1,0 +1,33 @@
+.form__input_type_date {
+  cursor: pointer;
+}
+
+.form__input_type_date::-webkit-calendar-picker-indicator { 
+  background-image: url('../../../../images/icons/calendar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.form__input_type_date::-webkit-calendar-picker-indicator:hover {
+  opacity: .6;
+  transition: opacity .1s ease-in-out;
+}
+
+.form__input_type_date::-webkit-calendar-picker-indicator:disabled {
+  opacity: .6;
+}
+
+.form__input_type_date::-webkit-calendar-picker-indicator:disabled:hover {
+  cursor: not-allowed;
+}
+
+.form__input_type_date::-webkit-calendar-picker-indicator:active {
+  opacity: .3;
+  transition: opacity .1s ease-in-out;
+}

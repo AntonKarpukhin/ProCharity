@@ -1,0 +1,6 @@
+.profile-setting__list-item::marker {
+  width: 6px;
+  height: 6px;
+  object-fit:contain;
+  object-position: center;
+}

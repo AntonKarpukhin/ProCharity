@@ -1,0 +1,6 @@
+.image-crop__handle {
+  position: absolute;
+  background-color: #7dcdd7;
+  width: 8px;
+  height: 8px;
+}

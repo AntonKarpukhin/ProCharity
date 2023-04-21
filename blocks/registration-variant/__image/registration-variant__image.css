@@ -1,0 +1,15 @@
+.registration-variant__image {
+  height: 480px;
+  width: 506px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 506px, 480px;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__image {
+    height: 240px;
+    width: 253px;
+    background-size: 253px, 240px;
+  }
+}

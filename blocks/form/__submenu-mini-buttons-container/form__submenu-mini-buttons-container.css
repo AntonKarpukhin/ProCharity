@@ -1,0 +1,5 @@
+.form__submenu-mini-buttons-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}

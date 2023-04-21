@@ -1,0 +1,15 @@
+.header__popup{
+  position: absolute;
+  right: 8px;
+  top: 24px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+@media screen and (max-width: 856px) {
+  .header__popup{
+    right: 10px;
+    top: 10px;
+  }
+}

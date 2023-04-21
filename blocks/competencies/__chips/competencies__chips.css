@@ -1,0 +1,9 @@
+.competencies__chips{
+  background-color: #FF6100;
+  border-radius: 20px;
+  padding-left: 12px;
+  display: inline-flex;
+  margin-bottom: 8px;
+  align-items: center;
+  margin-right: 8px;
+}

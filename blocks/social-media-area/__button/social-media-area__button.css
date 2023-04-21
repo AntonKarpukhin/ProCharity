@@ -1,0 +1,9 @@
+.social-media-area__button {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 856px) {
+  .social-media-area__button {
+    width: 100%;
+  }
+}

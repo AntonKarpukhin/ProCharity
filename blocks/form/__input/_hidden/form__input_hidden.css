@@ -1,0 +1,3 @@
+.form__input_hidden::-webkit-datetime-edit {
+  visibility: hidden;
+}

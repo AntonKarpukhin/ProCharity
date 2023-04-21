@@ -1,0 +1,25 @@
+@import url(../header/header.css);
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__container/heaser__container.css);
+@import url(../header/__menu/header__menu.css);
+@import url(../header/__list/header__list.css);
+@import url(../header/__list-item/header__list-item.css);
+@import url(../header/__list-item/_search/header__list-item_search.css);
+@import url(../header/__list-item/_link/header__list-item_link.css);
+@import url(../header/__button-registration/header__button-registration.css);
+@import url(../header/__button-login/header__button-login.css);
+@import url(../header/__mini-menu-list/header__mini-menu-list.css);
+@import url(../header/__buttons-section/header__buttons-section.css);
+@import url(../header/__mini-button-registration/header__mini-button-registration.css);
+@import url(../header/__button-personal-area/header__button-personal-area.css);
+@import url(../header/__mini-button-personal-area/header__mini-button-personal-area.css);
+@import url(../header/__avatar-image/header__avatar-image.css);
+
+@import url(../blocks/notification/notification.css);
+@import url(../blocks/notification/__close-button/notification__close-button.css);
+@import url(../blocks/notification/__success-icon/notification__success-icon.css);
+@import url(../blocks/notification/__body/notification__body.css);
+@import url(../blocks/notification/__heading/notification__heading.css);
+@import url(../blocks/notification/__text/notification__text.css);
+@import url(../header/__popup/header__popup.css);
+@import url(../header/__popup/_active/header__popup_active.css);
