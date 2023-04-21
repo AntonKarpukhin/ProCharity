@@ -1,192 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блок form</title>
-    <link rel="stylesheet" href="./pages/style.css">
-    <meta name="author" content="Александр Дудин">
-  </head>
 
-  <body class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блок form</title>
+  <link rel="stylesheet" href="./pages/registration-new-volunteer.css">
+  <meta name="author" content="Александр Дудин">
+</head>
 
-    <h1 class="title">Регистрация нового волонтера</h1>
+<body class="page">
 
-    <form class="form" action="/" method="post" name="new-volunteer">
+  <h1 class="title">Регистрация нового волонтера</h1>
 
-      <fieldset class="form__set">
-        <legend class="form__legend paragraph">Представители фондов увидят эти данные на&nbsp;твоей странице</legend>
+  <form class="form" action="/" method="post" name="new-volunteer">
 
-        <div class="form__fields-container">
+    <fieldset class="form__set">
+      <legend class="form__legend paragraph">Представители фондов увидят эти данные на&nbsp;твоей странице</legend>
 
-          <div class="form__field">
+      <div class="form__fields-container">
 
-            <label>
-              <input
-              type="text"
-              class="form__input"
-              id="name-input"
-              required
-              >
-              <span class="form__placeholder">Имя</span>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+        <div class="form__field">
 
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-            </div>
+          <label>
+            <input type="text" class="form__input" id="name-input" required>
+            <span class="form__placeholder">Имя</span>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+              и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
 
-          </div>
-
-          <div class="form__field">
-
-            <label>
-              <input
-              type="text"
-              class="form__input"
-              id="last-name-input"
-              required
-              >
-              <span class="form__placeholder">Фамилия</span>
-              <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
-
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-            </div>
-
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_reset" type="button"></button>
           </div>
 
         </div>
 
-      </fieldset>
+        <div class="form__field">
 
-      <fieldset class="form__set">
-        <legend class="form__legend paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</legend>
+          <label>
+            <input type="text" class="form__input" id="last-name-input" required>
+            <span class="form__placeholder">Фамилия</span>
+            <span class="form__input-error" data-error="incorrect-format">Может содержать только буквы
+              и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
 
-        <div class="form__fields-container">
-
-          <div class="form__field">
-
-            <label>
-              <input
-              type="email"
-              class="form__input"
-              id="email-input"
-              required
-              >
-              <span class="form__placeholder">Email</span>
-              <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
-
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-            </div>
-
-          </div>
-
-          <div class="form__field">
-
-            <label>
-              <input
-              type="text"
-              class="form__input"
-              id="telegram-input"
-              required
-              >
-              <span class="form__placeholder">Ник в Telegram</span>
-              <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
-
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_reset" type="button"></button>
-              <button class="form__input-button form__input-button_type_help form__input-button_active" type="button"></button>
-            </div>
-
-            <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram, укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
-
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_reset" type="button"></button>
           </div>
 
         </div>
 
-      </fieldset>
+      </div>
 
-      <fieldset class="form__set">
-        <legend class="form__legend paragraph">Пароль должен содержать не&nbsp;менее 8 знаков и&nbsp;может включать латинские буквы, цифры и&nbsp;специальные символы</legend>
+    </fieldset>
 
-        <div class="form__fields-container">
+    <fieldset class="form__set">
+      <legend class="form__legend paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания
+      </legend>
 
-          <div class="form__field">
+      <div class="form__fields-container">
 
-            <label>
-              <input
-              type="password"
-              class="form__input"
-              id="password-input"
-              required
-              >
-              <span class="form__placeholder">Пароль</span>
-              <span class="form__input-error" data-error="incorrect-format">Может включать только латинские буквы, цифры и&nbsp;специальные символы</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
+        <div class="form__field">
 
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_show-password form__input-button_active" type="button"></button>
-              <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
-            </div>
+          <label>
+            <input type="email" class="form__input" id="email-input" required>
+            <span class="form__placeholder">Email</span>
+            <span class="form__input-error" data-error="incorrect-format">Проверь электронную почту</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
 
-          </div>
-
-          <div class="form__field">
-
-            <label>
-              <input
-              type="password"
-              class="form__input"
-              id="password-check-input"
-              required
-              >
-              <span class="form__placeholder">Подтверди пароль</span>
-              <span class="form__input-error">Пароли не совпадают</span>
-              <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
-            </label>
-
-            <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_show-password form__input-button_active" type="button"></button>
-              <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
-            </div>
-
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_reset" type="button"></button>
           </div>
 
         </div>
 
-      </fieldset>
+        <div class="form__field">
 
-      <fieldset class="form__set">
-        <label class="form__field form__field_type_row">
-          <input
-          type="checkbox"
-          class="form__checkbox form__input"
-          id="confirmation-input"
-          required>
-          <span class="form__checkbox-item"></span>
-          <span class="paragraph">Соглашаюсь с <a class="paragraph__link" href="#">правилами сайта</a></span>
-        </label>
-      </fieldset>
+          <label>
+            <input type="text" class="form__input" id="telegram-input" required>
+            <span class="form__placeholder">Ник в Telegram</span>
+            <span class="form__input-error" data-error="incorrect-format">Укажи только ник без url и @</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
 
-      <fieldset class="form__set form__set_type_submit">
-        <button class="form__button form__button_type_previous" type="button" name="return" aria-label="Вернуться назад">назад</button>
-        <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="Зарегистрироваться" disabled>зарегистрироваться</button>
-      </fieldset>
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_reset" type="button"></button>
+            <button class="form__input-button form__input-button_type_help form__input-button_active"
+              type="button"></button>
+          </div>
 
-    </form>
+          <div class="form__balloon">Если&nbsp;тебе удобнее, чтобы&nbsp;представители фондов писали в&nbsp;Telegram,
+            укажи свой ник&nbsp;(без&nbsp;@ и&nbsp;url)</div>
 
-    <script defer src="./components/inputs.js"></script>
+        </div>
 
-  </body>
+      </div>
+
+    </fieldset>
+
+    <fieldset class="form__set">
+      <legend class="form__legend paragraph">Пароль должен содержать не&nbsp;менее 8 знаков и&nbsp;может включать
+        латинские буквы, цифры и&nbsp;специальные символы</legend>
+
+      <div class="form__fields-container">
+
+        <div class="form__field">
+
+          <label>
+            <input type="password" class="form__input" id="password-input" required>
+            <span class="form__placeholder">Пароль</span>
+            <span class="form__input-error" data-error="incorrect-format">Может включать только латинские буквы, цифры
+              и&nbsp;специальные символы</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_show-password form__input-button_active"
+              type="button"></button>
+            <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
+          </div>
+
+        </div>
+
+        <div class="form__field">
+
+          <label>
+            <input type="password" class="form__input" id="password-check-input" required>
+            <span class="form__placeholder">Подтверди пароль</span>
+            <span class="form__input-error">Пароли не совпадают</span>
+            <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
+          </label>
+
+          <div class="form__input-buttons-container">
+            <button class="form__input-button form__input-button_type_show-password form__input-button_active"
+              type="button"></button>
+            <button class="form__input-button form__input-button_type_hide-password" type="button"></button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </fieldset>
+
+    <fieldset class="form__set">
+      <label class="form__field form__field_type_row">
+        <input type="checkbox" class="form__checkbox form__input" id="confirmation-input" required>
+        <span class="form__checkbox-item"></span>
+        <span class="paragraph">Соглашаюсь с <a class="paragraph__link" href="#">правилами сайта</a></span>
+      </label>
+    </fieldset>
+
+    <fieldset class="form__set form__set_type_submit">
+      <button class="form__button form__button_type_previous" type="button" name="return"
+        aria-label="Вернуться назад">назад</button>
+      <button class="form__button form__button_type_submit" type="submit" name="submit" aria-label="Зарегистрироваться"
+        disabled>зарегистрироваться</button>
+    </fieldset>
+
+  </form>
+
+  <script defer src="./components/inputs.js"></script>
+
+</body>
 
 </html>

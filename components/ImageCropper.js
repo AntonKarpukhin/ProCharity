@@ -145,22 +145,6 @@ class ImageCropper {
     this.bracket.style.height = adjHeight + "px";
   }
 
-  _clampAndEqualize({ width, height }) {
-    var adjWidth = height;
-    adjWidth = Math.min(
-      parseInt(this.containerStyle.width) - parseInt(this.bracketStyle.left),
-      width,
-      height
-    );
-
-    var adjHeight = Math.min(
-      parseInt(this.containerStyle.height) - parseInt(this.bracketStyle.top),
-      height,
-      width
-    );
-    return { width: adjWidth, height: adjHeight };
-  }
-
   _updateOverlay() {
     const radius = parseInt(this.bracketStyle.width) / 2;
     const centerX = parseInt(this.bracketStyle.left) + radius;
@@ -168,6 +152,23 @@ class ImageCropper {
     this.overlay.style.setProperty("--x-pos", `${centerX}px`);
     this.overlay.style.setProperty("--y-pos", `${centerY}px`);
     this.overlay.style.setProperty("--radius", `${radius}px`);
+  }
+
+  resetBracketInitialSize() {
+    setTimeout(() => {
+      const imageWidth = parseInt(this.containerStyle.width);
+      const imageHeight = this.container.clientHeight;
+
+      const minDimension = Math.min(imageWidth, imageHeight);
+
+      this.bracket.style.width = `${minDimension}px`;
+      this.bracket.style.height = `${minDimension}px`;
+
+      this.bracket.style.left = `${imageWidth - minDimension}px`;
+      this.bracket.style.top = `${imageHeight - minDimension}px`;
+
+      this._updateOverlay();
+    }, 0);
   }
 
   getCroppedArea() {

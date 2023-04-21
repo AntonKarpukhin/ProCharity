@@ -13,59 +13,13 @@
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/paragraph/_theme/parapraph_theme_dark.css);
 @import url(../blocks/paragraph/__link/paragraph__link.css);
-@import url(../blocks/paragraph/_small/paragraph_small.css);
-@import url(../blocks/paragraph/_small/paragraph_small.css);
-@import url(../blocks/paragraph/_text-align/paragraph_text-align_right.css);
+@import url(../blocks/paragraph/_type/paragraph_type_small.css);
+@import url(../blocks/paragraph/_type/paragraph_type_text-align-right.css);
 /* ====================== */
 
-/* =========Header======= */
-@import url(../header/header.css);
-@import url(../header/__logo/header__logo.css);
-@import url(../header/__container/heaser__container.css);
-@import url(../header/__menu/header__menu.css);
-@import url(../header/__list/header__list.css);
-@import url(../header/__list-item/header__list-item.css);
-@import url(../header/__list-item/_search/header__list-item_search.css);
-@import url(../header/__list-item/_link/header__list-item_link.css);
-@import url(../header/__button-registration/header__button-registration.css);
-@import url(../header/__button-login/header__button-login.css);
-@import url(../header/__mini-menu-list/header__mini-menu-list.css);
-@import url(../header/__buttons-section/header__buttons-section.css);
-@import url(../header/__mini-button-registration/header__mini-button-registration.css);
-@import url(../header/__button-personal-area/header__button-personal-area.css);
-@import url(../header/__mini-button-personal-area/header__mini-button-personal-area.css);
-@import url(../header/__avatar-image/header__avatar-image.css);
-
-@import url(../pages/notification-page.css);
-@import url(../header/__popup/header__popup.css);
-/* ====================== */
-
-/* =========Footer======= */
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url(../footer/footer.css);
-@import url(../footer/__container/footer__container.css);
-@import url(../footer/__columns/footer__columns.css);
-@import url(../footer/__column/footer__column.css);
-@import url(../footer/__column-heading/footer__column-heading.css);
-@import url(../footer/__column-heading-link/footer__column-heading-link.css);
-@import url(../footer/__column-links/footer__column-links.css);
-@import url(../footer/__column-link/footer__column-link.css);
-@import url(../footer/__media/footer__media.css);
-@import url(../footer/__logo-zone/footer__logo-zone.css);
-@import url(../footer/__logo-link/footer__logo-link.css);
-@import url(../footer/__logo-link/_width/_fond-druzya/footer__logo-link_fond-druzya.css);
-@import url(../footer/__logo-link/_width/_mastercard/footer__logo-link_mastercard.css);
-@import url(../footer/__logo-description/footer__logo-description.css);
-@import url(../footer/__logo-image/footer__logo-image.css);
-@import url(../footer/__social-media/footer__social-media.css);
-@import url(../footer/__social-media-link/footer__social-media-link.css);
-@import url(../footer/__social-media-icon/footer__social-media-icon.css);
-@import url(../footer/__copyright-content/footer__copyright-content.css);
-@import url(../footer/__copyright-text/footer__copyright-text.css);
-@import url(../footer/__legal-text/footer__legal-text.css);
-@import url(../footer/__buro-link/footer__buro-link.css);
-@import url(../footer/__buro-img/footer__buro-img.css);
+/* ===Header & Footer==== */
+@import url("../pages/header-page.css");
+@import url("../pages/footer-page.css");
 /* ====================== */
 
 /* =====Registration===== */
@@ -79,6 +33,7 @@
 @import url(../blocks/registration-variant/registration-variant.css);
 @import url(../blocks/registration-variant/__heading/registration-variant__heading.css);
 @import url(../blocks/registration-variant/__description/registration-variant__description.css);
+@import url(../blocks/registration-variant/__button-link/registration-variant__button-link.css);
 @import url(../blocks/registration-variant/__description/_link/registration-variant__description_link.css);
 @import url(../blocks/registration-variant/__inner-box/registration-variant__inner-box.css);
 @import url(../blocks/registration-variant/__inner-box/_align/registration-variant__inner-box_align_left.css);
@@ -86,6 +41,7 @@
 @import url(../blocks/registration-variant/__content/registration-variant__content.css);
 @import url(../blocks/registration-variant/__content/_align/registration-variant__content_align_left.css);
 @import url(../blocks/registration-variant/__content/_align/registration-variant__content_align_right.css);
+@import url(../blocks/registration-variant/__image-container/registration-variant__image-container.css);
 @import url(../blocks/registration-variant/__image/registration-variant__image.css);
 @import url(../blocks/registration-variant/__image/_align/registration-variant__image_align_left.css);
 @import url(../blocks/registration-variant/__image/_align/registration-variant__image_align_right.css);

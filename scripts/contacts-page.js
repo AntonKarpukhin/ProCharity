@@ -227,6 +227,7 @@ const openImageCropPopup = function (image) {
   popup.classList.add("popup_visible");
   const popupImageElement = popup.querySelector(".popup__image");
   popupImageElement.src = image;
+  imageCropper.resetBracketInitialSize();
 };
 
 const closePopup = function (popup) {

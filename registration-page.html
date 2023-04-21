@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -12,93 +12,108 @@
 <body>
 
   <header class="header">
-  <div class="header__container">
-    <a  class="header__mini-menu-list" href="#">
-      <img  src="./images/list.svg" alt="меню">
-    </a>
-    <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
-    <nav class="header__menu">
-      <ul class="header__list">
-        <li ><a class="header__list-item header__list-item_link" href="#">О проекте</a></li>
-        <li ><a class="header__list-item header__list-item_link" href="#">Задания</a></li>
-        <li ><a class="header__list-item header__list-item_link" href="#">Волонтерам</a></li>
-        <li ><a class="header__list-item header__list-item_link" href="#">Для НКО</a></li>
-        <li ><a class="header__list-item header__list-item_link" href="#">Бизнесу</a></li>
-        <li ><a class="header__list-item header__list-item_link" href="#">FAQ</a></li>
-      </ul>
-      <a class="header__list-item header__list-item_search" href="#">
-        <img  src="./images/search.svg" alt="иконка поиска">
+    <div class="header__container">
+      <a class="header__mini-menu-list" href="#">
+        <img src="./images/list.svg" alt="меню">
       </a>
+      <img class="header__logo" src="./images/logo.svg" alt="логотип ProCharity">
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a class="header__list-item header__list-item_link" href="#">О проекте</a></li>
+          <li><a class="header__list-item header__list-item_link" href="#">Задания</a></li>
+          <li><a class="header__list-item header__list-item_link" href="#">Волонтерам</a></li>
+          <li><a class="header__list-item header__list-item_link" href="#">Для НКО</a></li>
+          <li><a class="header__list-item header__list-item_link" href="#">Бизнесу</a></li>
+          <li><a class="header__list-item header__list-item_link" href="#">FAQ</a></li>
+        </ul>
+        <a class="header__list-item header__list-item_search" href="#">
+          <img src="./images/search.svg" alt="иконка поиска">
+        </a>
 
-    </nav>
-    <div class="header__buttons-section">
-      <!--     вид кнопок незарегистрированного пользователя -->
-      <!--              <button class="header__mini-button-registration" type="button"></button>-->
-      <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
-      <!--              <button class="header__button-login" type="button"></button>-->
-      <!--     вид кнопок авторизованного пользователя -->
-      <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image" src="./images/default-avatar.svg" alt="аватар"></button>
-      <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image" src="images/default-avatar-mini.svg" alt="аватар"></button>
+      </nav>
+      <div class="header__buttons-section">
+        <!--     вид кнопок незарегистрированного пользователя -->
+        <!--              <button class="header__mini-button-registration" type="button"></button>-->
+        <!--              <button class="header__button-registration" type="button">Присоединиться</button>-->
+        <!--              <button class="header__button-login" type="button"></button>-->
+        <!--     вид кнопок авторизованного пользователя -->
+        <button class="header__button-personal-area" type="button">Личный кабинет<img class="header__avatar-image"
+            src="./images/default-avatar.svg" alt="аватар"></button>
+        <button class="header__mini-button-personal-area" type="button"><img class="header__avatar-image"
+            src="images/default-avatar-mini.svg" alt="аватар"></button>
 
-      <div class="header__popup">
-        <div class="notification">
-          <button class="notification__close-button" type="button"></button>
-          <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
-          <div class="notification__body">
-            <h2 class="notification__heading">Профиль на модерации</h2>
-            <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.
-            </p>
+        <div class="header__popup">
+          <div class="notification">
+            <button class="notification__close-button" type="button"></button>
+            <img src="./images/success_icon.svg" class="notification__success-icon" alt="Успешно">
+            <div class="notification__body">
+              <h2 class="notification__heading">Профиль на модерации</h2>
+              <p class="notification__text">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на
+                email.
+              </p>
+            </div>
           </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="content">
+    <section class="registration">
+      <h1 class="title registration__heading">Регистрация</h1>
+
+      <div class="registration__variants-container">
+
+        <div class="registration-variant">
+
+          <div class="registration-variant__inner-box registration-variant__inner-box_align_left">
+            <a class=registration-variant__button-link href="./registration-new-volunteer.html">
+            </a>
+            <div class="registration-variant__image-container">
+              <div class="registration-variant__image registration-variant__image_align_left"></div>
+            </div>
+            <div class="registration-variant__content registration-variant__content_align_left">
+              <h2 class="registration-variant__heading">Для волонтера</h2>
+              <p class="registration-variant__description">Рады приветствовать профессионала с доброй душой и открытым
+                сердцем!
+                Пожалуйста, ознакомься с <a class="registration-variant__description_link
+              ">правилами регистрации и работы на ProCharity</a></p>
+              <a class="registration-variant__link" href="./registration-new-volunteer.html">Создать аккаунт</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="registration-variant">
+
+          <div class="registration-variant__inner-box registration-variant__inner-box_align_right">
+            <a class=registration-variant__button-link href="./registration-new-volunteer.html">
+            </a>
+            <div class="registration-variant__content registration-variant__content_align_right">
+              <h2 class="registration-variant__heading">Для НКО</h2>
+              <p class="registration-variant__description">Найдите своего профессионала на ProCharity! Для регистрации
+                вам
+                потребуются некоторые документы. Пожалуйста, прочтите <a
+                  class="registration-variant__description_link">условия регистрации</a>
+              </p>
+              <a class="registration-variant__link">Создать аккаунт</a>
+            </div>
+            <div class="registration-variant__image-container">
+              <div class="registration-variant__image registration-variant__image_align_right"></div>
+            </div>
+          </div>
+
         </div>
       </div>
 
-    </div>
+      <p class="paragraph registration__login-prompt">Уже есть аккаунт? <a class="paragraph__link">Войти</a></p>
 
-  </div>
-
-</header>
-
-  <section class="registration">
-    <h1 class="title registration__heading">Регистрация</h1>
-
-    <div class="registration__variants-container">
-      <div class="registration-variant">
-
-        <button class="registration-variant__inner-box registration-variant__inner-box_align_left" type="button"
-          aria-label="Для волонтера">
-
-          <div class="registration-variant__content registration-variant__content_align_left">
-            <h2 class="registration-variant__heading">Для волонтера</h2>
-            <p class="registration-variant__description">Рады приветствовать профессионала с доброй душой и открытым
-              сердцем!
-              Пожалуйста, ознакомься с <a class="registration-variant__description_link
-              ">правилами регистрации и работы на ProCharity</a></p>
-            <a class="registration-variant__link">Создать аккаунт</a>
-          </div>
-        </button>
-        <div class="registration-variant__image registration-variant__image_align_left"></div>
-      </div>
-      <div class="registration-variant">
-
-        <button class="registration-variant__inner-box registration-variant__inner-box_align_right" type="button"
-          aria-label="Для волонтера">
-
-          <div class="registration-variant__content registration-variant__content_align_right">
-            <h2 class="registration-variant__heading">Для НКО</h2>
-            <p class="registration-variant__description">Найдите своего профессионала на ProCharity! Для регистрации вам
-              потребуются некоторые документы. Пожалуйста, прочтите <a
-                class="registration-variant__description_link">условия регистрации</a>
-            </p>
-            <a class="registration-variant__link">Создать аккаунт</a>
-          </div>
-        </button>
-        <div class="registration-variant__image registration-variant__image_align_right"></div>
-      </div>
-    </div>
-
-    <p class="paragraph registration__login-prompt">Уже есть аккаунт? <a class="paragraph__link">Войти</a></p>
-
-  </section>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer__container">
