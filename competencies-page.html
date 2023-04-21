@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/competencies-page.css">
 </head>
-<body class="main-page">
+<body>
 <header class="header">
   <div class="header__container">
     <a  class="header__mini-menu-list" href="#">
@@ -55,12 +55,12 @@
 </header>
 
 
-<main class="competencies">
+<main>
   <div class="bread-crumbs bread-crumbs_grid">
     <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
     </p>
   </div>
-
+<section class="competencies">
   <div class="sidebar sidebar_grid">
     <nav class="sidebar__steps">
       <a class="sidebar__step sidebar__step_color_blue" href="./conatcts-page.html">
@@ -141,30 +141,30 @@
             <span class="form__placeholder">Выбрать</span>
 
             <div class="competencies__chips-block">
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
-<!--              <div class="competencies__chips">-->
-<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>-->
-<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
-<!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
+              <!--              <div class="competencies__chips">-->
+              <!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>-->
+              <!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+              <!--              </div>-->
             </div>
           </div>
           <ul class="form__dropdown-list form__dropdown-list_fix-size competencies__list">
@@ -306,7 +306,7 @@
           </ul>
           <span class="form__input-error" data-error="empty-value">Поле обязательное</span>
 
-<!--           мобильная версия списка компетенций                        -->
+          <!--           мобильная версия списка компетенций                        -->
 
         </div>
         <div class="competencies__input-mini  competencies__input-mini_disable">
@@ -369,8 +369,8 @@
                   </div>
                   <div class="form__submenu-mini">
                     <div class="form__submenu-mini-buttons-container">
-                        <button class="form__submenu-mini-button" type="button">Сбросить</button>
-                        <button class="form__submenu-mini-button" type="button">Выбрать все</button>
+                      <button class="form__submenu-mini-button" type="button">Сбросить</button>
+                      <button class="form__submenu-mini-button" type="button">Выбрать все</button>
                     </div>
 
                     <div class="competencies__chips-mini competencies__chips-mini_active">
@@ -451,6 +451,8 @@
     </form>
 
   </section>
+</section>
+
 
 
 </main>
@@ -627,7 +629,7 @@
     <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
   </div>
 </template>
-<script defer src="components/competencies-page.js"></script>
+<script defer src="scripts/competencies-page.js"></script>
 <script src="components/inputs.js"></script>
 
 </body>
