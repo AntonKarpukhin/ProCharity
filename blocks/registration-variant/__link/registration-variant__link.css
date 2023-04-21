@@ -10,4 +10,6 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #7dcdd7;
+  z-index: 3;
+  cursor: pointer;
 }

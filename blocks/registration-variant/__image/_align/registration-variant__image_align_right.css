@@ -1,13 +1,22 @@
 .registration-variant__image_align_right {
+  bottom: -64px;
   right: 0px;
   background-image: url(../../../../images/bitmap_fund.png);
-  background-position-x: 201px;
+  background-position-x: 193px;
+}
+
+@media screen and (max-width: 1280px) {
+  .registration-variant__image_align_right {
+    right: unset;
+    left: -327px;
+  }
 }
 
 @media screen and (max-width: 856px) {
   .registration-variant__image_align_right {
+    left: unset;
     right: 0px;
-    bottom: 0;
+    bottom: -45px;
     background-position-x: 97px;
   }
 }
