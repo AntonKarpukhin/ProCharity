@@ -1,0 +1,4 @@
+.form__dropdown-list_active {
+  display: block;
+  z-index: 100;
+}

@@ -1,0 +1,10 @@
+.form__input_left{
+  border-radius: 6px 0 0 6px;
+}
+
+@media screen and (max-width: 856px){
+  .form__input_left{
+    margin-top: 16px;
+    border-radius: 6px 6px 0 0;
+  }
+}

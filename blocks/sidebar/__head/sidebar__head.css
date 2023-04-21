@@ -1,0 +1,13 @@
+.sidebar__head {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .sidebar__head {
+    display: none;
+  }
+}

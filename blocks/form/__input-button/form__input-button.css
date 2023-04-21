@@ -1,0 +1,28 @@
+.form__input-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.form__input-button:hover {
+  opacity: .6;
+  transition: opacity .1s ease-in-out;
+}
+
+.form__input-button:disabled {
+  opacity: .6;
+}
+
+.form__input-button:disabled:hover {
+  cursor: not-allowed;
+}
+
+.form__input-button:active {
+  opacity: .3;
+  transition: opacity .1s ease-in-out;
+}

@@ -1,0 +1,4 @@
+.form__input-button_type_close{
+  background-image: url("../../../../images/white_close_button.svg");
+  display: inline-block;
+}

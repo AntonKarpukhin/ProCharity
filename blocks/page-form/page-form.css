@@ -1,0 +1,21 @@
+.page-form {
+  box-sizing: border-box;
+  max-width: 1120px;
+  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  padding: 64px 0 120px 0;
+  display: flex;
+  gap: 32px;
+
+}
+
+@media screen and (max-width: 856px) {
+  .page-form  {
+    flex-direction: column;
+    padding: 24px 24px 80px 24px;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}

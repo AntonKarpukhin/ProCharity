@@ -1,0 +1,5 @@
+/*нумерация сайдбара активна*/
+.sidebar__number_active {
+  color: #FFF;
+  background-color: #E65609;
+}

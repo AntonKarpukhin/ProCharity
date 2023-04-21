@@ -1,0 +1,11 @@
+.progress-bar {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  width: 216px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  background-color: #e3e9f0;
+  border-radius: 24px;
+}

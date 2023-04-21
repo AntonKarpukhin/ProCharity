@@ -1,0 +1,6 @@
+@media screen and (max-width: 856px) {
+  .notifications-area__mobile-items {
+    width: 100%;
+    padding: 8px 0 0 0;
+    }
+}

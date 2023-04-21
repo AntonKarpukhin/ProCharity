@@ -1,0 +1,27 @@
+.image-crop__overlay {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  --x-pos: 50%;
+  --y-pos: 50%;
+  --radius: 100px;
+  /* background-color: #000; */
+  /* background-image: radial-gradient(
+    circle 100px at calc(50%) calc(50%),
+    transparent 100%,
+    #000 0
+  ); */
+  background-image: radial-gradient(
+    circle var(--radius) at var(--x-pos) var(--y-pos),
+    transparent 100%,
+    #000 0
+  );
+  opacity: 0.2;
+  content: "";
+}

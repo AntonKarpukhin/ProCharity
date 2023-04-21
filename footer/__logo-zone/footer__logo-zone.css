@@ -1,0 +1,24 @@
+.footer__logo-zone {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 800px;
+  width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+  .footer__logo-zone {
+    max-width: 660px;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .footer__logo-zone {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

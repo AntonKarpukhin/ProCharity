@@ -1,0 +1,17 @@
+.registration-variant {
+  margin: 0;
+  padding: 0;
+  min-height: 480px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  justify-content: stretch;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant {
+    min-height: fit-content;
+  }
+}

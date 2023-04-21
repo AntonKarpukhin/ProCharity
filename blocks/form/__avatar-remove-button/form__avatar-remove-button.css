@@ -1,0 +1,27 @@
+.form__avatar-remove-button {
+  width: 24px;
+  height: 24px;
+  background-color: #E65609;
+  border: none;
+  border-radius: 50%;
+  background-image: url('../../../images/icons/union_white.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 114px;
+  left: 121px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.form__avatar-remove-button:hover {
+  opacity: .6;
+  transition: opacity .1s ease-in-out;
+}
+
+.form__avatar-remove-button:active {
+  opacity: .3;
+  transition: opacity .1s ease-in-out;
+}

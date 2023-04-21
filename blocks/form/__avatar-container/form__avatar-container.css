@@ -1,0 +1,11 @@
+.form__avatar-container {
+  box-sizing: border-box;
+  border: 1px dashed #A0ABB5;
+  border-radius: 50%;
+  width: 136px;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

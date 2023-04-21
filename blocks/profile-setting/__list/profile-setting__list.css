@@ -1,0 +1,5 @@
+.profile-setting__list {
+  padding: 8px 12px;
+  margin: 0;
+  list-style-image: url(../../../images/list-item.svg);
+}
