@@ -1,0 +1,5 @@
+.image-crop__handle_direction_down {
+  left: calc(50% - 4px);
+  top: calc(100% - 4px);
+  cursor: ns-resize;
+}

@@ -2,7 +2,9 @@
   position: absolute;
   right: 8px;
   top: 24px;
-  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
 }
 
 @media screen and (max-width: 856px) {

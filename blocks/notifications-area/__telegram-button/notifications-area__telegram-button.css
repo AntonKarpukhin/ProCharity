@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: block;
   width: 132px;
   height: 32px;
   background: url('../../../images/telegram-button.svg') no-repeat;

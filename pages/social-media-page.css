@@ -9,7 +9,7 @@
 @import url(../pages/notification-page.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/paragraph/paragraph.css);
-@import url(../blocks/paragraph/_xsmall/paragraph_xsmall.css);
+@import url(../blocks/paragraph/_type/paragraph_type_xsmall.css);
 @import url(../blocks/social-media-area/social-media-area.css);
 @import url(../blocks/social-media-area/__sidebar/social-media-area__sidebar.css);
 @import url(../blocks/social-media-area/__mobile-items/social-media-area__mobile-items.css);
@@ -20,6 +20,7 @@
 @import url(../blocks/social-media-area/__paragraph/social-media-area__paragraph.css);
 @import url(../blocks/social-media-area/__list/social-media-area__list.css);
 @import url(../blocks/social-media-area/__item/social-media-area__item.css);
+@import url(../blocks/social-media-area/__label/social-media-area__label.css);
 @import url(../blocks/social-media-area/__input/social-media-area__input.css);
 @import url(../blocks/social-media-area/__field/social-media-area__field.css);
 @import url(../blocks/social-media-area/__meta/social-media-area__meta.css);
