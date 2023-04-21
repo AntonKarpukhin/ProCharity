@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/competencies-page.css">
 </head>
-<body>
+<body class="main-page">
 <header class="header">
   <div class="header__container">
     <a  class="header__mini-menu-list" href="#">
@@ -53,32 +53,33 @@
   </div>
 
 </header>
-<div class="bread-crumbs">
-  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
-  </p>
-</div>
 
-<section class="competencies">
+
+<main class="competencies">
+  <div class="bread-crumbs bread-crumbs_grid">
+    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
+    </p>
+  </div>
 
   <div class="sidebar sidebar_grid">
     <nav class="sidebar__steps">
-      <a class="sidebar__step sidebar__step_color_blue" href="#">
+      <a class="sidebar__step sidebar__step_color_blue" href="./conatcts-page.html">
         <span class="sidebar__number sidebar__number_color_blue">1</span>
         <p class="sidebar__item">Личные данные</p>
       </a>
-      <a class="sidebar__step sidebar__step_active" href="#">
+      <a class="sidebar__step sidebar__step_active" href="./competencies-page.html">
         <span class="sidebar__number sidebar__number_color_blue sidebar__number_active">2</span>
         <p class="sidebar__item sidebar__item_active">Компетенции</p>
       </a>
-      <a class="sidebar__step sidebar__step_color_blue" href="#">
+      <a class="sidebar__step sidebar__step_color_blue" href="./motivation-page.html">
         <span class="sidebar__number sidebar__number_color_blue">3</span>
         <p class="sidebar__item">Мотивация</p>
       </a>
-      <a class="sidebar__step sidebar__step_color_blue" href="#">
+      <a class="sidebar__step sidebar__step_color_blue" href="./portfolio-page.html">
         <span class="sidebar__number sidebar__number_color_blue">4</span>
         <p class="sidebar__item">Портфолио</p>
       </a>
-      <a class="sidebar__step sidebar__step_color_blue" href="#">
+      <a class="sidebar__step sidebar__step_color_blue" href="./social-media-page.html">
         <span class="sidebar__number sidebar__number_color_blue">5</span>
         <p class="sidebar__item">Социальные сети</p>
       </a>
@@ -121,7 +122,7 @@
 
   </div>
 
-  <main class="competencies__main-page">
+  <section class="competencies__main-page">
 
     <form class="form form_fix" action="/" method="post" name="account-contacts">
 
@@ -134,36 +135,36 @@
 
           <div class=" competencies__input">
             <div class="form__input-buttons-container">
-              <button class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+              <button class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
             </div>
-            <span class="form__placeholder form__placeholder_disabled">Выбрать</span>
+            <span class="form__placeholder">Выбрать</span>
 
             <div class="competencies__chips-block">
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active"></button>
-              </div>
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
             </div>
           </div>
           <ul class="form__dropdown-list form__dropdown-list_fix-size competencies__list">
@@ -172,7 +173,7 @@
                 <span>Дизайн и верстка</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -183,38 +184,38 @@
                 <span>Маркетинг и коммуникации</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
 
                 <div class="form__submenu">
                   <label class="form__field form__field_type_row " for="social">
-                    <input type="checkbox" class="form__checkbox form__input " id="social">
+                    <input type="checkbox" class="form__checkbox form__input " id="social" value="Социальные сети">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Социальные сети</span>
                   </label>
                   <label class="form__field form__field_type_row" for="text">
-                    <input type="checkbox" class="form__checkbox form__input " id="text" checked>
+                    <input type="checkbox" class="form__checkbox form__input " id="text"  value="Работа с текстами">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Работа с текстами</span>
                   </label>
                   <label class="form__field form__field_type_row" for="email">
-                    <input type="checkbox" class="form__checkbox form__input " id="email">
+                    <input type="checkbox" class="form__checkbox form__input " id="email" value="Email-рассылки">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Email-рассылки</span>
                   </label>
                   <label class="form__field form__field_type_row" for="meeting">
-                    <input type="checkbox" class="form__checkbox form__input " id="meeting" checked>
+                    <input type="checkbox" class="form__checkbox form__input " id="meeting" value="Организация мероприятий">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Организация мероприятий</span>
                   </label>
                   <label class="form__field form__field_type_row" for="advertising">
-                    <input type="checkbox" class="form__checkbox form__input " id="advertising">
+                    <input type="checkbox" class="form__checkbox form__input " id="advertising" value="Реклама">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Реклама</span>
                   </label>
                   <label class="form__field form__field_type_row" for="other">
-                    <input type="checkbox" class="form__checkbox form__input " id="other" checked>
+                    <input type="checkbox" class="form__checkbox form__input " id="other" value="Стратегический маркетинг / Другое">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Стратегический маркетинг / Другое</span>
                   </label>
@@ -227,7 +228,7 @@
                 <span>IT</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -237,7 +238,7 @@
                 <span>Финансы и фандрайзинг</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -247,7 +248,7 @@
                 <span>Финансы и фандрайзинг</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -257,7 +258,7 @@
                 <span>Фото и видео</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -267,7 +268,7 @@
                 <span>Стратегический консалтинг</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -277,7 +278,7 @@
                 <span>Обучение и тренинги</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -287,7 +288,7 @@
                 <span>Менеджемент</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -297,7 +298,7 @@
                 <span>HR</span>
                 <div class="form__input-buttons-container">
                   <button
-                    class="form__input-button form__input-button_type_arrow-right form__input-button_type_active"
+                    class="form__input-button form__input-button_type_arrow-right form__input-button_active"
                     type="button"></button>
                 </div>
               </div>
@@ -310,7 +311,7 @@
         </div>
         <div class="competencies__input-mini  competencies__input-mini_disable">
           <div class="competencies__input-mini-block">
-            <button class="form__input-button form__input-button_type_reset form__input-button_type_active form__input-button_type_position"></button>
+            <button class="form__input-button form__input-button_type_reset form__input-button_active form__input-button_type_position" type="button"></button>
             <h2 class="title">Выбор компетенции</h2>
             <ul class="competencies__input-mini-list">
 
@@ -319,7 +320,7 @@
                   <span class="competencies__input-mini-list-text">HR</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -330,7 +331,7 @@
                   <span class="competencies__input-mini-list-text">Обучение и тренинги</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -341,7 +342,7 @@
                   <span class="competencies__input-mini-list-text">Юридические услуги</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -352,7 +353,7 @@
                   <span class="competencies__input-mini-list-text">IT</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -363,7 +364,7 @@
                   <span class="competencies__input-mini-list-text">Дизайн и верстка</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow-up form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow-up form__input-button_active"
                       type="button"></button>
                   </div>
                   <div class="form__submenu-mini">
@@ -403,7 +404,7 @@
                   <span class="competencies__input-mini-list-text">Финансы и фандрайзинг</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -414,7 +415,7 @@
                   <span class="competencies__input-mini-list-text">Маркетинг и коммуникации</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -425,7 +426,7 @@
                   <span class="competencies__input-mini-list-text">Фото и видео</span>
                   <div class="form__input-buttons-container">
                     <button
-                      class="form__input-button form__input-button_type_arrow form__input-button_type_active"
+                      class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
                   </div>
                 </div>
@@ -449,172 +450,186 @@
 
     </form>
 
-  </main>
+  </section>
 
 
-</section>
+</main>
 <footer class="footer">
-  <div class="footer__container">
-    <div class="footer__columns">
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">О проекте</a>
-        </h3>
-        <ul class="footer__column-links">
+    <div class="footer__container">
+      <div class="footer__columns">
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">О проекте</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">О платформе</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Команда</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Новости</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Документы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Партнеры</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Контакты</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Пожертвовать в фонды</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Задания</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Ждут исполнителей</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">В работе</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Выполненные</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Волонтерам</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как помочь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Задания</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Бонусы</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы волонтеров</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Премия ProCharity</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Фондам</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как получить помощь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список волонтеров</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Компании-волонтеры</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Вебинары</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">Бизнесу</a>
+          </h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Как помочь</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Список НКО</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Отзывы НКО</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h3 class="footer__column-heading">
+            <a class="footer__column-heading-link" href="#">FAQ</a>
+          </h3>
+        </nav>
+      </div>
+      <div class="footer__media">
+        <ul class="footer__logo-zone">
           <li>
-            <a class="footer__column-link" href="#">О платформе</a>
+            <a class="footer__logo-link footer__logo-link_width_fond-druzya" href="#" target="_blank">
+              <p class="footer__logo-description">Создатель проекта</p>
+              <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+            </a>
           </li>
           <li>
-            <a class="footer__column-link" href="#">Команда</a>
+            <a class="footer__logo-link footer__logo-link_width_mastercard" href="#" target="_blank">
+              <p class="footer__logo-description">Генеральный партнёр</p>
+              <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+            </a>
           </li>
           <li>
-            <a class="footer__column-link" href="#">Новости</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Документы</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Партнеры</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Отзывы</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Контакты</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Пожертвовать в фонды</a>
+            <a class="footer__logo-link" href="#" target="_blank">
+              <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+                alt="Логотип Фонда Президентских Грантов">
+            </a>
           </li>
         </ul>
-      </nav>
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">Задания</a>
-        </h3>
-        <ul class="footer__column-links">
+        <ul class="footer__social-media">
           <li>
-            <a class="footer__column-link" href="#">Ждут исполнителей</a>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/facebook_icon.svg" alt="Facebook">
+            </a>
           </li>
           <li>
-            <a class="footer__column-link" href="#">В работе</a>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/instragram_icon.svg" alt="Instagram">
+            </a>
           </li>
           <li>
-            <a class="footer__column-link" href="#">Выполненные</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">Волонтерам</a>
-        </h3>
-        <ul class="footer__column-links">
-          <li>
-            <a class="footer__column-link" href="#">Как помочь</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Задания</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Список НКО</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Бонусы</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Отзывы волонтеров</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Премия ProCharity</a>
+            <a class="footer__social-media-link" href="#" target="_blank">
+              <img class="footer__social-media-icon" src="./images/vk_icon.svg" alt="VKontakte">
+            </a>
           </li>
         </ul>
-      </nav>
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">Фондам</a>
-        </h3>
-        <ul class="footer__column-links">
-          <li>
-            <a class="footer__column-link" href="#">Как получить помощь</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Список волонтеров</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Компании-волонтеры</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Отзывы НКО</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Вебинары</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">Бизнесу</a>
-        </h3>
-        <ul class="footer__column-links">
-          <li>
-            <a class="footer__column-link" href="#">Как помочь</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Список НКО</a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">Отзывы НКО</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__column">
-        <h3 class="footer__column-heading">
-          <a class="footer__column-heading-link" href="#">FAQ</a>
-        </h3>
-      </nav>
-    </div>
-    <div class="footer__media">
-      <ul class="footer__logo-zone">
-        <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
-          <p class="footer__logo-description">Создатель проекта</p>
-          <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+      </div>
+      <div class="footer__copyright-content">
+        <p class="footer__copyright-text">&copy;2017–2019 ProCharity</p>
+        <a class="footer__legal-text">Юридическая информация и защита персональных данных</a>
+        <a class="footer__buro-link" href="#" target="_blank">
+          <img class="footer__buro-img" src="./images/logo_buroburo.svg" alt="Логотип БюроБюро">
         </a>
-        <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
-          <p class="footer__logo-description">Генеральный партнёр</p>
-          <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
-        </a>
-        <a class="footer__logo-link" href="#" target="_blank">
-          <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
-               alt="Логотип Фонда Президентских Грантов">
-        </a>
-      </ul>
-      <ul class="footer__social-media">
-        <li>
-          <a class="footer__social-media-link" href="#" target="_blank">
-            <img class="footer__social-media-icon" src="./images/facebook_icon.svg" alt="Facebook">
-          </a>
-        </li>
-        <li>
-          <a class="footer__social-media-link" href="#" target="_blank">
-            <img class="footer__social-media-icon" src="./images/instragram_icon.svg" alt="Instagram">
-          </a>
-        </li>
-        <li>
-          <a class="footer__social-media-link" href="#" target="_blank">
-            <img class="footer__social-media-icon" src="./images/vk_icon.svg" alt="VKontakte">
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
-    <div class="footer__copyright-content">
-      <p class="footer__copyright-text">&copy;2017–2019 ProCharity</p>
-      <a class="footer__legal-text">Юридическая информация и защита персональных данных</a>
-      <a class="footer__buro-link" href="#" target="_blank">
-        <img class="footer__buro-img" src="./images/logo_buroburo.svg" alt="Логотип БюроБюро">
-      </a>
-    </div>
+  </footer>
+<template class="template">
+  <div class="competencies__chips">
+    <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap"></span>
+    <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
   </div>
-</footer>
+</template>
+<script defer src="components/competencies-page.js"></script>
 <script src="components/inputs.js"></script>
+
 </body>
 </html>
 
