@@ -1,0 +1,5 @@
+.bread-crumbs_grid{
+  grid-area:bread-crumbs;
+  padding-left: 0;
+  margin-right: 25px;
+}
