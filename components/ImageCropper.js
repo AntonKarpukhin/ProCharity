@@ -154,23 +154,22 @@ class ImageCropper {
     this.overlay.style.setProperty("--radius", `${radius}px`);
   }
 
-  async resetBracketInitialSize() {
+  resetBracketInitialSize() {
     setTimeout(() => {
       const imageWidth = parseInt(this.containerStyle.width);
       const imageHeight = this.container.clientHeight;
-      console.log(`setting size width: ${imageWidth}, height: ${imageHeight}`);
-      if (imageWidth <= imageHeight) {
-        this.bracket.style.width = `${imageWidth}px`;
-        this.bracket.style.height = `${imageWidth}px`;
-      } else {
-        this.bracket.style.width = `${imageHeight}px`;
-        this.bracket.style.height = `${imageHeight}px`;
-      }
+
+      const minDimension = Math.min(imageWidth, imageHeight);
+
+      this.bracket.style.width = `${minDimension}px`;
+      this.bracket.style.height = `${minDimension}px`;
+
+      this.bracket.style.left = `${imageWidth - minDimension}px`;
+      this.bracket.style.top = `${imageHeight - minDimension}px`;
+
       this._updateOverlay();
     }, 0);
   }
-
-  async _getContainerSize() {}
 
   getCroppedArea() {
     const posX =
