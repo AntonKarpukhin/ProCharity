@@ -1,7 +1,9 @@
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__paragraph/bread-crumbs__paragraph.css);
 @import url(../blocks/bread-crumbs/__paragraph/_link/bread-crumbs__paragraph_link.css);
+@import url(../blocks/bread-crumbs/_grid/bread-crumbs_grid.css);
 @import url(../blocks/main-page/main-page.css);
+
 
 @import url(../pages/header-page.css);
 @import url(../pages/sidebar-page.css);
@@ -30,6 +32,7 @@
 @import url(../blocks/competencies/__chips-mini/_active/competencies__chips-mini_active.css);
 @import url(../blocks/competencies/__input-mini/_disable/competencies__input-mini_disable.css);
 @import url(../blocks/competencies/__input-mini-buttons/competencies__input-mini_buttons.css);
+
 
 @import url(../blocks/form/_fix/form_fix.css);
 @import url(../blocks/form/__dropdown-list/_fix-size/form__dropdown-list_fix-size.css);

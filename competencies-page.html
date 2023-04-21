@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/competencies-page.css">
 </head>
-<body class="main__page">
+<body class="main-page">
 <header class="header">
   <div class="header__container">
     <a  class="header__mini-menu-list" href="#">
@@ -53,12 +53,13 @@
   </div>
 
 </header>
-<div class="bread-crumbs">
-  <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
-  </p>
-</div>
 
-<section class="competencies">
+
+<main class="competencies">
+  <div class="bread-crumbs bread-crumbs_grid">
+    <p class="bread-crumbs__paragraph"><a class="bread-crumbs__paragraph bread-crumbs__paragraph_link">Личный кабинет</a> &nbsp;/&nbsp; Мои данные
+    </p>
+  </div>
 
   <div class="sidebar sidebar_grid">
     <nav class="sidebar__steps">
@@ -121,7 +122,7 @@
 
   </div>
 
-  <main class="competencies__main-page">
+  <section class="competencies__main-page">
 
     <form class="form form_fix" action="/" method="post" name="account-contacts">
 
@@ -137,33 +138,33 @@
               <button class="form__input-button form__input-button_type_arrow form__input-button_active"
                       type="button"></button>
             </div>
-            <span class="form__placeholder form__placeholder_disabled">Выбрать</span>
+            <span class="form__placeholder">Выбрать</span>
 
             <div class="competencies__chips-block">
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
-              <div class="competencies__chips">
-                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>
-                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>
-              </div>
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аудит сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание, доработка сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap ">Настройка сайта</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Аналитика</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Администрирование</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
+<!--              <div class="competencies__chips">-->
+<!--                <span class="paragraph paragraph_theme_withe paragraph_small paragraph_nowrap">Создание чат-ботов</span>-->
+<!--                <button class="form__input-button form__input-button_type_close form__input-button_type_active" type="button"></button>-->
+<!--              </div>-->
             </div>
           </div>
           <ul class="form__dropdown-list form__dropdown-list_fix-size competencies__list">
@@ -194,7 +195,7 @@
                     <span class="paragraph">Социальные сети</span>
                   </label>
                   <label class="form__field form__field_type_row" for="text">
-                    <input type="checkbox" class="form__checkbox form__input " id="text"  value="Работа с текстами" checked>
+                    <input type="checkbox" class="form__checkbox form__input " id="text"  value="Работа с текстами">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Работа с текстами</span>
                   </label>
@@ -204,7 +205,7 @@
                     <span class="paragraph">Email-рассылки</span>
                   </label>
                   <label class="form__field form__field_type_row" for="meeting">
-                    <input type="checkbox" class="form__checkbox form__input " id="meeting" checked value="Организация мероприятий">
+                    <input type="checkbox" class="form__checkbox form__input " id="meeting" value="Организация мероприятий">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Организация мероприятий</span>
                   </label>
@@ -214,7 +215,7 @@
                     <span class="paragraph">Реклама</span>
                   </label>
                   <label class="form__field form__field_type_row" for="other">
-                    <input type="checkbox" class="form__checkbox form__input " id="other" checked value="Стратегический маркетинг / Другое">
+                    <input type="checkbox" class="form__checkbox form__input " id="other" value="Стратегический маркетинг / Другое">
                     <span class="form__checkbox-item"></span>
                     <span class="paragraph">Стратегический маркетинг / Другое</span>
                   </label>
@@ -449,10 +450,10 @@
 
     </form>
 
-  </main>
+  </section>
 
 
-</section>
+</main>
 <footer class="footer">
   <div class="footer__container">
     <div class="footer__columns">
@@ -574,18 +575,24 @@
     </div>
     <div class="footer__media">
       <ul class="footer__logo-zone">
-        <a class="footer__logo-link footer__logo-link_fond-druzya" href="#" target="_blank">
-          <p class="footer__logo-description">Создатель проекта</p>
-          <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
-        </a>
-        <a class="footer__logo-link footer__logo-link_mastercard" href="#" target="_blank">
-          <p class="footer__logo-description">Генеральный партнёр</p>
-          <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
-        </a>
-        <a class="footer__logo-link" href="#" target="_blank">
-          <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
-               alt="Логотип Фонда Президентских Грантов">
-        </a>
+        <li>
+          <a class="footer__logo-link footer__logo-link_width_fond-druzya" href="#" target="_blank">
+            <p class="footer__logo-description">Создатель проекта</p>
+            <img class="footer__logo-image" src="./images/logo_druzya.svg" alt="Логотип Фонда Друзья">
+          </a>
+        </li>
+        <li>
+          <a class="footer__logo-link footer__logo-link_width_mastercard" href="#" target="_blank">
+            <p class="footer__logo-description">Генеральный партнёр</p>
+            <img class="footer__logo-image" src="./images/logo_mastercard.svg" alt="Логотип Мастеркард">
+          </a>
+        </li>
+        <li>
+          <a class="footer__logo-link" href="#" target="_blank">
+            <img class="footer__logo-image" src="./images/logo_fond_grants.svg"
+                 alt="Логотип Фонда Президентских Грантов">
+          </a>
+        </li>
       </ul>
       <ul class="footer__social-media">
         <li>
