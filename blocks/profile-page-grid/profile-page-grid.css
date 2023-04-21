@@ -9,6 +9,8 @@
   row-gap: 24px;
   padding-bottom: 120px;
   min-height: 522px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 856px) {

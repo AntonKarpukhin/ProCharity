@@ -1,5 +1,6 @@
 .motivation-grid {
   display: grid;
+  max-width: 1440px;
   grid-template-columns: minmax(min-content, 416px) minmax(min-content, 736px);
   grid-template-rows: 264px max-content;
   grid-template-areas:
@@ -8,6 +9,7 @@
   column-gap: 32px;
   row-gap: 24px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 856px) {

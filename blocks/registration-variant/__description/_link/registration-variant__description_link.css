@@ -3,6 +3,8 @@
   padding: 0;
   color: #7dcdd7;
   text-decoration: underline;
+  z-index: 3;
+  cursor: pointer;
 }
 
 .registration-variant__description_link:hover {
