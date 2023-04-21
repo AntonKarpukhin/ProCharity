@@ -324,10 +324,10 @@
               <ul class="form__dropdown-list">
                 <li class="form__dropdown-list-item form__dropdown-list-item_active" data-contact="email">Электронная
                   почта</li>
-                <li class="form__dropdown-list-item" data-contact="tel">Телефон</li>
-                <li class="form__dropdown-list-item" data-contact="telegram">Telegram</li>
-                <li class="form__dropdown-list-item" data-contact="email+tel">Электронная почта и телефон</li>
-                <li class="form__dropdown-list-item" data-contact="email+telegram">Электронная почта и Telegram</li>
+                <li class="form__dropdown-list-item contacts" data-contact="tel">Телефон</li>
+                <li class="form__dropdown-list-item contacts" data-contact="telegram">Telegram</li>
+                <li class="form__dropdown-list-item contacts" data-contact="email+tel">Электронная почта и телефон</li>
+                <li class="form__dropdown-list-item contacts" data-contact="email+telegram">Электронная почта и Telegram</li>
               </ul>
 
               <!-- placeholder для кнопки показа кастомного select -->
@@ -367,7 +367,7 @@
 
           <div class="form__fields-container">
 
-            <div class="form__field form__field_disabled">
+            <div class="form__field">
 
               <!-- скрытое поле select, возможно, его можно убрать -->
 
@@ -388,16 +388,16 @@
               <!-- кастомный список options для select -->
 
               <ul class="form__dropdown-list">
-                <li class="form__dropdown-list-item" data-contact="email">Компания 1</li>
-                <li class="form__dropdown-list-item" data-contact="company1">Компания 2</li>
-                <li class="form__dropdown-list-item" data-contact="company2">Компания 3</li>
-                <li class="form__dropdown-list-item" data-contact="company3">Компания 4</li>
-                <li class="form__dropdown-list-item" data-contact="company4">Компания 5</li>
+                <li class="form__dropdown-list-item company" data-contact="email">Компания 1</li>
+                <li class="form__dropdown-list-item company" data-contact="company1">Компания 2</li>
+                <li class="form__dropdown-list-item company" data-contact="company2">Компания 3</li>
+                <li class="form__dropdown-list-item company" data-contact="company3">Компания 4</li>
+                <li class="form__dropdown-list-item company" data-contact="company4">Компания 5</li>
               </ul>
 
               <!-- placeholder для кнопки показа кастомного select -->
 
-              <span class="form__placeholder">Выбрать компанию</span>
+              <span class="form__placeholder" id="company-placeholder">Выбрать компанию</span>
 
               <!-- стрелка для кнопки показа кастомного select -->
 
