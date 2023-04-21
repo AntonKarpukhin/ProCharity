@@ -1,0 +1,5 @@
+.image-crop__handle_direction_left {
+  left: calc(0% - 4px);
+  top: calc(50% - 4px);
+  cursor: ew-resize;
+}

@@ -1,0 +1,8 @@
+.form__submenu-mini{
+  display: flex;
+  flex-direction: column;
+}
+.form__submenu-mini:hover{
+  opacity: 1;
+}
+

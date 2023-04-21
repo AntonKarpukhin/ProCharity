@@ -1,0 +1,9 @@
+.header__buttons-section{
+    display: flex;
+}
+@media screen and (max-width: 856px){
+    .header__buttons-section{
+        margin-right: 24px;
+        margin-left: 0;
+    }
+}

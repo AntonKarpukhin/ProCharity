@@ -1,0 +1,64 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/main-page/main-page.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+/*@import url(../blocks/portfolio/__content/portfolio__content.css);*/
+
+@import url(../blocks/portfolio/__paragraph/portfolio__paragraph.css);
+@import url(../blocks/portfolio/__file-container/portfolio__file-container.css);
+@import url(../blocks/portfolio/__span-text/portfolio__span-text.css);
+@import url(../blocks/portfolio/__set/portfolio__set.css);
+@import url(../blocks/portfolio/__fields-container/portfolio__fields-container.css);
+@import url(../blocks/portfolio/__text/portfolio__text.css);
+@import url(../blocks/portfolio/__text/_fix/portfolio__text_fix.css);
+@import url(../blocks/portfolio/__add-link-container/portfolio__add-link-container.css);
+@import url(../blocks/portfolio/__main-page/portfolio__main-page.css);
+@import url(../blocks/portfolio/__files/portfolio__files.css);
+@import url(../blocks/portfolio/__files-preview/portfolio__files-preview.css);
+@import url(../blocks/portfolio/__files-item/portfolio__files-item.css);
+@import url(../blocks/portfolio/__preview-icon/portfolio__preview-icon.css);
+@import url(../blocks/portfolio/__files-preview/_icon/portfolio__files-preview_icon.css);
+@import url(../blocks/portfolio/__preview-icon/_loader/portfolio__files-preview-icons_loader.css);
+@import url(../blocks/portfolio/__preview-icon/_error/portfolio__preview-icon_error.css);
+@import url(../blocks/portfolio/__preview-icon/_trash/portfolio__preview-icon_trash.css);
+@import url(../blocks/portfolio/__files-item/_text/portfolio__files_item_text.css);
+@import url(../blocks/portfolio/__files-item-container/portfolio__files-item-container.css);
+@import url(../blocks/portfolio/__files-error-text/portfolio__files-error-text.css);
+@import url(../blocks/portfolio/__files-error-text/_active/portfolio__files-error-text_active.css);
+@import url(../blocks/portfolio/__files-item-text-container/portfolio__files-item-text-container.css);
+@import url(../blocks/portfolio/__file-container-mini/portfolio__file-container-mini.css);
+@import url(../blocks/portfolio/__text/_mini/portfolio__text_mini.css);
+@import url(../blocks/portfolio/__files/_disable/portfolio__files_disable.css);
+@import url(../blocks/portfolio/__files-preview/_icon-mini/portfolio__files-preview_icon-mini.css);
+@import url(../blocks/portfolio/__files-item/_mini-preview/portfolio__files_item_mini-preview.css);
+@import url(../blocks/portfolio/__input-delete-button-position/portfolio__input-delete-button-position.css);
+
+@import url(../blocks/bread-crumbs/bread-crumbs.css);
+@import url(../blocks/bread-crumbs/__paragraph/bread-crumbs__paragraph.css);
+@import url(../blocks/bread-crumbs/__paragraph/_link/bread-crumbs__paragraph_link.css);
+
+@import url(../blocks/title/title.css);
+
+/*@import url(../blocks/profile-info/profile-info.css);*/
+
+@import url(../pages/status-page.css);
+@import url(../pages/style.css);
+@import url(../pages/sidebar-page.css);
+@import url(../pages/header-page.css);
+@import url(../pages/footer-page.css);
+
+@import url(../blocks/form/__input/_left/form__input_left.css);
+@import url(../blocks/form/__input/_right/form__input_right.css);
+@import url(../blocks/form/__input-buttons-container/_disabled/form__input-buttons-container_disabled.css);
+@import url(../blocks/form/__placeholder/_disabled/form__placeholder_disabled.css);
+@import url(../blocks/form/__input/_text/form__input_text.css);
+@import url(../blocks/form/__set/_link-container/form__set_link-container.css);
+@import url(../blocks/form/_fix/form_fix.css);
+
+@import url(../blocks/sidebar/_grid/sidebar_grid.css);
+
+@import url(../blocks/profile-info/_grid/profile-info_grid.css);
+
+@import url(../blocks/paragraph/_padding/paragraph_padding.css);

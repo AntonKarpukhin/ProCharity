@@ -1,0 +1,11 @@
+.competencies__list {
+  display: block;
+  top: auto;
+  z-index: 34;
+}
+
+@media screen and (max-width: 856px) {
+  .competencies__list {
+    display: none;
+  }
+}

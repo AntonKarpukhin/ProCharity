@@ -1,0 +1,8 @@
+.portfolio__files_item_mini-preview{
+  display: none;
+}
+@media screen and (max-width: 856px){
+  .portfolio__files_item_mini-preview{
+    display: block;
+  }
+}

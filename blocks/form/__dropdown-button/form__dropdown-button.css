@@ -1,0 +1,9 @@
+.form__dropdown-button {
+  background-color: #F1F5F9;
+  cursor: pointer;
+}
+
+.form__dropdown-button:hover {
+  background-color: #ffffff;
+  outline: 1px solid #A0ABB5;
+}

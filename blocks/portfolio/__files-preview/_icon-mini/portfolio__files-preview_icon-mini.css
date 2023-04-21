@@ -1,0 +1,9 @@
+.portfolio__files-preview_icon-mini{
+  border-radius: 50%;
+}
+@media screen and (min-width: 857px){
+  .portfolio__files-preview_icon-mini{
+    border-radius: 0;
+    background-color: transparent;
+  }
+}

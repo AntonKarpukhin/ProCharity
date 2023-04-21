@@ -1,0 +1,6 @@
+.form__input-buttons-container {
+  display: flex;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

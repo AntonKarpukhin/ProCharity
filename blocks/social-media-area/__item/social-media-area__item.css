@@ -1,0 +1,8 @@
+.social-media-area__item {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 16px;
+}

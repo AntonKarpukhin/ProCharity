@@ -1,0 +1,23 @@
+.footer__logo-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+@media screen and (max-width: 880px) {
+  .footer__logo-link {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .footer__logo-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

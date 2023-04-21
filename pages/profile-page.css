@@ -1,0 +1,9 @@
+@import url(../blocks/profile-page-grid/profile-page-grid.css);
+@import url(../blocks/profile-setting/profile-setting.css);
+@import url(../blocks/grid-profile-info/grid-profile-info.css);
+@import url(../blocks/profile-setting/__button/profile-setting__button.css);
+@import url(../blocks/profile-setting/__private-profile-paragraph/profile-setting__private-profile-paragraph.css);
+@import url(../blocks/profile-setting/__block-profile-paragraph/profile-setting__block-profile-paragraph.css);
+@import url(../blocks/profile-setting/__list/profile-setting__list.css);
+@import url(../blocks/profile-setting/__list-item/profile-setting__list-item.css);
+@import url(../blocks/profile-setting/__checkbox/profile-setting__checkbox.css);

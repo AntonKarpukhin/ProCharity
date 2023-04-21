@@ -1,0 +1,9 @@
+.form__fields-container_type_radio {
+  column-gap: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .form__fields-container_type_radio {
+    row-gap: 0px;
+  }
+}

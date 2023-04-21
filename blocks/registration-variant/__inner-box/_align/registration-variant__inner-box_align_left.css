@@ -1,0 +1,10 @@
+.registration-variant__inner-box_align_left {
+  border-radius: 0px 6px 6px 0px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 856px) {
+  .registration-variant__inner-box_align_left {
+    border-radius: 0px 0px 6px 6px;
+  }
+}

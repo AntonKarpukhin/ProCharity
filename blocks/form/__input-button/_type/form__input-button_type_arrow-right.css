@@ -1,0 +1,5 @@
+.form__input-button_type_arrow-right {
+  background-image: url("../../../../images/arrow-right.svg");
+  cursor: pointer;
+  pointer-events: none;
+}

@@ -1,0 +1,15 @@
+.form__input {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #374045;
+  background-color: #F1F5F9;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+  padding:23px 16px 5px 16px;
+  box-sizing: border-box;
+  width: 100%;
+}

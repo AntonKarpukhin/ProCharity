@@ -1,0 +1,17 @@
+/*стили для всей секции*/
+.sidebar {
+  grid-area: sidebar;
+  align-self: start;
+  display: flex;
+  justify-content: end;
+  max-width: 416px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .sidebar {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}

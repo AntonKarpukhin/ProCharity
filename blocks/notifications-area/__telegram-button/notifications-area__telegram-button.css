@@ -1,0 +1,22 @@
+.notifications-area__telegram-button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  width: 132px;
+  height: 32px;
+  background: url('../../../images/telegram-button.svg') no-repeat;
+  border: none;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.notifications-area__telegram-button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 856px) {
+  .notifications-area__telegram-button {
+    align-self: flex-end;
+  }
+}
