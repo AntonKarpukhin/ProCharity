@@ -4,6 +4,7 @@
   border: none;
   box-sizing: border-box;
   margin-top: 20px;
-  width: 100%;
   position: relative;
+  justify-self: center;
+  max-width: 100%;
 }
