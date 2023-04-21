@@ -1,16 +1,19 @@
 const competenciesMiniListToggle = document.querySelector('.competencies__input-mini')
 const competenciesForm = document.querySelector('.form__input-buttons-container')
-
+const competenciesList = document.querySelector('.competencies__list')
+const listActive = document.querySelector('.form__dropdown-list_active')
 const formButtonReset = document.querySelector('.form__input-button_type_reset')
+const chipsBlock = document.querySelector('.competencies__chips-block')
+
 
 competenciesForm.addEventListener('click', () => {
   competenciesMiniListToggle.classList.toggle('competencies__input-mini_disable')
+  competenciesList.classList.toggle('form__dropdown-list_active')
 })
 
 formButtonReset.addEventListener('click', () => {
   competenciesMiniListToggle.classList.toggle('competencies__input-mini_disable')
 })
-
 
 const portfolioFiles = document.querySelector('.portfolio__files')
 
@@ -26,7 +29,7 @@ const inputCheckbox = document.querySelector('.form__checkbox')
 
 const chipsTemplate = document.querySelector('.template').content
 
-const chipsBlock = document.querySelector('.competencies__chips-block')
+
 
 function getOrCreateChips(outerText) {
   let findItem;
@@ -52,6 +55,7 @@ document.querySelectorAll('.form__checkbox').forEach((elem) => {
   elem.addEventListener('click', (event) => {
     if (document.getElementById(event.target.id).checked) {
       chipsBlock.append(getOrCreateChips(event.target.value))
+      document.querySelector('.form__placeholder').classList.add('form__placeholder_disabled')
     } else {
       getOrCreateChips(event.target.value).remove()
     }
